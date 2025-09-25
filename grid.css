@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    max-width: 1440px;
+
+}
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+@media(max-width:1024px){
+    .container{
+        max-width: 1024px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+}
+.row{
+    display: table;
+    width: 100%;
+}
+/* 手機320 */
+.col-phone-100{
+    width: 100%;
+    float: left;
+}
+.col-phone-90{
+    width: 90%;
+    float: left;
+}
+.col-phone-80{
+    width: 80%;
+    float: left;
+}
+.col-phone-75{
+    width: 75%;
+    float: left;
+}
+.col-phone-70{
+    width: 70%;
+    float: left;
+}
+.col-phone-68{
+    width: 68%;
+    float: left;
+}
+.col-phone-67{
+    width: 66.667%;
+    float: left;
+}
+.col-phone-65{
+    width: 65%;
+    float: left;
+}
+.col-phone-60{
+    width: 60%;
+    float: left;
+}
+.col-phone-55{
+    width: 55%;
+    float: left;
+}
+.col-phone-50{
+    width: 50%;
+    float: left;
+}
+.col-phone-40{
+    width: 40%;
+    float: left;
+}
+.col-phone-33{
+    width: 33.333%;
+    float: left;
+}
+.col-phone-30{
+    width: 30%;
+    float: left;
+}
+.col-phone-25{
+    width: 25%;
+    float: left;
+}
+.col-phone-20{
+    width: 20%;
+    float: left;
+}
+.col-phone-19{
+    width: 19%;
+    float: left;
+}
+.col-phone-16{
+    width: 16%;
+    float: left;
+}
+.col-phone-15{
+    width: 15%;
+    float: left;
+}
+.col-phone-14{
+    width: 14%;
+    float: left;
+}
+.col-phone-12{
+    width: 12%;
+    float: left;
+}
+.col-phone-10{
+    width: 10%;
+    float: left;
+}
+/* 手機420 */
+.col-phone420-100{
+    width: 100%;
+    float: left;
+}
+.col-phone420-90{
+    width: 90%;
+    float: left;
+}
+.col-phone420-80{
+    width: 80%;
+    float: left;
+}
+.col-phone420-75{
+    width: 75%;
+    float: left;
+}
+.col-phone420-70{
+    width: 70%;
+    float: left;
+}
+.col-phone420-68{
+    width: 68%;
+    float: left;
+}
+.col-phone420-67{
+    width: 66.667%;
+    float: left;
+}
+.col-phone420-65{
+    width: 65%;
+    float: left;
+}
+.col-phone420-60{
+    width: 60%;
+    float: left;
+}
+.col-phone420-50{
+    width: 50%;
+    float: left;
+}
+.col-phone420-40{
+    width: 40%;
+    float: left;
+}
+.col-phone420-33{
+    width: 33.333%;
+    float: left;
+}
+.col-phone420-30{
+    width: 30%;
+    float: left;
+}
+.col-phone420-25{
+    width: 25%;
+    float: left;
+}
+.col-phone420-20{
+    width: 20%;
+    float: left;
+}
+.col-phone420-19{
+    width: 19%;
+    float: left;
+}
+.col-phone420-16{
+    width: 16%;
+    float: left;
+}
+.col-phone420-15{
+    width: 15%;
+    float: left;
+}
+.col-phone420-14{
+    width: 14%;
+    float: left;
+}
+.col-phone420-12{
+    width: 12%;
+    float: left;
+}
+.col-phone420-10{
+    width: 10%;
+    float: left;
+}
+/* 手機2 */
+@media(min-width:576px){
+    .col-phone2-100{
+        width: 100%;
+        float: left;
+    }
+    .col-phone2-80{
+        width: 80%;
+        float: left;
+    }
+    .col-phone2-75{
+        width: 75%;
+        float: left;
+    }
+    .col-phone2-70{
+        width: 70%;
+        float: left;
+    }
+    .col-phone2-67{
+        width: 66.667%;
+        float: left;
+    }
+    .col-phone2-66{
+        width: 66%;
+        float: left;
+    }
+    .col-phone2-60{
+        width: 60%;
+        float: left;
+    }
+    .col-phone2-57{
+        width: 57%;
+        float: left;
+    }
+    .col-phone2-50{
+        width: 50%;
+        float: left;
+    }
+    .col-phone2-40{
+        width: 40%;
+        float: left;
+    }
+    .col-phone2-36{
+        width: 36%;
+        float: left;
+    }
+    .col-phone2-33{
+        width: 33.333%;
+        float: left;
+    }
+    .col-phone2-25{
+        width: 25%;
+        float: left;
+    }
+    .col-phone2-20{
+        width: 20%;
+        float: left;
+    }
+    .col-phone2-15{
+        width: 15%;
+        float: left;
+    }
+    .col-phone2-14{
+        width: 14%;
+        float: left;
+    }
+    .col-phone2-13{
+        width: 13%;
+        float: left;
+    }
+    .col-phone2-10{
+        width: 10%;
+        float: left;
+    }
+}
+/* 平板 */
+@media(min-width:768px){
+    .col-tablet-100{
+        width: 100%;
+        float: left;
+    }
+    .col-tablet-80{
+        width: 80%;
+        float: left;
+    }
+    .col-tablet-75{
+        width: 75%;
+        float: left;
+    }
+    .col-tablet-70{
+        width: 70%;
+        float: left;
+    }
+    .col-tablet-67{
+        width: 66.667%;
+        float: left;
+    }
+    .col-tablet-66{
+        width: 66%;
+        float: left;
+    }
+    .col-tablet-60{
+        width: 60%;
+        float: left;
+    }
+    .col-tablet-57{
+        width: 57%;
+        float: left;
+    }
+    .col-tablet-50{
+        width: 50%;
+        float: left;
+    }
+    .col-tablet-40{
+        width: 40%;
+        float: left;
+    }
+    .col-tablet-36{
+        width: 36%;
+        float: left;
+    }
+    .col-tablet-33{
+        width: 33.333%;
+        float: left;
+    }
+    .col-tablet-25{
+        width: 25%;
+        float: left;
+    }
+    .col-tablet-20{
+        width: 20%;
+        float: left;
+    }
+    .col-tablet-14{
+        width: 14%;
+        float: left;
+    }
+    .col-tablet-13{
+        width: 13%;
+        float: left;
+    }
+    .col-tablet-10{
+        width: 10%;
+        float: left;
+    }
+}
+/* 桌機 */
+@media(min-width:992px){
+    .col-desktop-100{
+        width: 100%;
+        float: left;
+    }
+    .col-desktop-98{
+        width: 98%;
+        float: left;
+    }
+    .col-desktop-97{
+        width: 97%;
+        float: left;
+    }
+    .col-desktop-93{
+        width: 93%;
+        float: left;
+    }
+    .col-desktop-91{
+        width: 91%;
+        float: left;
+    }
+    .col-desktop-90{
+        width: 90%;
+        float: left;
+    }
+    .col-desktop-87{
+        width: 87%;
+        float: left;
+    }
+    .col-desktop-80{
+        width: 80%;
+        float: left;
+    }
+    .col-desktop-75{
+        width: 75%;
+        float: left;
+    }
+    .col-desktop-68{
+        width: 68%;
+        float: left;
+    }
+    .col-desktop-67{
+        width: 66.667%;
+        float: left;
+    }
+    .col-desktop-66{
+        width: 66%;
+        float: left;
+    }
+    .col-desktop-65{
+        width: 65%;
+        float: left;
+    }
+    .col-desktop-60{
+        width: 60%;
+        float: left;
+    }
+    .col-desktop-55{
+        width: 55%;
+        float: left;
+    }
+    .col-desktop-50{
+        width: 50%;
+        float: left;
+    }
+    .col-desktop-48{
+        width: 48%;
+        float: left;
+    }
+    .col-desktop-45{
+        width: 45%;
+        float: left;
+    }
+    .col-desktop-40{
+        width: 40%;
+        float: left;
+    }
+    .col-desktop-36{
+        width: 36%;
+        float: left;
+    }
+    .col-desktop-33{
+        width: 33.333%;
+        float: left;
+    }
+    .col-desktop-32{
+        width: 32%;
+        float: left;
+    }
+    .col-desktop-31{
+        width: 31%;
+        float: left;
+    }
+    .col-desktop-30{
+        width: 30%;
+        float: left;
+    }
+    .col-desktop-29{
+        width: 29%;
+        float: left;
+    }
+    .col-desktop-25{
+        width: 25%;
+        float: left;
+    }
+    .col-desktop-24{
+        width: 24%;
+        float: left;
+    }
+    .col-desktop-20{
+        width: 20%;
+        float: left;
+    }
+    .col-desktop-18{
+        width: 18%;
+        float: left;
+    }
+    .col-desktop-15{
+        width: 15%;
+        float: left;
+    }
+    .col-desktop-14{
+        width: 14%;
+        float: left;
+    }
+    .col-desktop-13{
+        width: 13%;
+        float: left;
+    }
+    .col-desktop-12{
+        width: 12%;
+        float: left;
+    }
+    .col-desktop-10{
+        width: 10%;
+        float: left;
+    }
+    .col-desktop-9{
+        width: 9%;
+        float: left;
+    }
+    .col-desktop-7{
+        width: 7%;
+        float: left;
+    }
+    .col-desktop-5{
+        width: 5%;
+        float: left;
+    }
+    .col-desktop-3{
+        width: 3%;
+        float: left;
+    }
+    .col-desktop-2{
+        width: 2%;
+        float: left;
+    }
+}

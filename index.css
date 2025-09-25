@@ -1,0 +1,2026 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    height: 83.33px;
+    width: 100%;
+    z-index: 10;
+}
+nav .leftTitle{
+    display: flex;
+    background-image: url("images/截圖\ 2025-08-04\ 上午9.24.55.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav .leftTitle a{
+    width: 100%;
+}
+nav .leftTitle h1{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+nav .rightList{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+nav .rightListRwd{
+    display: none;
+}
+nav .rightList ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+nav .rightList ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 27.5px;
+}
+nav .rightList ul li a,nav .rightListRwd ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav .rightList ul li a:hover{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+nav button{
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    display: none;
+}
+@media(max-width:1024px){
+    nav{
+        height: 70px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        padding-right: 0;
+    }
+    nav .rightList ul li{
+        font-size: 16px;
+        padding: 23.75px;
+    }
+}
+@media(max-width:768px){
+    nav{
+        height: 60px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        display: block;
+        position: absolute;
+        margin-top: 60px;
+        background-color: #fff;
+        width: 20%;
+        right: 0;
+    }
+    nav .rightListRwd .nav-ulRwd{
+        flex-direction: column;
+        display: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 16px 0px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+    nav .rightListRwd .nav-ulRwd li:hover{
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    nav button{
+        display: block;
+        font-size: 20px;
+        padding: 21.25px 20px;
+    }
+}
+@media(max-width:576px){
+    nav{
+        height: 55px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 55px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 12px;
+        padding: 12px 0px;
+        letter-spacing: 2px;
+    }
+    nav button{
+        font-size: 16px;
+        padding: 20.5px 19.5px;
+    }
+}
+@media(max-width:420px){
+    nav{
+        height: 45px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 45px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 10px;
+        padding: 8px 0px;
+        letter-spacing: 2px;
+    }
+    nav button{
+        font-size: 12px;
+        padding: 17.25px 16.5px;
+    }
+}
+@media(max-width:375px){
+    nav{
+        height: 40px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 40px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 8px;
+        padding: 8px 0px;
+        letter-spacing: 2px;
+    }
+    nav button{
+        font-size: 10px;
+        padding: 15.625px 15px;
+    }
+}
+@media(max-width:320px){
+    nav{
+        height: 35px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 35px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 6px;
+        padding: 6px 0px;
+        letter-spacing: 1px;
+    }
+    nav button{
+        font-size: 8px;
+        padding: 14px 13.5px;
+    }
+}
+.banner{
+    margin-top: 83.33px;
+    background-image: url("images/IMG_4155.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banner p{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+.banner .topText{
+    padding-left: 215px;
+    margin: 0;
+    letter-spacing: 10px;
+}
+.banner .bannerThreeText{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.banner .bannerThreeText p{
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+    padding-right: 300px;
+}
+.banner .downText{
+    padding-left: 20px;
+}
+.banner .downText p{
+    font-size: 24px;
+    line-height: 14px;
+    letter-spacing: 5px;
+}
+.banner .downText .downText2{
+    padding-left: 35px;
+}
+@media(max-width:1440px){
+    .banner{
+        margin-top: 83.33px;
+        height: 710px;
+    }
+    .banner p{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .banner .topText{
+        padding-left: 215px;
+        margin: 0;
+        letter-spacing: 10px;
+    }
+    .banner .bannerThreeText{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .banner .bannerThreeText p{
+        font-size: 25px;
+        line-height: 45px;
+        padding-right: 300px;
+    }
+    .banner .downText{
+        padding-left: 20px;
+    }
+    .banner .downText p{
+        font-size: 24px;
+        line-height: 14px;
+        letter-spacing: 5px;
+    }
+    .banner .downText .downText2{
+        padding-left: 35px;
+    }
+}
+@media(max-width:1024px){
+    .banner{
+        margin-top: 70px;
+        height: 510px;
+    }
+    .banner p{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .banner .topText{
+        padding-left: 145px;
+        margin: 0;
+        letter-spacing: 8px;
+    }
+    .banner .bannerThreeText{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .banner .bannerThreeText p{
+        font-size: 20px;
+        line-height: 32px;
+        padding-right: 230px;
+    }
+    .banner .downText{
+        padding-left: 20px;
+        padding-bottom: 25px;
+    }
+    .banner .downText p{
+        font-size: 18px;
+        line-height: 10px;
+        letter-spacing: 4px;
+    }
+    .banner .downText .downText2{
+        padding-left: 20px;
+    }
+}
+@media(max-width:768px){
+    .banner{
+        margin-top: 60px;
+        height: 380px;
+    }
+    .banner p{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .banner .topText{
+        padding-left: 125px;
+        padding-top: 20px;
+        letter-spacing: 6px;
+    }
+    .banner .bannerThreeText{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .banner .bannerThreeText p{
+        font-size: 16px;
+        line-height: 20px;
+        padding-right: 550px;
+    }
+    .banner .downText{
+        padding-left: 10px;
+        padding-bottom: 25px;
+    }
+    .banner .downText p{
+        font-size: 14px;
+        line-height: 6px;
+        letter-spacing: 2px;
+    }
+    .banner .downText .downText2{
+        padding-left: 10px;
+    }
+}
+@media(max-width:576px){
+    .banner{
+        margin-top: 55px;
+        height: 290px;
+    }
+    .banner p{
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .banner .topText{
+        padding-left: 100px;
+        padding-top: 10px;
+        letter-spacing: 4px;
+    }
+    .banner .bannerThreeText{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .banner .bannerThreeText p{
+        font-size: 12px;
+        line-height: 16px;
+        padding-right: 400px;
+    }
+    .banner .downText{
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .banner .downText p{
+        font-size: 10px;
+        line-height: 6px;
+        letter-spacing: 2px;
+    }
+    .banner .downText .downText2{
+        padding-left: 8px;
+    }
+}
+@media(max-width:420px){
+    .banner{
+        margin-top: 45px;
+        height: 220px;
+    }
+    .banner p{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .banner .topText{
+        padding-left: 65px;
+        padding-top: 10px;
+        letter-spacing: 2px;
+    }
+    .banner .bannerThreeText{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .banner .bannerThreeText p{
+        font-size: 10px;
+        line-height: 12px;
+        padding-right: 320px;
+    }
+    .banner .downText{
+        padding-left: 4px;
+        padding-bottom: 25px;
+    }
+    .banner .downText p{
+        font-size: 8px;
+        line-height: 4px;
+        letter-spacing: 2px;
+    }
+    .banner .downText .downText2{
+        padding-left: 8px;
+    }
+}
+@media(max-width:375px){
+    .banner{
+        margin-top: 40px;
+        height: 190px;
+    }
+    .banner p{
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .banner .topText{
+        padding-left: 65px;
+        padding-top: 10px;
+        letter-spacing: 1px;
+    }
+    .banner .bannerThreeText{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .banner .bannerThreeText p{
+        font-size: 8px;
+        line-height: 10px;
+        padding-right: 240px;
+    }
+    .banner .downText{
+        padding-left: 4px;
+        padding-bottom: 25px;
+    }
+    .banner .downText p{
+        font-size: 6px;
+        line-height: 6px;
+        letter-spacing: 2px;
+    }
+    .banner .downText .downText2{
+        padding-left: 10px;
+    }
+}
+@media(max-width:320px){
+    .banner{
+        margin-top: 35px;
+        height: 160px;
+    }
+    .banner p{
+        font-size: 10px;
+        font-weight: 900;
+    }
+    .banner .topText{
+        padding-left: 50px;
+        padding-top: 10px;
+        letter-spacing: 1px;
+    }
+    .banner .bannerThreeText{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .banner .bannerThreeText p{
+        font-size: 6px;
+        line-height: 10px;
+        padding-right: 240px;
+    }
+    .banner .downText{
+        padding-left: 4px;
+        padding-bottom: 25px;
+    }
+    .banner .downText p{
+        font-size: 4px;
+        line-height: 4px;
+        letter-spacing: 1px;
+    }
+    .banner .downText .downText2{
+        padding-left: 10px;
+    }
+}
+.product .productTitle{
+    margin-bottom: 50px;
+}
+.product .productTitle p{
+    font-weight: bold;
+    text-align: center;
+}
+.product .productTitle .engText{
+    letter-spacing: -2px;
+    font-size: 24px;
+    margin: 0;
+}
+.product .productTitle .engText span{
+    color: rgb(1, 121, 202);
+}
+.product .productTitle .chinessText{
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin: 0;
+}
+.product .classify{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.product .classify li a{
+    color: rgb(1, 121, 202);
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 50px;
+    border: 4px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 18px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.product .classify li a:hover,.product .classifyList li a:hover{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.product .classify .colorText a,.product .classifyList .colorText a,.product .classifyListList .colorText a{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.product .classifyList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 30px;
+    padding-right: 550px;
+}
+.product .classifyListList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-right: 820px;
+}
+.product .classifyListList li a:hover{
+    cursor: pointer;
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.product .classifyList li a,.product .classifyListList li a{
+    font-size: 14px;
+    color: rgb(1, 121, 202);
+    padding: 3px 10px;
+    border: 1px solid rgb(1, 121, 202);
+}
+.product .productImgName{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+.product .productImgName li a{
+    border: none;
+    color: #000;
+}
+.product .productImgName li img{
+    width: 100%;
+}
+.product .productImgName li .productNumName p{
+    font-weight: 900;
+    text-align: center;
+    font-size: 14px;
+    line-height: 10px;
+}
+.product a{
+    color: rgb(1, 121, 202);
+    padding: 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.product .moreContainer{
+    display: flex;
+    justify-content: center;
+}
+.product .moreContainer a{
+    border: 3px solid rgb(1,121,202);
+    border-radius: 50%;
+}
+.product .moreContainer a:hover{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+    border-radius: 50%;
+}
+@media(max-width:1024px){
+    .product .productTitle{
+        margin-bottom: 40px;
+    }
+    .product .productTitle .engText{
+        letter-spacing: -2px;
+        font-size: 22px;
+    }
+    .product .productTitle .chinessText{
+        font-size: 26px;
+        letter-spacing: 8px;
+    }
+    .product .classify li a{
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 40px;
+        border: 3px solid rgb(1, 121, 202);
+        padding: 16px;
+        letter-spacing: 4px;
+    }
+    .product .classifyList li{
+        padding-top: 26px;
+        padding-right: 530px;
+    }
+    .product .classifyListList li{
+        padding-right: 850px;
+    }
+    .product .classifyListList li:hover{
+        cursor: pointer;
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    .product .classifyList li,.product .classifyListList li{
+        font-size: 14px;
+        color: rgb(1, 121, 202);
+        padding: 3px 0px;
+    }
+    .product .productImgName{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+    .product .productImgName li img{
+        width: 100%;
+    }
+    .product .productImgName li .productNumName p{
+        font-weight: 900;
+        text-align: center;
+        font-size: 14px;
+        line-height: 10px;
+    }
+    .product a{
+        padding: 14px;
+        font-size: 14px;
+    }
+}
+@media(max-width:768px){
+    .product .productTitle{
+        margin-bottom: 20px;
+    }
+    .product .productTitle .engText{
+        letter-spacing: -2px;
+        font-size: 20px;
+    }
+    .product .productTitle .chinessText{
+        font-size: 24px;
+        letter-spacing: 6px;
+    }
+    .product .classify li a{
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 40px;
+        border: 2px solid rgb(1, 121, 202);
+        padding: 14px;
+        letter-spacing: 4px;
+    }
+    .product .classifyList{
+        padding-top: 18px;
+        padding-right: 320px;
+    }
+    .product .classifyListList{
+        padding-right: 615px;
+    }
+    .product .classifyListList li:hover{
+        cursor: pointer;
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    .product .classifyList li a,.product .classifyListList li a{
+        font-size: 14px;
+        color: rgb(1, 121, 202);
+    }
+    .product .productImgName{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+    .product .productImgName li img{
+        width: 100%;
+    }
+    .product .productImgName li .productNumName p{
+        font-weight: 900;
+        text-align: center;
+        font-size: 14px;
+        line-height: 10px;
+    }
+    .product a{
+        padding: 14px;
+        font-size: 14px;
+    }
+}
+@media(max-width:576px){
+    .product .productTitle{
+        margin-bottom: 20px;
+    }
+    .product .productTitle .engText{
+        letter-spacing: -2px;
+        font-size: 16px;
+    }
+    .product .productTitle .chinessText{
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .product .classify li a{
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 30px;
+        border: 2px solid rgb(1, 121, 202);
+        padding: 10px;
+        letter-spacing: 4px;
+    }
+    .product .classifyList{
+        padding-top: 14px;
+        padding-right: 160px;
+    }
+    .product .classifyListList{
+        padding-right: 400px;
+    }
+    .product .classifyListList li{
+        font-size: 12px;
+    }
+    .product .classifyListList li:hover{
+        cursor: pointer;
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    .product .classifyList li a,.product .classifyListList li a{
+        font-size: 12px;
+        color: rgb(1, 121, 202);
+    }
+    .product .productImgName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+    .product .productImgName li{
+        width: 35%;
+    }
+    .product .productImgName li img{
+        width: 100%;
+    }
+    .product .productImgName li .productNumName p{
+        font-weight: 900;
+        text-align: center;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .product a{
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+@media(max-width:420px){
+    .product .productTitle{
+        margin-bottom: 20px;
+    }
+    .product .productTitle .engText{
+        letter-spacing: -2px;
+        font-size: 12px;
+    }
+    .product .productTitle .chinessText{
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .product .classify li a{
+        font-weight: 500;
+        font-size: 10px;
+        margin-left: 20px;
+        border: 2px solid rgb(1, 121, 202);
+        padding: 6px;
+        letter-spacing: 2px;
+    }
+    .product .classifyList{
+        padding-top: 10px;
+        padding-right: 60px;
+    }
+    .product .classifyListList{
+        padding-right: 280px;
+    }
+        .product .classifyListList li{
+        font-size: 10px;
+    }
+    .product .classifyListList li:hover{
+        cursor: pointer;
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    .product .classifyList li a,.product .classifyListList li a{
+        font-size: 10px;
+        color: rgb(1, 121, 202);
+    }
+    .product .productImgName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+    .product .productImgName li{
+        width: 35%;
+    }
+    .product .productImgName li img{
+        width: 100%;
+    }
+    .product .productImgName li .productNumName p{
+        font-weight: 900;
+        text-align: center;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .product a{
+        padding: 8px;
+        font-size: 10px;
+    }
+    .product .productImgName .rwd420Hidden{
+        display: none;
+    }
+}
+@media(max-width:375px){
+    .product .productTitle{
+        margin-bottom: 10px;
+    }
+    .product .productTitle .engText{
+        letter-spacing: -1px;
+        font-size: 10px;
+    }
+    .product .productTitle .chinessText{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .product .classify li a{
+        font-weight: 500;
+        font-size: 10px;
+        margin-left: 20px;
+        border: 1px solid rgb(1, 121, 202);
+        padding: 4px;
+        letter-spacing: 1px;
+    }
+    .product .classifyList{
+        padding-top: 0px;
+    }
+    .product .classifyListList{
+        padding-right: 250px;
+    }
+    .product .classifyListList li a:hover{
+        cursor: pointer;
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    .product .classifyList li a,.product .classifyListList li a{
+        font-size: 10px;
+        color: rgb(1, 121, 202);
+    }
+    .product .productImgName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+    .product .productImgName li{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .product .productImgName li img{
+        width: 100%;
+    }
+    .product .productImgName li .productNumName p{
+        font-weight: 900;
+        text-align: center;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .product a{
+        padding: 6px;
+        font-size: 10px;
+    }
+    .product .productImgName .rwd420Hidden{
+        display: none;
+    }
+}
+@media(max-width:320px){
+    .product .productTitle{
+        margin-bottom: -5px;
+    }
+    .product .productTitle .engText{
+        letter-spacing: -0.5px;
+        font-size: 8px;
+    }
+    .product .productTitle .chinessText{
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+    .product .classify li a{
+        font-weight: 500;
+        font-size: 8px;
+        margin-left: 20px;
+        border: 1px solid rgb(1, 121, 202);
+        padding: 2px;
+        letter-spacing: 0.5px;
+    }
+    .product .classifyList{
+        margin-top: -5px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .product .classifyListList{
+        margin-top: -5px;
+        padding-right: 190px;
+    }
+    .product .classifyListList li:hover{
+        cursor: pointer;
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    .product .classifyList li,.product .classifyListList li{
+        font-size: 8px;
+        color: rgb(1, 121, 202);
+    }
+    .product .productImgName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+    .product .productImgName li{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .product .productImgName li img{
+        width: 100%;
+    }
+    .product .productImgName li .productNumName p{
+        font-weight: 900;
+        text-align: center;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .product a{
+        padding: 6px;
+        font-size: 8px;
+    }
+    .product .productImgName .rwd420Hidden{
+        display: none;
+    }
+}
+.commentContainer{
+    margin-top: 50px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.commentContainer .fourList{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.commentContainer .fourList li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.commentContainer .fourList li button:hover{
+    border: 3px solid rgb(1, 121, 202);
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* .commentContainer .fourList li .commentColor{
+    border: 3px solid rgb(1, 121, 202);
+    border-radius: 30px;
+    cursor: pointer;
+} */
+.commentContainer{
+    position: relative;
+}
+.commentContainer .imgContainer{
+    border: 2px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.commentContainer .imgContainer .imgSmallCircle{
+    height: 87%;
+    width: 90%;
+    border: 1px dashed #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle{
+    height: 92%;
+    width: 100%;
+    border-radius: 50%;
+    background-image: url("images/IMG_4155 2.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle2{
+    height: 96%;
+    width: 96%;
+    border-radius: 50%;
+    background-image: url("images/printPhoto.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle3{
+    height: 96%;
+    width: 96%;
+    border-radius: 50%;
+    background-image: url("images/IMG_4873.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle4{
+    height: 96%;
+    width: 96%;
+    border-radius: 50%;
+    background-image: url("images/IMG_4874.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.commentContainer .content{
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 60px -16px 10px rgb(219, 219, 219);
+    position: absolute;
+    right: -50px;
+    top: -40px;
+}
+.commentContainer .content2{
+    display: none;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 60px -16px 10px rgb(219, 219, 219);
+    position: absolute;
+    right: -50px;
+    top: -40px;
+}
+.commentContainer .content3{
+    display: none;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 60px -16px 10px rgb(219, 219, 219);
+    position: absolute;
+    right: -50px;
+    top: -40px;
+}
+.commentContainer .content4{
+    display: none;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 60px -16px 10px rgb(219, 219, 219);
+    position: absolute;
+    right: -50px;
+    top: -40px;
+}
+.commentContainer .content h2,.commentContainer .content2 h2,.commentContainer .conten3 h2,.commentContainer .content4 h2{
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+.commentContainer .content p,.commentContainer .content2 p,.commentContainer .content3 p,.commentContainer .content4 p{
+    font-size: 16px;
+    letter-spacing: 10px;
+    line-height: 20px;
+}
+.commentContainer .fourList li{
+    margin-bottom: 54px;
+}
+.commentContainer .fourList button{
+    font-size: 18px;
+    letter-spacing: 6px;
+    padding: 14px;
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+}
+@media(max-width:1024px){
+    .commentContainer{
+        margin-top: 50px;
+        height: 700px;
+    }
+    .commentContainer .fourList li{
+        margin-bottom: 24px;
+    }
+    .commentContainer .fourList li a{
+        font-size: 16px;
+        letter-spacing: 6px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .commentContainer .fourList li a:hover{
+        border: 3px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .fourList li .commentColor{
+        border: 3px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .imgContainer{
+        width: 70%;
+        border: 2px solid rgb(1, 121, 202);
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+    .commentContainer .imgContainer .imgSmallCircle{
+        height: 95%;
+        width: 95%;
+        border-radius: 50%;
+    }
+    .commentContainer .content{
+        padding: 20px 30px;
+        border-radius: 30px;
+        box-shadow: 60px -16px 10px rgb(219, 219, 219);
+        position: absolute;
+        right: 70px;
+        top: -40px;
+    }
+    .commentContainer .content h2{
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    .commentContainer .content p{
+        font-size: 14px;
+        letter-spacing: 6px;
+        line-height: 20px;
+    }
+}
+@media(max-width:768px){
+    .commentContainer{
+        margin-top: 10px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .commentContainer .fourList{
+        list-style: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 0
+    }
+
+    .commentContainer .fourList li{
+        margin-bottom: 0;
+        width: 150px;
+    }
+    .commentContainer .fourList li img{
+        width: 18%;
+    }
+    .commentContainer .fourList li a{
+        font-size: 16px;
+        letter-spacing: 4px;
+        padding: 4px 10px;
+        margin-left: 10px;
+    }
+    .commentContainer .fourList li a:hover{
+        border: 2px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .fourList li .commentColor{
+        border: 2px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .imgContainer{
+        width: 75%;
+        border: 2px solid rgb(1, 121, 202);
+        margin-top: 60px;
+        margin-right: 50px;
+        position: static;
+    }
+    .commentContainer .imgContainer .imgSmallCircle{
+        height: 95%;
+        width: 95%;
+        border-radius: 50%;
+    }
+    .commentContainer .content{
+        padding: 20px 30px;
+        border-radius: 30px;
+        box-shadow: 60px -16px 10px rgb(219, 219, 219);
+        right: 70px;
+        top: 80px;
+        width: 20%;
+    }
+    .commentContainer .content h2{
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    .commentContainer .content p{
+        font-size: 14px;
+        letter-spacing: 6px;
+        line-height: 20px;
+    }
+}
+@media(max-width:576px){
+    .commentContainer{
+        margin-top: 20px;
+        height: 540px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .commentContainer .fourList{
+        list-style: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 0
+    }
+
+    .commentContainer .fourList li{
+        margin-bottom: 0;
+        width: 100px;
+    }
+    .commentContainer .fourList li img{
+        width: 18%;
+    }
+    .commentContainer .fourList li a{
+        font-size: 14px;
+        letter-spacing: 4px;
+        padding: 4px 10px;
+        margin-left: 10px;
+    }
+    .commentContainer .fourList li a:hover{
+        border: 2px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .fourList li .commentColor{
+        border: 2px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .imgContainer{
+        width: 75%;
+        border: 2px solid rgb(1, 121, 202);
+        margin-top: 60px;
+        margin-right: 50px;
+        position: static;
+    }
+    .commentContainer .imgContainer .imgSmallCircle{
+        height: 95%;
+        width: 95%;
+        border-radius: 50%;
+    }
+    .commentContainer .content{
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 60px -16px 10px rgb(219, 219, 219);
+        right: 70px;
+        top: 80px;
+        width: 24%;
+    }
+    .commentContainer .content h2{
+        font-size: 15px;
+        letter-spacing: 6px;
+    }
+    .commentContainer .content p{
+        font-size: 12px;
+        letter-spacing: 4px;
+        line-height: 16px;
+    }
+}
+@media(max-width:420px){
+    .commentContainer{
+        margin-top: 20px;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .commentContainer .fourList{
+        list-style: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 0
+    }
+
+    .commentContainer .fourList li{
+        margin-bottom: 0;
+        width: 90px;
+    }
+    .commentContainer .fourList li img{
+        width: 18%;
+    }
+    .commentContainer .fourList li a{
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 4px 10px;
+        margin-left: 10px;
+    }
+    .commentContainer .fourList li a:hover{
+        border: 2px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .fourList li .commentColor{
+        border: 2px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .imgContainer{
+        width: 75%;
+        border: 2px solid rgb(1, 121, 202);
+        margin-top: 60px;
+        margin-right: 50px;
+        position: static;
+    }
+    .commentContainer .imgContainer .imgSmallCircle{
+        height: 95%;
+        width: 95%;
+        border-radius: 50%;
+    }
+    .commentContainer .content{
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 60px -16px 10px rgb(219, 219, 219);
+        right: 70px;
+        top: 80px;
+        width: 24%;
+    }
+    .commentContainer .content h2{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+    .commentContainer .content p{
+        font-size: 8px;
+        letter-spacing: 2px;
+        line-height: 12px;
+    }
+}
+@media(max-width:375px){
+    .commentContainer{
+        margin-top: 20px;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .commentContainer .fourList{
+        list-style: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 0
+    }
+    .commentContainer .fourList li{
+        margin-bottom: 0;
+        width: 80px;
+    }
+    .commentContainer .fourList li img{
+        width: 14%;
+    }
+    .commentContainer .fourList li a{
+        font-size: 10px;
+        letter-spacing: 2px;
+        padding: 4px 10px;
+        margin-left: 6px;
+    }
+    .commentContainer .fourList li a:hover{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .fourList li .commentColor{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .imgContainer{
+        width: 75%;
+        border: 2px solid rgb(1, 121, 202);
+        margin-top: 60px;
+        margin-right: 50px;
+        position: static;
+    }
+    .commentContainer .imgContainer .imgSmallCircle{
+        height: 95%;
+        width: 95%;
+        border-radius: 50%;
+    }
+    .commentContainer .content{
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 60px -16px 10px rgb(219, 219, 219);
+        right: 70px;
+        top: 80px;
+        width: 24%;
+    }
+    .commentContainer .content h2{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .commentContainer .content p{
+        font-size: 6px;
+        letter-spacing: 1px;
+        line-height: 12px;
+    }
+}
+@media(max-width:320px){
+    .commentContainer{
+        margin-top: 20px;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .commentContainer .fourList{
+        list-style: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 0
+    }
+    .commentContainer .fourList li{
+        margin-bottom: 0;
+        width: 60px;
+    }
+    .commentContainer .fourList li img{
+        width: 14%;
+    }
+    .commentContainer .fourList li a{
+        font-size: 8px;
+        letter-spacing: 2px;
+        padding: 4px 10px;
+        margin-left: 4px;
+    }
+    .commentContainer .fourList li a:hover{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .fourList li .commentColor{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .imgContainer{
+        width: 75%;
+        border: 2px solid rgb(1, 121, 202);
+        margin-top: 60px;
+        margin-right: 50px;
+        position: static;
+    }
+    .commentContainer .imgContainer .imgSmallCircle{
+        height: 95%;
+        width: 95%;
+        border-radius: 50%;
+    }
+    .commentContainer .content{
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 30px -16px 10px rgb(219, 219, 219);
+        right: 70px;
+        top: 80px;
+        width: 24%;
+    }
+    .commentContainer .content h2{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    .commentContainer .content p{
+        font-size: 4px;
+        letter-spacing: 0.5px;
+        line-height: 8px;
+    }
+}
+footer{
+    padding-top: 150px;
+    background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
+}
+footer .imgContainer{
+    padding-top: 400px;
+}
+footer .imgContainer img{
+    height: 150px;
+    opacity: 0.5;
+}
+footer .imgContainer .imgContact{
+    position: relative;
+}
+footer .imgContainer .imgContact img{
+    width: 100%;
+}
+footer .imgContainer .imgContact .textContainer{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    letter-spacing: 10px;
+    transform: translate(-50%, -50%);
+}
+footer .imgContainer .imgContact .textContainer p{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+footer .imgContainer .imgContact .textContainer:hover{
+    cursor: pointer;
+}
+footer .imgContainer .imgContact .textContainer .smallText{
+    font-size: 22px;
+    letter-spacing: -3px;
+    text-align: center;
+    margin: 0;
+}
+footer .footerContentContainer .titleDesignContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+footer .footerContentContainer .titleDesignContainer .titlePicture{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+footer .footerContentContainer .titleDesignContainer .titlePicture img{
+    width: 300px;
+}
+footer .footerContentContainer .design{
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+footer .footerContentContainer .design p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 3px;
+}
+footer .footerContentContainer .contactUsContainer{
+    display: flex;
+}
+footer .footerContentContainer .contactUsContainer .qrCode{
+    height: 120px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+footer .footerContentContainer .contactUs{
+    padding-top: 30px;
+}
+footer .footerContentContainer .contactUs .contact{
+    display: flex;
+    margin-bottom: 20px;
+}
+footer .footerContentContainer .contactUs .contact p{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+@media(max-width:768px){
+    footer .imgContainer{
+        padding-top: 320px;
+    }
+    footer .imgContainer img{
+        height: 130px;
+        opacity: 0.5;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 10px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 35px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 20px;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 250px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 60px;
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 250px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 3px;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 100px;
+        padding-top: 30px;
+        padding-left: 130px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        color: white;
+        font-size: 14px;
+        margin: 0;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:768px){
+    footer{
+        margin-top: -120px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 250px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 6px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 30px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 16px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 150px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 220px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 50%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 80px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 12px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:576px){
+    footer{
+        margin-top: -90px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 200px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 4px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 24px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 14px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 150px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 160px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 70%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 60px;
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 5%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 10px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:420px){
+    footer{
+        margin-top: -110px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 200px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 2px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 20px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 150px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 130px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 6px;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 50%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 40px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 6px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:375px){
+    footer{
+        margin-top: -80px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 140px;
+    }
+    footer .imgContainer .imgContact img{
+        height: 100px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 2px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 16px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 100px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 120px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 4px;
+        line-height: 4px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 40%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 30px;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 6px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 4px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:320px){
+    footer{
+        margin-top: -60px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 110px;
+    }
+    footer .imgContainer .imgContact img{
+        height: 70px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 2px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 14px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 6px;
+        letter-spacing: 0px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 100px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 100px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 4px;
+        line-height: 4px;
+        letter-spacing: 1px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 50%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 20px;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 30px;
+        margin-bottom: 6px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 4px;
+        padding-left: 10px;
+        letter-spacing: 2px;
+    }
+}

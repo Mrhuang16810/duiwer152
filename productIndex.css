@@ -1,0 +1,998 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    height: 83.33px;
+    width: 100%;
+    z-index: 10;
+}
+nav .leftTitle{
+    display: flex;
+    background-image: url("images/截圖\ 2025-08-04\ 上午9.24.55.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav .leftTitle h1{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+nav .rightList{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+nav .rightListRwd{
+    display: none;
+}
+nav .rightList ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+nav .rightList ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 27.5px;
+}
+nav .rightList ul li a,nav .rightListRwd ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav .rightList ul li a:hover{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+nav button{
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    display: none;
+}
+@media(max-width:1024px){
+    nav{
+        height: 70px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        padding-right: 0;
+    }
+    nav .rightList ul li{
+        font-size: 16px;
+        padding: 23.75px;
+    }
+}
+@media(max-width:768px){
+    nav{
+        height: 60px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        display: block;
+        position: absolute;
+        margin-top: 60px;
+        background-color: #fff;
+        width: 20%;
+        right: 0;
+    }
+    nav .rightListRwd .nav-ulRwd{
+        flex-direction: column;
+        display: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 16px 0px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+    nav .rightListRwd .nav-ulRwd li:hover{
+        background-color: rgb(1, 121, 202);
+        color: #fff;
+    }
+    nav button{
+        display: block;
+        font-size: 20px;
+        padding: 21.25px 20px;
+    }
+}
+@media(max-width:576px){
+    nav{
+        height: 55px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 55px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 12px;
+        padding: 12px 0px;
+        letter-spacing: 2px;
+    }
+    nav button{
+        font-size: 16px;
+        padding: 20.5px 19.5px;
+    }
+}
+@media(max-width:420px){
+    nav{
+        height: 45px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 45px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 10px;
+        padding: 8px 0px;
+        letter-spacing: 2px;
+    }
+    nav button{
+        font-size: 12px;
+        padding: 17.25px 16.5px;
+    }
+}
+@media(max-width:375px){
+    nav{
+        height: 40px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 40px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 8px;
+        padding: 8px 0px;
+        letter-spacing: 2px;
+    }
+    nav button{
+        font-size: 10px;
+        padding: 15.625px 15px;
+    }
+}
+@media(max-width:320px){
+    nav{
+        height: 35px;
+    };
+    nav .leftTitle{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav .rightList{
+        display: none;
+    }
+    nav .rightListRwd{
+        margin-top: 35px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        font-size: 6px;
+        padding: 6px 0px;
+        letter-spacing: 1px;
+    }
+    nav button{
+        font-size: 8px;
+        padding: 14px 13.5px;
+    }
+}
+.otherBanner{
+    margin-top: 83.33px;
+    background-image: url("images/截圖\ 2025-07-29\ 下午12.23.06.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+}
+.otherBannerContainer .otherBannerTitle{
+    width: 100%;
+    text-align: center;
+}
+.otherBannerContainer .otherBannerTitle h1{
+    color: #fff;
+    font-size: 46px;
+    letter-spacing: 10px;
+    margin: 0;
+}
+.otherBannerContainer .otherBannerTitle p{
+    color: #fff;
+    margin: 0;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -3px;
+}
+.otherBannerContainer .otherBannerTitle .clothEnglishTitle{
+    letter-spacing: -2px;
+}
+.anton-regular{
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.rightnowText{
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: rgb(182, 182, 182);
+    font-size: 16px;
+    position: fixed;
+    right: 50px;
+    top: 83.33px;
+    border: 3px dashed #fff;
+    padding: 5px;
+}
+.mainProductContainer button,.otherBannerContainer .clothTopBtn{
+    position: fixed;
+    z-index: 11;
+    bottom: 20px;
+    right: 100px;
+    border: 3px solid rgb(182, 182, 182);
+    background-color: transparent;
+    padding: 0;
+}
+.mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(182, 182, 182);
+    padding: 3px 10px;
+}
+.mainProductContainer button a:hover,.otherBannerContainer .clothTopBtn a:hover{
+    background-color: rgb(182, 182, 182);
+    color: #fff;
+}
+.mainProductContainer .mainContainer{
+    margin-top: 50px;
+}
+.mainProductContainer .mainContainer .mainTitle h2{
+    margin: 0;
+}
+.mainProductContainer .mainContainer .mainTitle p{
+    margin: 0;
+    color: rgb(1,121,202);
+}
+.mainProductContainer .mainContainer ul{
+    list-style: none;
+}
+.mainProductContainer .mainContainer ul li{
+    border-bottom: 1px solid rgb(182,182,182);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+.mainProductContainer .mainContainer ul li i{
+    font-size: 12px;
+}
+.mainProductContainer .mainContainer ul li a{
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    padding: 14px;
+    margin-right: 10px;
+}
+.mainProductContainer .mainContainer ul li a:hover{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.mainProductContainer .mainContainer ul .colorMain a{
+    color: rgb(1, 121, 202);
+}
+.mainProductContainer .productContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.mainProductContainer .bigProductImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainProductContainer .bigProductImg img{
+    width: 90%;
+}
+.mainProductContainer .bigProductLowerbody60Img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainProductContainer .bigProductLowerbody60Img img{
+    width: 60%;
+}
+.mainProductContainer .bigProductLowerbodyImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainProductContainer .bigProductLowerbodyImg img{
+    width: 45%;
+}
+.clothSortImgContainer{
+    padding-top: 30px;
+}
+.clothSortImgContainer img{
+    width: 100%;
+}
+.mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: rgb(182, 182, 182);
+}
+.clothSortImgContainer p{
+    font-size: 22px;
+}
+.mainProductContainer .productContainer .product{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.mainProductContainer .productContainer .product:hover{
+    transform: scale(1.1);
+}
+.mainProductContainer .productContainer .product .imgContainer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainProductContainer .productContainer .product .imgContainer a{
+    display: flex;
+    justify-content: center;
+}
+.mainProductContainer .productContainer .product .imgContainer img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mainProductContainer .productContainer .product .imgContainer .width40{
+    width: 40%;
+}
+.mainProductContainer .productContainer .product .imgContainer .width45{
+    width: 45%;
+}
+.mainProductContainer .productContainer .product .imgContainer .width50{
+    width: 50%;
+}
+.mainProductContainer .productContainer .product .imgContainer .width60{
+    width: 60%;
+}
+.mainProductContainer .productContainer .product .imgContainer .width70{
+    width: 70%;
+}
+.mainProductContainer .productContainer .product .imgContainer .width80{
+    width: 80%;
+}
+.mainProductContainer .productContainer .product .imgContainer .width90{
+    width: 90%;
+}
+.mainProductContainer .productContainer .product .aText{
+    padding: 0 14px;
+    text-align: center;
+}
+.mainProductContainer .productContainer .product .aText a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.clothUl{
+    margin: 520px 0px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.clothUl li{
+    padding: 8px 0px;
+    /* margin-right: 40px; */
+    background-color: rgb(182, 182, 182);
+}
+.clothUl li a{
+    padding: 8px 56px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 4px;
+}
+.clothUl li a:hover{
+    background-color: rgb(2, 121, 202);
+    color: #fff;
+}
+.clothUl .rightNowColor{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.clothUl .rightNowColor a{
+    color: #fff;
+    width: 100%;
+}
+.clothSort{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    list-style: none;
+    margin-top: 30px;
+}
+.clothSort li{
+    margin-left: -1px;
+    padding: 2px 0px;
+    border: 1px solid rgb(2, 121, 202);
+}
+.clothSort li a{
+    text-decoration: none;
+    padding: 2px 10px;
+    color: rgb(2, 121, 202);
+}
+.clothSort li a:hover{
+    background-color: rgb(2, 121, 202);
+    color: #fff;
+}
+.clothSort .rightNowColorColor{
+    background-color: rgb(2, 121, 202);
+    color: #fff;
+}
+.clothSort .rightNowColorColor a{
+    color: #fff;
+}
+.rightNowClothTitle p{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.rightNowClothTitle hr{
+    border: 2px solid rgb(2, 121, 202);
+}
+.clothSortImgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.clothSortImg50{
+    padding: 10px;
+    cursor: pointer;
+}
+.clothSortImg50:hover{
+    transform: scale(1.05);
+}
+.clothSortImg50 img{
+    width: 100%;
+}
+footer {
+    background: transparent;
+    background-color: rgb(1,121,202);
+}
+footer .imgContainer{
+    padding-top: 400px;
+}
+footer .imgContainer img{
+    height: 150px;
+    opacity: 0.5;
+}
+footer .imgContainer .imgContact{
+    position: relative;
+}
+footer .imgContainer .imgContact img{
+    width: 100%;
+}
+footer .imgContainer .imgContact .textContainer{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    letter-spacing: 10px;
+    transform: translate(-50%, -50%);
+}
+footer .imgContainer .imgContact .textContainer p{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+footer .imgContainer .imgContact .textContainer:hover{
+    cursor: pointer;
+}
+footer .imgContainer .imgContact .textContainer .smallText{
+    font-size: 22px;
+    letter-spacing: -3px;
+    text-align: center;
+    margin: 0;
+}
+footer .footerContentContainer .titleDesignContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+footer .footerContentContainer .titleDesignContainer .titlePicture{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+footer .footerContentContainer .titleDesignContainer .titlePicture img{
+    width: 300px;
+}
+footer .footerContentContainer .design{
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+footer .footerContentContainer .design p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 3px;
+}
+footer .footerContentContainer .contactUsContainer{
+    display: flex;
+}
+footer .footerContentContainer .contactUsContainer .qrCode{
+    height: 120px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+footer .footerContentContainer .contactUs{
+    padding-top: 30px;
+}
+footer .footerContentContainer .contactUs .contact{
+    display: flex;
+    margin-bottom: 20px;
+}
+footer .footerContentContainer .contactUs .contact p{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+@media(max-width:768px){
+    footer .imgContainer{
+        padding-top: 320px;
+    }
+    footer .imgContainer img{
+        height: 130px;
+        opacity: 0.5;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 10px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 35px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 20px;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 250px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 60px;
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 250px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 3px;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 100px;
+        padding-top: 30px;
+        padding-left: 130px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        color: white;
+        font-size: 14px;
+        margin: 0;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:768px){
+    footer{
+        margin-top: -120px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 250px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 6px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 30px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 16px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 150px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 220px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 50%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 80px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 12px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:576px){
+    footer{
+        margin-top: -90px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 200px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 4px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 24px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 14px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 150px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 160px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 70%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 60px;
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 5%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 10px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:420px){
+    footer{
+        margin-top: -110px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 200px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 2px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 20px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 150px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 130px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 6px;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 50%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 40px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 30px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 6px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:375px){
+    footer{
+        margin-top: -80px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 140px;
+    }
+    footer .imgContainer .imgContact img{
+        height: 100px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 2px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 16px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 100px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 120px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 4px;
+        line-height: 4px;
+        letter-spacing: 2px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 40%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 30px;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 6px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 4px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:320px){
+    footer{
+        margin-top: -60px;
+    }
+    footer .imgContainer .footer768{
+        display: none;
+    }
+    footer .imgContainer{
+        padding-top: 110px;
+    }
+    footer .imgContainer .imgContact img{
+        height: 70px;
+    }
+    footer .imgContainer .imgContact .textContainer{
+        letter-spacing: 2px;
+    }
+    footer .imgContainer .imgContact .textContainer p{
+        font-size: 14px;
+    }
+    footer .imgContainer .imgContact .textContainer .smallText{
+        font-size: 6px;
+        letter-spacing: 0px;
+    }
+    footer .footerContentContainer{
+        display: flex;
+    }
+    footer .footerContentContainer .titleDesignContainer{
+        height: 100px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 100px;
+    }
+    footer .footerContentContainer .design{
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    footer .footerContentContainer .design p{
+        color: #fff;
+        font-size: 4px;
+        line-height: 4px;
+        letter-spacing: 1px;
+    }
+    footer .footerContentContainer .contactUsContainer{
+        width: 50%;
+    }
+    footer .footerContentContainer .contactUsContainer .qrCode{
+        height: 20px;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    footer .footerContentContainer .contactUs{
+        padding-top: 20px;
+    }
+    footer .footerContentContainer .contactUs .contact{
+        display: flex;
+        margin-left: 30px;
+        margin-bottom: 6px;
+    }
+    footer .footerContentContainer .contactUs .contact img{
+        width: 4%;
+    }
+    footer .footerContentContainer .contactUs .contact p{
+        font-size: 4px;
+        padding-left: 10px;
+        letter-spacing: 2px;
+    }
+}

@@ -1,0 +1,18 @@
+.logoContainer h2{
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.logoContainer hr{
+    border: 1px solid rgb(1, 121, 202);
+}
+.logoContainer .logoImgUpBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logoContainer .logoImgMediumBox{
+    padding-top: 500px;
+}
+.logoContainer .logoImgDownBox{
+    padding: 50px 0;
+}
