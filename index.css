@@ -4,7 +4,7 @@ nav{
     position: fixed;
     background-color: #fff;
     height: 83.33px;
-    width: 100%;
+    max-width: auto;
     z-index: 10;
 }
 nav .leftTitle{
@@ -229,6 +229,7 @@ nav button{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    overflow-x: hidden;
 }
 .banner p{
     color: #fff;
@@ -995,6 +996,7 @@ nav button{
     height: 800px;
     display: flex;
     justify-content: space-around;
+    /* overflow-x: hidden; */
 }
 .commentContainer .fourList{
     list-style: none;
@@ -1533,6 +1535,7 @@ nav button{
     }
 }
 footer{
+    overflow-x: hidden;
     padding-top: 150px;
     background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
 }
