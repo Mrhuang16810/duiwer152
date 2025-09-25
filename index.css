@@ -220,6 +220,11 @@ nav button{
         padding: 14px 13.5px;
     }
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .banner{
     margin-top: 83.33px;
     background-image: url("images/IMG_4155.jpg");
@@ -512,6 +517,9 @@ nav button{
     .banner .downText .downText2{
         padding-left: 10px;
     }
+}
+.product{
+    overflow-x: hidden;
 }
 .product .productTitle{
     margin-bottom: 50px;
@@ -1050,8 +1058,8 @@ nav button{
     background-repeat: no-repeat;
 }
 .commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle2{
-    height: 96%;
-    width: 96%;
+    height: 91%;
+    width: 93%;
     border-radius: 50%;
     background-image: url("images/printPhoto.png");
     background-size: contain;
@@ -1059,8 +1067,8 @@ nav button{
     background-repeat: no-repeat;
 }
 .commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle3{
-    height: 96%;
-    width: 96%;
+    height: 91%;
+    width: 94%;
     border-radius: 50%;
     background-image: url("images/IMG_4873.png");
     background-size: contain;
@@ -1068,15 +1076,15 @@ nav button{
     background-repeat: no-repeat;
 }
 .commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle4{
-    height: 96%;
-    width: 96%;
+    height: 90%;
+    width: 90%;
     border-radius: 50%;
     background-image: url("images/IMG_4874.png");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
-.commentContainer .content{
+.commentContainer .changeList .content{
     padding: 20px 30px;
     background-color: #fff;
     border-radius: 30px;
@@ -1085,7 +1093,7 @@ nav button{
     right: -50px;
     top: -40px;
 }
-.commentContainer .content2{
+.commentContainer .changeList .content2{
     display: none;
     padding: 20px 30px;
     background-color: #fff;
@@ -1095,7 +1103,7 @@ nav button{
     right: -50px;
     top: -40px;
 }
-.commentContainer .content3{
+.commentContainer .changeList .content3{
     display: none;
     padding: 20px 30px;
     background-color: #fff;
@@ -1105,14 +1113,14 @@ nav button{
     right: -50px;
     top: -40px;
 }
-.commentContainer .content4{
+.commentContainer .changeList .content4{
     display: none;
     padding: 20px 30px;
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 60px -16px 10px rgb(219, 219, 219);
     position: absolute;
-    right: -50px;
+    right: 90px;
     top: -40px;
 }
 .commentContainer .content h2,.commentContainer .content2 h2,.commentContainer .conten3 h2,.commentContainer .content4 h2{
@@ -1540,7 +1548,7 @@ footer{
     background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
 }
 footer .imgContainer{
-    padding-top: 400px;
+    padding-top: 200px;
 }
 footer .imgContainer img{
     height: 150px;
