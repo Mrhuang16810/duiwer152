@@ -144,12 +144,34 @@ nav button{
         margin-right: 6px;
     }
 }
-@media(max-width:420px){
+@media(max-width:430px){
     nav{
         height: 30px;
     }
     nav .rightListRwd{
         margin-top: 40px;
+        width: 120px;
+    }
+    nav .rightListRwd .nav-ulRwd li{
+        letter-spacing: 2px;
+    }
+    nav .rightListRwd .nav-ulRwd li a{
+        font-size: 8px;
+        font-weight: 900;
+        padding: 12px 0px;
+    }
+    nav button{
+        font-size: 10px;
+        padding: 10px 10.625px;
+        margin-right: 6px;
+    }
+}
+@media(max-width:390px){
+    nav{
+        height: 30px;
+    }
+    nav .rightListRwd{
+        margin-top: 30px;
         width: 120px;
     }
     nav .rightListRwd .nav-ulRwd li{
@@ -357,7 +379,7 @@ nav button{
         padding-left: 8px;
     }
 }
-@media(max-width:420px){
+@media(max-width:430px){
     .banner{
         margin-top:50px;
         height: 220px;
@@ -794,7 +816,7 @@ nav button{
         border: 1.5px solid rgb(1,121,202);
     }
 }
-@media(max-width:420px){
+@media(max-width:430px){
     .topContainer{
         margin-top: 10px;
     }
@@ -845,7 +867,7 @@ nav button{
     .product .productImgName li{
         width: 100%;
     }
-     .product .classifyList li a,.product .classifyListList li a{
+    .product .classifyList li a,.product .classifyListList li a{
         font-size: 8px;
         padding: 2px 6px;
     }
@@ -869,6 +891,53 @@ nav button{
     }
     .product .moreContainer a{
         border: 1.5px solid rgb(1,121,202);
+    }
+}
+@media(max-width:390px){
+    .topContainer{
+        margin-top: 6px;
+    }
+    .product .productTitle{
+        margin-bottom: 4px;
+    }
+    .product .productTitle .engText{
+        letter-spacing: -0.5px;
+        font-size: 8px;
+    }
+    .product .productTitle .chinessText{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .product .classify li a{
+        font-weight: 500;
+        font-size: 6px;
+        border: 1px solid rgb(1, 121, 202);
+        padding: 2px 6px;
+        letter-spacing: 2px;
+    }
+    .product .classifyList{
+        margin-top: 0px;
+        padding-top: 4px;
+        padding-right: 170px;
+    }
+    .product .classifyListList{
+        margin-top: -10px;
+        padding-right: 250px;
+    }
+    .product .classifyList li span,.product .classifyListList li span{
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .product .classifyList li a,.product .classifyListList li a{
+        font-size: 6px;
+        padding: 2px 6px;
+    }
+    .product a{
+        padding: 3px 12px;
+        font-size: 9px;
+    }
+    .product .moreContainer a{
+        border: 1px solid rgb(1,121,202);
     }
 }
 @media(max-width:375px){
@@ -1315,7 +1384,7 @@ nav button{
         line-height: 14px;
     }
 }
-@media(max-width:420px){
+@media(max-width:430px){
     .commentContainer{
         margin-top: 50px;
         height: 310px;
@@ -1390,10 +1459,85 @@ nav button{
         line-height: 10px;
     }
 }
+@media(max-width:390px){
+    .commentContainer{
+        margin-top: 50px;
+        height: 290px;
+    }
+    .commentContainer .fourList li{
+        margin-bottom: 8px;
+    }
+    .commentContainer .fourList li img{
+        width: 12%;
+    }
+    .commentContainer .fourList li button{
+        font-size: 8px;
+        letter-spacing: 2px;
+        padding: 4px;
+        margin-left: 4px;
+    }
+    .commentContainer .fourList li button:hover{
+        border: 1.5px solid rgb(1, 121, 202);
+        border-radius: 30px;
+    }
+    .commentContainer .imgContainer{
+        width: 65%;
+        border: 1.5px solid rgb(1, 121, 202);
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+    .commentContainer .imgContainer .imgSmallCircle{
+        height: 87%;
+        width: 90%;
+        border: 1px dashed #000;
+    }
+    .commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle{
+        height: 92%;
+        width: 100%;
+        border-radius: 50%;
+    }
+    .commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle2{
+        height: 91%;
+        width: 93%;
+    }
+    .commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle3{
+        height: 91%;
+        width: 94%;
+    }
+    .commentContainer .imgContainer .imgSmallCircle .imgSmallSmallCircle4{
+        height: 90%;
+        width: 90%;
+    }
+    .commentContainer .changeList .content{
+        width: 16%;
+        padding: 14px;
+        border-radius: 30px;
+        box-shadow: 12px -16px 10px rgb(219, 219, 219);
+        right: 15px;
+        top: -20px;
+    }
+    .commentContainer .changeList .content2,.commentContainer .changeList .content3,.commentContainer .changeList .content4{
+        width: 16%;
+        padding: 14px;
+        border-radius: 30px;
+        box-shadow: 12px -16px 10px rgb(219, 219, 219);
+        right: 15px;
+        top: -20px;
+    }
+    .commentContainer .content h2,.commentContainer .content2 h2,.commentContainer .content3 h2,.commentContainer .content4 h2{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .commentContainer .content p,.commentContainer .content2 p,.commentContainer .content3 p,.commentContainer .content4 p{
+        font-size: 6px;
+        letter-spacing: 1px;
+        line-height: 8px;
+    }
+}
 @media(max-width:375px){
     .commentContainer{
         margin-top: 50px;
-        height: 280px;
+        height: 290px;
     }
     .commentContainer .fourList li{
         margin-bottom: 8px;
@@ -1540,25 +1684,31 @@ nav button{
         line-height: 6px;
     }
 }
-footer{
+.footer420hidden{
     overflow-x: hidden;
     margin-top: -100px;
     background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
 }
-footer .imgContainer{
+.footer420show{
+    display: none;
+}
+.footer375show{
+    display: none;
+}
+.footer420hidden .imgContainer{
     padding-top: 350px;
 }
-footer .imgContainer img{
+.footer420hidden .imgContainer img{
     height: 150px;
     opacity: 0.5;
 }
-footer .imgContainer .imgContact{
+.footer420hidden .imgContainer .imgContact{
     position: relative;
 }
-footer .imgContainer .imgContact img{
+.footer420hidden .imgContainer .imgContact img{
     width: 100%;
 }
-footer .imgContainer .imgContact .textContainer{
+.footer420hidden .imgContainer .imgContact .textContainer{
     position: absolute;
     color: #fff;
     top: 50%;
@@ -1567,63 +1717,60 @@ footer .imgContainer .imgContact .textContainer{
     letter-spacing: 10px;
     transform: translate(-50%, -50%);
 }
-footer .imgContainer .imgContact .textContainer p{
+.footer420hidden .imgContainer .imgContact .textContainer p{
     font-size: 40px;
     text-align: center;
     margin: 0;
 }
-footer .imgContainer .imgContact .textContainer:hover{
+.footer420hidden .imgContainer .imgContact .textContainer:hover{
     cursor: pointer;
 }
-footer .imgContainer .imgContact .textContainer .smallText{
+.footer420hidden .imgContainer .imgContact .textContainer .smallText{
     font-size: 22px;
     letter-spacing: -3px;
     text-align: center;
     margin: 0;
 }
-footer .footerContentContainer .titleDesignContainer{
+.footer420hidden .footerContentContainer .titleDesignContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 300px;
 }
-footer .footerContentContainer .titleDesignContainer .titlePicture{
+.footer420hidden .footerContentContainer .titleDesignContainer .titlePicture{
     padding-left: 100px;
     padding-top: 30px;
 }
-footer .footerContentContainer .titleDesignContainer .titlePicture img{
+.footer420hidden .footerContentContainer .titleDesignContainer .titlePicture img{
     width: 300px;
 }
-footer .footerContentContainer .design{
+.footer420hidden .footerContentContainer .design{
     padding-left: 100px;
     padding-bottom: 30px;
 }
-footer .footerContentContainer .design p{
+.footer420hidden .footerContentContainer .design p{
     color: #fff;
     font-size: 16px;
     line-height: 14px;
     letter-spacing: 3px;
 }
-footer .footerContentContainer .contactUsContainer{
+.footer420hidden .footerContentContainer .contactUsContainer{
     margin-top: 30px;
     display: flex;
     align-items: center;
 }
-footer .footerContentContainer .contactUsContainer .qrCode{
+.footer420hidden .footerContentContainer .contactUsContainer .qrCode{
     height: 120px;
     margin-left: -200px;
 }
-footer .footerContentContainer .contactUs{
+.footer420hidden .footerContentContainer .contactUs{
     width: 100%;
 }
-footer .footerContentContainer .contactUsContainer .qrCode420{
-    display: none;
-}
-footer .footerContentContainer .contactUs .contact{
+.footer420hidden .footerContentContainer .contactUs .contact{
     display: flex;
     margin-bottom: 20px;
 }
-footer .footerContentContainer .contactUs .contact p{
+.footer420hidden .footerContentContainer .contactUs .contact p{
     color: white;
     font-size: 16px;
     margin: 0;
@@ -1631,58 +1778,58 @@ footer .footerContentContainer .contactUs .contact p{
     letter-spacing: 2px;
 }
 @media(max-width:1024px){
-    footer{
+    .footer420hidden{
         margin-top: -150px;
     }
-    footer .imgContainer{
+    .footer420hidden .imgContainer{
         padding-top: 300px;
     }
-    footer .imgContainer img{
+    .footer420hidden .imgContainer img{
         height: 140px;
     }
-    footer .imgContainer .imgContact .textContainer{
+    .footer420hidden .imgContainer .imgContact .textContainer{
         letter-spacing: 6px;
     }
-    footer .imgContainer .imgContact .textContainer p{
+    .footer420hidden .imgContainer .imgContact .textContainer p{
         font-size: 34px;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
+    .footer420hidden .imgContainer .imgContact .textContainer .smallText{
         font-size: 18px;
         letter-spacing: -1px;
     }
-    footer .footerContentContainer .titleDesignContainer{
+    .footer420hidden .footerContentContainer .titleDesignContainer{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 250px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
+    .footer420hidden .footerContentContainer .titleDesignContainer .titlePicture{
         padding-left: 50px;
         padding-top: 34px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+    .footer420hidden .footerContentContainer .titleDesignContainer .titlePicture img{
         width: 260px;
     }
-    footer .footerContentContainer .design{
+    .footer420hidden .footerContentContainer .design{
         padding-left: 60px;
         padding-bottom: 34px;
     }
-    footer .footerContentContainer .design p{
+    .footer420hidden .footerContentContainer .design p{
         font-size: 12px;
         line-height: 10px;
         letter-spacing: 3px;
     }
-    footer .footerContentContainer .contactUsContainer{
+    .footer420hidden .footerContentContainer .contactUsContainer{
         margin-top: 20px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
+    .footer420hidden .footerContentContainer .contactUsContainer .qrCode{
         height: 86px;
         margin-left: -110px;
     }
-    footer .footerContentContainer .contactUs .contact{
+    .footer420hidden .footerContentContainer .contactUs .contact{
         margin-bottom: 20px;
     }
-    footer .footerContentContainer .contactUs .contact p{
+    .footer420hidden .footerContentContainer .contactUs .contact p{
         font-size: 16px;
         margin: 0;
         padding-left: 16px;
@@ -1690,58 +1837,58 @@ footer .footerContentContainer .contactUs .contact p{
     }
 }
 @media(max-width:768px){
-    footer{
+    .footer420hidden{
         margin-top: -120px;
     }
-    footer .imgContainer{
+    .footer420hidden .imgContainer{
         padding-top: 220px;
     }
-    footer .imgContainer img{
+    .footer420hidden .imgContainer img{
         height: 100px;
     }
-    footer .imgContainer .imgContact .textContainer{
+    .footer420hidden .imgContainer .imgContact .textContainer{
         letter-spacing: 4px;
     }
-    footer .imgContainer .imgContact .textContainer p{
+    .footer420hidden .imgContainer .imgContact .textContainer p{
         font-size: 28px;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
+    .footer420hidden .imgContainer .imgContact .textContainer .smallText{
         font-size: 14px;
         letter-spacing: -1px;
     }
-    footer .footerContentContainer .titleDesignContainer{
+    .footer420hidden .footerContentContainer .titleDesignContainer{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 210px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
+    .footer420hidden .footerContentContainer .titleDesignContainer .titlePicture{
         padding-left: 30px;
         padding-top: 34px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+    .footer420hidden .footerContentContainer .titleDesignContainer .titlePicture img{
         width: 220px;
     }
-    footer .footerContentContainer .design{
+    .footer420hidden .footerContentContainer .design{
         padding-left: 30px;
         padding-bottom: 34px;
     }
-    footer .footerContentContainer .design p{
+    .footer420hidden .footerContentContainer .design p{
         font-size: 10px;
         line-height: 10px;
         letter-spacing: 2px;
     }
-    footer .footerContentContainer .contactUsContainer{
+    .footer420hidden .footerContentContainer .contactUsContainer{
         margin-top: 20px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
+    .footer420hidden .footerContentContainer .contactUsContainer .qrCode{
         height: 80px;
         margin-left: -100px;
     }
-    footer .footerContentContainer .contactUs .contact{
+    .footer420hidden .footerContentContainer .contactUs .contact{
         margin-bottom: 20px;
     }
-    footer .footerContentContainer .contactUs .contact p{
+    .footer420hidden .footerContentContainer .contactUs .contact p{
         font-size: 12px;
         margin: 0;
         padding-left: 16px;
@@ -1749,246 +1896,382 @@ footer .footerContentContainer .contactUs .contact p{
     }
 }
 @media(max-width:576px){
-    footer{
+    .footer420hidden{
         margin-top: -90px;
     }
-    footer .imgContainer{
+    .footer420hidden .imgContainer{
         padding-top: 160px;
     }
-    footer .imgContainer img{
+    .footer420hidden .imgContainer img{
         height: 76px;
     }
-    footer .imgContainer .imgContact .textContainer{
+    .footer420hidden .imgContainer .imgContact .textContainer{
         letter-spacing: 3px;
     }
-    footer .imgContainer .imgContact .textContainer p{
+    .footer420hidden .imgContainer .imgContact .textContainer p{
         font-size: 22px;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
+    .footer420hidden .imgContainer .imgContact .textContainer .smallText{
         font-size: 10px;
         letter-spacing: 0px;
     }
-    footer .footerContentContainer .titleDesignContainer{
+    .footer420hidden .footerContentContainer .titleDesignContainer{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 180px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
+    .footer420hidden .footerContentContainer .titleDesignContainer .titlePicture{
         padding-left: 30px;
         padding-top: 34px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+    .footer420hidden .footerContentContainer .titleDesignContainer .titlePicture img{
         width: 170px;
     }
-    footer .footerContentContainer .design{
+    .footer420hidden .footerContentContainer .design{
         padding-left: 30px;
         padding-bottom: 34px;
     }
-    footer .footerContentContainer .design p{
+    .footer420hidden .footerContentContainer .design p{
         font-size: 8px;
         line-height: 10px;
         letter-spacing: 1px;
     }
-    footer .footerContentContainer .contactUsContainer{
+    .footer420hidden .footerContentContainer .contactUsContainer{
         margin-top: 20px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
+    .footer420hidden .footerContentContainer .contactUsContainer .qrCode{
         height: 60px;
         margin-left: -80px;
     }
-    footer .footerContentContainer .contactUs .contact{
+    .footer420hidden .footerContentContainer .contactUs .contact{
         margin-bottom: 14px;
     }
-    footer .footerContentContainer .contactUs .contact p{
+    .footer420hidden .footerContentContainer .contactUs .contact p{
         font-size: 9px;
         margin: 0;
         padding-left: 12px;
         letter-spacing: 2px;
     }
 }
-@media(max-width:420px){
-    footer{
-        margin-top: -90px;
+@media(max-width:430px){
+    .footer420hidden{
+        display: none;
     }
-    footer .imgContainer{
-        padding-top: 150px;
+    .footer420show{
+        display: block;
+        overflow-x: hidden;
+        margin-top: -80px;
+        padding-bottom: 24px;
+        background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
     }
-    footer .imgContainer img{
-        height: 60px;
+    .footer420show .imgContainer{
+        padding-top: 140px;
     }
-    footer .imgContainer .imgContact .textContainer{
-        letter-spacing: 2px;
+    .footer420show .imgContainer img{
+        height: 80px;
+        width: 100%;
+        opacity: 0.6;
     }
-    footer .imgContainer .imgContact .textContainer p{
+    .footer420show .imgContainer .imgContact{
+        position: relative;
+    }
+    .footer420show .imgContainer .imgContact .textContainer{
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        font-weight: bold;
+        letter-spacing: 10px;
+        transform: translate(-50%, -50%);
+    }
+    .footer420show .imgContainer .imgContact .textContainer p{
         font-size: 16px;
+        text-align: center;
+        margin: 0;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
+    .footer420show .imgContainer .imgContact .textContainer .smallText{
         font-size: 8px;
         letter-spacing: -0.5px;
     }
-    footer .footerContentContainer .titleDesignContainer{
+    .footer420show .footerContentContainer .titleDesignContainer{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 170px;
+        height: 110px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
+    .footer420show .footerContentContainer .titleDesignContainer .titlePicture{
         padding-left: 24px;
         padding-top: 34px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
+    .footer420show .footerContentContainer .titleDesignContainer .titlePicture img{
         width: 120px;
     }
-    footer .footerContentContainer .design{
+    .footer420show .footerContentContainer .design{
         padding-left: 24px;
-        padding-bottom: 34px;
+        padding-bottom: 0px;
+        color: #fff;
     }
-    footer .footerContentContainer .design p{
+    .footer420show .footerContentContainer .design p{
         font-size: 6px;
-        line-height: 10px;
+        line-height: 6px;
         letter-spacing: 0.5px;
     }
-    footer .footerContentContainer .contactUsContainer{
-        margin-top:30px;
+    .footer420show .footerContentContainer .contactUsContainer{
+        margin-top:20px;
+        display: flex;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
-        display: none;
+    .footer420show .footerContentContainer .contactUsContainer .qrCode420{
+        height: 50px;
+        margin-left: 44px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode420{
-        display: block;
-        margin-left: -70px;
-        margin-top: -30px;
-        width: 23%;
+    .footer420show .footerContentContainer .contactUs .contact{
+        margin-bottom: 8px;
+        display: flex;
     }
-    footer .footerContentContainer .contactUs .contact{
-        margin-bottom: 14px;
+    .footer420show .footerContentContainer .contactUs .contact img{
+        width: 8%;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 7px;
+    .footer420show .footerContentContainer .contactUs .contact p{
+        font-size: 8px;
+        color: #fff;
         margin: 0;
         padding-left: 8px;
         letter-spacing: 1px;
     }
 }
-@media(max-width:375px){
-    footer{
+@media(max-width:390px){
+    .footer420hidden{
+        display: none;
+    }
+    .footer420show{
+        display: block;
+        overflow-x: hidden;
         margin-top: -80px;
+        padding-bottom: 0px;
+        background: linear-gradient(172.5deg,#fff 40%,rgb(1,121,202) 0%);
     }
-    footer .imgContainer{
-        padding-top: 130px;
+    .footer420show .imgContainer{
+        padding-top: 180px;
     }
-    footer .imgContainer img{
-        height: 50px;
+    .footer420show .imgContainer img{
+        height: 80px;
+        width: 100%;
+        opacity: 0.6;
     }
-    footer .imgContainer .imgContact .textContainer{
-        letter-spacing: 1px;
+    .footer420show .imgContainer .imgContact .textContainer{
+        letter-spacing: 8px;
     }
-    footer .imgContainer .imgContact .textContainer p{
-        font-size: 14px;
+    .footer420show .imgContainer .imgContact .textContainer p{
+        font-size: 16px;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
-        font-size: 6px;
+    .footer420show .imgContainer .imgContact .textContainer .smallText{
+        font-size: 8px;
         letter-spacing: -0.5px;
     }
-    footer .footerContentContainer .titleDesignContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 162px;
+    .footer420show .footerContentContainer .titleDesignContainer{
+        justify-content: center;
+        height: 100px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 24px;
-        padding-top: 24px;
+    .footer420show .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 18px;
+        padding-top: 0px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 110px;
+    .footer420show .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 120px;
     }
-    footer .footerContentContainer .design{
-        padding-left: 24px;
-        padding-bottom: 34px;
+    .footer420show .footerContentContainer .design{
+        padding-left: 18px;
     }
-    footer .footerContentContainer .design p{
+    .footer420show .footerContentContainer .design p{
         font-size: 6px;
         line-height: 6px;
-        letter-spacing: 0px;
+        letter-spacing: 0.5px;
     }
-    footer .footerContentContainer .contactUsContainer{
-        margin-top: 30px;
+    .footer420show .footerContentContainer .contactUsContainer{
+        margin-top:10px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode420{
-        display: block;
-        margin-left: -70px;
-        margin-top: -50px;
-        width: 21%;
+    .footer420show .footerContentContainer .contactUsContainer .qrCode420{
+        height: 40px;
+        margin-left: 54px;
     }
-    footer .footerContentContainer .contactUs .contact{
-        margin-bottom: 10px;
+    .footer420show .footerContentContainer .contactUs .contact{
+        margin-bottom: 8px;
+        margin-left: 12px;
+        display: flex;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 7px;
+    .footer420show .footerContentContainer .contactUs .contact img{
+        width: 8%;
+    }
+    .footer420show .footerContentContainer .contactUs .contact p{
+        font-size: 6px;
+        color: #fff;
         margin: 0;
-        padding-left: 4px;
+        padding-left: 6px;
+        letter-spacing: 1px;
+    }
+}
+@media(max-width:375px){
+    .footer420hidden{
+        display: none;
+    }
+    .footer420show{
+        display: none;
+    }
+    .footer375show{
+        display: block;
+        overflow-x: hidden;
+        margin-top: -60px;
+        padding-bottom: 10px;
+        background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
+    }
+    .footer375show .imgContainer{
+        padding-top: 110px;
+    }
+    .footer375show .imgContainer img{
+        height: 70px;
+        width: 100%;
+        opacity: 0.6;
+    }
+    .footer375show .imgContainer .imgContact{
+        position: relative;
+    }
+    .footer375show .imgContainer .imgContact .textContainer{
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        font-weight: bold;
+        letter-spacing: 4px;
+        transform: translate(-50%, -50%);
+    }
+    .footer375show .imgContainer .imgContact .textContainer p{
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+    }
+    .footer375show .imgContainer .imgContact .textContainer .smallText{
+        font-size: 8px;
+        letter-spacing: -0.5px;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 18px;
+        padding-top: 0px;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 100px;
+    }
+    .footer375show .footerContentContainer .design{
+        padding-left: 14px;
+        padding-bottom: 0px;
+        color: #fff;
+    }
+    .footer375show .footerContentContainer .design p{
+        font-size: 6px;
+        line-height: 4px;
+        letter-spacing: 0.5px;
+    }
+    .footer375show .footerContentContainer .contactUsContainer{
+        display: flex;
+        margin-top: 10px;
+    }
+    .footer375show .footerContentContainer .contactUsContainer .qrCode375{
+        height: 36px;
+        margin-left: 54px;
+    }
+    .footer375show .footerContentContainer .contactUs .contact{
+        margin-bottom: 8px;
+        margin-left: 18px;
+        display: flex;
+    }
+    .footer375show .footerContentContainer .contactUs .contact img{
+        width: 8%;
+    }
+    .footer375show .footerContentContainer .contactUs .contact p{
+        font-size: 6px;
+        color: #fff;
+        margin: 0;
+        padding-left: 6px;
         letter-spacing: 1px;
     }
 }
 @media(max-width:320px){
-    footer{
-        margin-top: -70px;
+    .footer420hidden{
+        display: none;
     }
-    footer .imgContainer{
-        padding-top: 120px;
+    .footer420show{
+        display: none;
     }
-    footer .imgContainer img{
-        height: 40px;
+    .footer375show{
+        display: block;
+        overflow-x: hidden;
+        margin-top: -60px;
+        padding-bottom: 10px;
+        background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
     }
-    footer .imgContainer .imgContact .textContainer{
-        letter-spacing: 0.5px;
+    .footer375show .imgContainer{
+        padding-top: 110px;
     }
-    footer .imgContainer .imgContact .textContainer p{
-        font-size: 12px;
+    .footer375show .imgContainer img{
+        height: 60px;
+        width: 100%;
+        opacity: 0.6;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
-        font-size: 4.5px;
+    .footer375show .imgContainer .imgContact .textContainer{
+        letter-spacing: 4px;
+    }
+    .footer375show .imgContainer .imgContact .textContainer p{
+        font-size: 14px;
+    }
+    .footer375show .imgContainer .imgContact .textContainer .smallText{
+        font-size: 7px;
         letter-spacing: -0.5px;
     }
-    footer .footerContentContainer .titleDesignContainer{
+    .footer375show .footerContentContainer .titleDesignContainer{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        height: 154px;
+        justify-content: center;
+        height: 100px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 24px;
-        padding-top: 24px;
+    .footer375show .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 14px;
+        padding-top: 0px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 100px;
+    .footer375show .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 90px;
     }
-    footer .footerContentContainer .design{
-        padding-left: 24px;
-        padding-bottom: 34px;
+    .footer375show .footerContentContainer .design{
+        padding-left: 14px;
     }
-    footer .footerContentContainer .design p{
+    .footer375show .footerContentContainer .design p{
         font-size: 5px;
-        line-height: 5px;
-        letter-spacing: 0px;
+        line-height: 4px;
+        letter-spacing: 0.5px;
     }
-    footer .footerContentContainer .contactUsContainer{
-        margin-top: 30px;
+    .footer375show .footerContentContainer .contactUsContainer{
+        display: flex;
+        margin-top: 10px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode420{
-        display: block;
-        margin-left: -50px;
-        margin-top: -50px;
-        width: 19%;
+    .footer375show .footerContentContainer .contactUsContainer .qrCode375{
+        height: 32px;
+        margin-left: 50px;
     }
-    footer .footerContentContainer .contactUs .contact{
-        margin-bottom: 10px;
+    .footer375show .footerContentContainer .contactUs .contact{
+        margin-bottom: 8px;
+        margin-left: 14px;
+        display: flex;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 6px;
-        margin: 0;
+    .footer375show .footerContentContainer .contactUs .contact img{
+        width: 7%;
+    }
+    .footer375show .footerContentContainer .contactUs .contact p{
+        font-size: 5px;
         padding-left: 4px;
         letter-spacing: 1px;
     }
