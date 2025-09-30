@@ -121,6 +121,7 @@ nav button{
         font-size: 14px;
         padding: 13px 13.875px;
         margin-right: 10px;
+        color: #000;
     }
 }
 @media(max-width:576px){
@@ -1160,6 +1161,7 @@ nav button{
     background-color: transparent;
     border: none;
     margin-left: 20px;
+    color: #000;
 }
 @media(max-width:1024px){
     .commentContainer{
