@@ -241,6 +241,7 @@
     padding-left: 200px;
     list-style: none;
     margin-top: 30px;
+    overflow-x: hidden;
 }
 .clothSort li{
     margin-left: -1px;
@@ -262,6 +263,9 @@
 }
 .clothSort .rightNowColorColor a{
     color: #fff;
+}
+.rightNowClothTitle{
+    overflow-x: hidden;
 }
 .rightNowClothTitle p{
     padding-left: 20px;
@@ -353,6 +357,7 @@
     }
     .clothSortImgContainer{
         padding-top: 30px;
+
     }
     .clothSortImgContainer img{
         width: 100%;
@@ -551,8 +556,9 @@
         letter-spacing: 4px;
     }
     .clothSort{
-        padding-left: 200px;
-        margin-top: 30px;
+        padding-left: 160px;
+        margin-top: 20px;
+        font-size: 12px;
     }
     .clothSort li{
         margin-left: -1px;
@@ -562,13 +568,16 @@
     .clothSort li a{
         padding: 2px 10px;
     }
+    .clothBr768Hidden{
+        display: none;
+    }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
-        border: 2px solid rgb(2, 121, 202);
+        border: 1.5px solid rgb(2, 121, 202);
     }
     .clothSortImgContainer{
         margin-bottom: 30px;
@@ -707,8 +716,9 @@
         letter-spacing: 4px;
     }
     .clothSort{
-        padding-left: 200px;
-        margin-top: 30px;
+        padding-left: 140px;
+        margin-top: 12px;
+        font-size: 10px;
     }
     .clothSort li{
         margin-left: -1px;
@@ -718,13 +728,16 @@
     .clothSort li a{
         padding: 2px 10px;
     }
+    .clothBr768Hidden{
+        display: none;
+    }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
-        border: 2px solid rgb(2, 121, 202);
+        border: 1px solid rgb(2, 121, 202);
     }
     .clothSortImgContainer{
         margin-bottom: 30px;
@@ -870,11 +883,12 @@
     }
     .clothUl li a{
         padding: 8px 56px;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     }
     .clothSort{
-        padding-left: 200px;
-        margin-top: 30px;
+        padding-left: 140px;
+        margin-top: 10px;
+        font-size: 9px;
     }
     .clothSort li{
         margin-left: -1px;
@@ -884,16 +898,20 @@
     .clothSort li a{
         padding: 2px 10px;
     }
+    .clothBr768Hidden{
+        display: none;
+    }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
-        border: 2px solid rgb(2, 121, 202);
+        border: 0.6px solid rgb(2, 121, 202);
     }
     .clothSortImgContainer{
         margin-bottom: 30px;
+        padding-top: 0;
     }
     .clothSortImg50{
         padding: 10px;
@@ -1025,11 +1043,12 @@
     }
     .clothUl li a{
         padding: 8px 56px;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     }
     .clothSort{
-        padding-left: 200px;
-        margin-top: 30px;
+        padding-left: 90px;
+        margin-top: 10px;
+        font-size: 9px;
     }
     .clothSort li{
         margin-left: -1px;
@@ -1039,16 +1058,20 @@
     .clothSort li a{
         padding: 2px 10px;
     }
+    .clothBr768Hidden{
+        display: none;
+    }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
-        border: 2px solid rgb(2, 121, 202);
+        border: 0.6px solid rgb(2, 121, 202);
     }
     .clothSortImgContainer{
         margin-bottom: 30px;
+        padding-top: 0;
     }
     .clothSortImg50{
         padding: 10px;
@@ -1180,11 +1203,12 @@
     }
     .clothUl li a{
         padding: 8px 56px;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     }
     .clothSort{
-        padding-left: 200px;
-        margin-top: 30px;
+        padding-left: 120px;
+        margin-top: 10px;
+        font-size: 9px;
     }
     .clothSort li{
         margin-left: -1px;
@@ -1194,16 +1218,20 @@
     .clothSort li a{
         padding: 2px 10px;
     }
+    .clothBr768Hidden{
+        display: none;
+    }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
-        border: 2px solid rgb(2, 121, 202);
+        border: 0.6px solid rgb(2, 121, 202);
     }
     .clothSortImgContainer{
         margin-bottom: 30px;
+        padding-top: 0;
     }
     .clothSortImg50{
         padding: 10px;
@@ -1335,11 +1363,12 @@
     }
     .clothUl li a{
         padding: 8px 56px;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     }
     .clothSort{
-        padding-left: 200px;
-        margin-top: 30px;
+        padding-left: 100px;
+        margin-top: 10px;
+        font-size:7px;
     }
     .clothSort li{
         margin-left: -1px;
@@ -1347,18 +1376,22 @@
         border: 1px solid rgb(2, 121, 202);
     }
     .clothSort li a{
-        padding: 2px 10px;
+        padding: 0px 8px;
+    }
+    .clothBr768Hidden{
+        display: none;
     }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 14px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
-        border: 2px solid rgb(2, 121, 202);
+        border: 0.6px solid rgb(2, 121, 202);
     }
     .clothSortImgContainer{
         margin-bottom: 30px;
+        padding-top: 0;
     }
     .clothSortImg50{
         padding: 10px;
