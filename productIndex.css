@@ -1,222 +1,3 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    background-color: #fff;
-    height: 83.33px;
-    width: 100%;
-    z-index: 10;
-}
-nav .leftTitle{
-    display: flex;
-    background-image: url("images/截圖\ 2025-08-04\ 上午9.24.55.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 270px;
-    margin-top: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-nav .leftTitle h1{
-    text-indent: 101%;
-    white-space: nowrap;
-    overflow: hidden;
-}
-nav .rightList{
-    display: flex;
-    align-items: center;
-    padding-right: 30px;
-}
-nav .rightListRwd{
-    display: none;
-}
-nav .rightList ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-nav .rightList ul li a{
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 27.5px;
-}
-nav .rightList ul li a,nav .rightListRwd ul li a{
-    text-decoration: none;
-    color: #000;
-}
-nav .rightList ul li a:hover{
-    background-color: rgb(1, 121, 202);
-    color: #fff;
-}
-nav button{
-    border: none;
-    background-color: transparent;
-    margin: 0;
-    display: none;
-}
-@media(max-width:1024px){
-    nav{
-        height: 70px;
-    };
-    nav .leftTitle{
-        width: 220px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    nav .rightList{
-        padding-right: 0;
-    }
-    nav .rightList ul li{
-        font-size: 16px;
-        padding: 23.75px;
-    }
-}
-@media(max-width:768px){
-    nav{
-        height: 60px;
-    };
-    nav .leftTitle{
-        width: 220px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    nav .rightList{
-        display: none;
-    }
-    nav .rightListRwd{
-        display: block;
-        position: absolute;
-        margin-top: 60px;
-        background-color: #fff;
-        width: 20%;
-        right: 0;
-    }
-    nav .rightListRwd .nav-ulRwd{
-        flex-direction: column;
-        display: none;
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-    nav .rightListRwd .nav-ulRwd li{
-        font-weight: bold;
-        font-size: 14px;
-        cursor: pointer;
-        padding: 16px 0px;
-        letter-spacing: 4px;
-        text-align: center;
-    }
-    nav .rightListRwd .nav-ulRwd li:hover{
-        background-color: rgb(1, 121, 202);
-        color: #fff;
-    }
-    nav button{
-        display: block;
-        font-size: 20px;
-        padding: 21.25px 20px;
-    }
-}
-@media(max-width:576px){
-    nav{
-        height: 55px;
-    };
-    nav .leftTitle{
-        width: 220px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    nav .rightList{
-        display: none;
-    }
-    nav .rightListRwd{
-        margin-top: 55px;
-    }
-    nav .rightListRwd .nav-ulRwd li{
-        font-size: 12px;
-        padding: 12px 0px;
-        letter-spacing: 2px;
-    }
-    nav button{
-        font-size: 16px;
-        padding: 20.5px 19.5px;
-    }
-}
-@media(max-width:420px){
-    nav{
-        height: 45px;
-    };
-    nav .leftTitle{
-        width: 220px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    nav .rightList{
-        display: none;
-    }
-    nav .rightListRwd{
-        margin-top: 45px;
-    }
-    nav .rightListRwd .nav-ulRwd li{
-        font-size: 10px;
-        padding: 8px 0px;
-        letter-spacing: 2px;
-    }
-    nav button{
-        font-size: 12px;
-        padding: 17.25px 16.5px;
-    }
-}
-@media(max-width:375px){
-    nav{
-        height: 40px;
-    };
-    nav .leftTitle{
-        width: 220px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    nav .rightList{
-        display: none;
-    }
-    nav .rightListRwd{
-        margin-top: 40px;
-    }
-    nav .rightListRwd .nav-ulRwd li{
-        font-size: 8px;
-        padding: 8px 0px;
-        letter-spacing: 2px;
-    }
-    nav button{
-        font-size: 10px;
-        padding: 15.625px 15px;
-    }
-}
-@media(max-width:320px){
-    nav{
-        height: 35px;
-    };
-    nav .leftTitle{
-        width: 220px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    nav .rightList{
-        display: none;
-    }
-    nav .rightListRwd{
-        margin-top: 35px;
-    }
-    nav .rightListRwd .nav-ulRwd li{
-        font-size: 6px;
-        padding: 6px 0px;
-        letter-spacing: 1px;
-    }
-    nav button{
-        font-size: 8px;
-        padding: 14px 13.5px;
-    }
-}
 .otherBanner{
     margin-top: 83.33px;
     background-image: url("images/截圖\ 2025-07-29\ 下午12.23.06.jpg");
@@ -270,7 +51,7 @@ nav button{
     bottom: 20px;
     right: 100px;
     border: 3px solid rgb(182, 182, 182);
-    background-color: transparent;
+    background-color: #fff;
     padding: 0;
 }
 .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
@@ -282,6 +63,7 @@ nav button{
 .mainProductContainer button a:hover,.otherBannerContainer .clothTopBtn a:hover{
     background-color: rgb(182, 182, 182);
     color: #fff;
+    display: block;
 }
 .mainProductContainer .mainContainer{
     margin-top: 50px;
@@ -374,6 +156,7 @@ nav button{
 .mainProductContainer .productContainer .product{
     margin-left: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .mainProductContainer .productContainer .product:hover{
     transform: scale(1.1);
@@ -504,495 +287,1086 @@ nav button{
 .clothSortImg50 img{
     width: 100%;
 }
-footer {
-    background: transparent;
-    background-color: rgb(1,121,202);
-}
-footer .imgContainer{
-    padding-top: 400px;
-}
-footer .imgContainer img{
-    height: 150px;
-    opacity: 0.5;
-}
-footer .imgContainer .imgContact{
-    position: relative;
-}
-footer .imgContainer .imgContact img{
-    width: 100%;
-}
-footer .imgContainer .imgContact .textContainer{
-    position: absolute;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    font-weight: bold;
-    letter-spacing: 10px;
-    transform: translate(-50%, -50%);
-}
-footer .imgContainer .imgContact .textContainer p{
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-}
-footer .imgContainer .imgContact .textContainer:hover{
-    cursor: pointer;
-}
-footer .imgContainer .imgContact .textContainer .smallText{
-    font-size: 22px;
-    letter-spacing: -3px;
-    text-align: center;
-    margin: 0;
-}
-footer .footerContentContainer .titleDesignContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 300px;
-}
-footer .footerContentContainer .titleDesignContainer .titlePicture{
-    padding-left: 100px;
-    padding-top: 30px;
-}
-footer .footerContentContainer .titleDesignContainer .titlePicture img{
-    width: 300px;
-}
-footer .footerContentContainer .design{
-    padding-left: 100px;
-    padding-bottom: 30px;
-}
-footer .footerContentContainer .design p{
-    color: #fff;
-    font-size: 16px;
-    line-height: 14px;
-    letter-spacing: 3px;
-}
-footer .footerContentContainer .contactUsContainer{
-    display: flex;
-}
-footer .footerContentContainer .contactUsContainer .qrCode{
-    height: 120px;
-    padding-top: 50px;
-    padding-left: 150px;
-}
-footer .footerContentContainer .contactUs{
-    padding-top: 30px;
-}
-footer .footerContentContainer .contactUs .contact{
-    display: flex;
-    margin-bottom: 20px;
-}
-footer .footerContentContainer .contactUs .contact p{
-    color: white;
-    font-size: 16px;
-    margin: 0;
-    padding-left: 20px;
-    letter-spacing: 2px;
-}
-@media(max-width:768px){
-    footer .imgContainer{
-        padding-top: 320px;
+@media(max-width:1024px){
+    .otherBanner{
+        margin-top: 70px;
+        height: 360px;
     }
-    footer .imgContainer img{
-        height: 130px;
-        opacity: 0.5;
+    .otherBannerContainer .otherBannerTitle h1{
+        font-size: 36px;
+        letter-spacing: 8px;
     }
-    footer .imgContainer .imgContact .textContainer{
-        letter-spacing: 10px;
+    .otherBannerContainer .otherBannerTitle p{
+        font-size: 22px;
+        letter-spacing: -2px;
     }
-    footer .imgContainer .imgContact .textContainer p{
-        font-size: 35px;
+
+    .anton-regular{
+        font-weight: 800;
+        letter-spacing: 0px;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
-        font-size: 20px;
+    .rightnowText{
+        font-weight: 600;
+        letter-spacing: 5px;
+        font-size: 12px;
+        right: 10px;
+        top: 70px;
+        border: 3px dashed #fff;
+        padding: 4px;
     }
-    footer .footerContentContainer .titleDesignContainer{
-        height: 250px;
+    .mainProductContainer{
+        padding: 0 20px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 60px;
+    .mainProductContainer button,.otherBannerContainer .clothTopBtn{
+        bottom: 10px;
+        right: 10px;
+        border: 3px solid rgb(182, 182, 182);
+        padding: 0;
+    }
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 22px;
+        padding: 0px 10px;
+    }
+    .mainProductContainer .mainContainer{
+        margin-top: 40px;
+    }
+    .mainProductContainer .mainContainer ul li i{
+        font-size: 10px;
+    }
+    .mainProductContainer .mainContainer ul li a{
+        letter-spacing: 2px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mainProductContainer .bigProductImg img{
+        width: 90%;
+    }
+    .mainProductContainer .bigProductLowerbody60Img img{
+        width: 60%;
+    }
+    .mainProductContainer .bigProductLowerbodyImg img{
+        width: 45%;
+    }
+    .clothSortImgContainer{
         padding-top: 30px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 250px;
+    .clothSortImgContainer img{
+        width: 100%;
     }
-    footer .footerContentContainer .design{
-        padding-left: 60px;
-        padding-bottom: 30px;
-    }
-    footer .footerContentContainer .design p{
-        color: #fff;
-        font-size: 14px;
-        line-height: 14px;
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+        width: 50%;
+        margin-top: 30px;
         letter-spacing: 3px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
-        height: 100px;
-        padding-top: 30px;
-        padding-left: 130px;
+    .clothSortImgContainer p{
+        font-size: 22px;
     }
-    footer .footerContentContainer .contactUs{
-        padding-top: 30px;
+    .mainProductContainer .productContainer{
+        padding-bottom: 130px;
     }
-    footer .footerContentContainer .contactUs .contact{
-        display: flex;
+    .mainProductContainer .productContainer .product{
         margin-left: 20px;
         margin-bottom: 20px;
+        width: 30%;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        color: white;
-        font-size: 14px;
-        margin: 0;
+    .mainProductContainer .productContainer .product .imgContainer{
+        height: 200px;
+    }
+    .mainProductContainer .productContainer .product .imgContainer img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mainProductContainer .productContainer .product .aText{
+        padding: 0 14px;
+    }
+    .mainProductContainer .productContainer .product .aText a{
+        font-size: 13px;
+    }
+    .clothUl{
+        margin: 520px 0px 0 0;
+    }
+    .clothUl li{
+        padding: 8px 0px;
+    }
+    .clothUl li a{
+        padding: 8px 56px;
+        letter-spacing: 4px;
+    }
+    .clothSort{
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+    .clothSort li{
+        margin-left: -1px;
+        padding: 2px 0px;
+        border: 1px solid rgb(2, 121, 202);
+    }
+    .clothSort li a{
+        padding: 2px 10px;
+    }
+    .rightNowClothTitle p{
         padding-left: 20px;
-        letter-spacing: 2px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .rightNowClothTitle hr{
+        border: 2px solid rgb(2, 121, 202);
+    }
+    .clothSortImgContainer{
+        margin-bottom: 30px;
+    }
+    .clothSortImg50{
+        padding: 10px;
+    }
+    .clothSortImg50:hover{
+        transform: scale(1.05);
+    }
+    .clothSortImg50 img{
+        width: 100%;
     }
 }
 @media(max-width:768px){
-    footer{
-        margin-top: -120px;
+    .otherBanner{
+        margin-top: 52px;
+        height: 300px;
     }
-    footer .imgContainer .footer768{
-        display: none;
-    }
-    footer .imgContainer{
-        padding-top: 250px;
-    }
-    footer .imgContainer .imgContact .textContainer{
+    .otherBannerContainer .otherBannerTitle h1{
+        font-size: 30px;
         letter-spacing: 6px;
     }
-    footer .imgContainer .imgContact .textContainer p{
-        font-size: 30px;
+    .otherBannerContainer .otherBannerTitle p{
+        font-size: 18px;
+        letter-spacing: -1px;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
-        font-size: 16px;
+    .anton-regular{
+        font-weight: 800;
+        letter-spacing: 0px;
     }
-    footer .footerContentContainer{
-        display: flex;
+    .mainProductContainer .mainContainer .mainTitle h2{
+        text-align: center;
     }
-    footer .footerContentContainer .titleDesignContainer{
-        height: 150px;
+    .mainProductContainer .mainContainer .mainTitle p{
+        text-align: center;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 40px;
-        padding-top: 30px;
-    }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 220px;
-    }
-    footer .footerContentContainer .design{
-        padding-left: 50px;
-        padding-bottom: 30px;
-    }
-    footer .footerContentContainer .design p{
-        color: #fff;
+    .rightnowText{
+        font-weight: 600;
+        letter-spacing: 5px;
         font-size: 12px;
-        line-height: 12px;
-        letter-spacing: 2px;
+        right: 10px;
+        top: 70px;
+        border: 3px dashed #fff;
+        padding: 4px;
     }
-    footer .footerContentContainer .contactUsContainer{
-        width: 50%;
-    }
-    footer .footerContentContainer .contactUsContainer .qrCode{
-        height: 80px;
-        padding-top: 30px;
-        padding-left: 0;
-        padding-right: 10px;
-    }
-    footer .footerContentContainer .contactUs{
-        padding-top: 30px;
-    }
-    footer .footerContentContainer .contactUs .contact{
+    .mainProductContainer{
+        padding: 0 20px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainProductContainer button,.otherBannerContainer .clothTopBtn{
+        bottom: 10px;
+        right: 10px;
+        border: 3px solid rgb(182, 182, 182);
+        padding: 0;
+    }
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 22px;
+        padding: 0px 10px;
+    }
+    .mainProductContainer .mainContainer{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .mainProductContainer .mainContainer .slideFixed{
+        padding-left: 20px;
+    }
+    .mainProductContainer .mainContainer ul li i{
+        font-size: 10px;
+    }
+    .mainProductContainer .mainContainer ul li a{
+        letter-spacing: 2px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mainProductContainer .bigProductImg img{
+        width: 90%;
+    }
+    .mainProductContainer .bigProductLowerbody60Img img{
+        width: 60%;
+    }
+    .mainProductContainer .bigProductLowerbodyImg img{
+        width: 45%;
+    }
+    .clothSortImgContainer{
+        padding-top: 30px;
+    }
+    .clothSortImgContainer img{
+        width: 100%;
+    }
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+        width: 50%;
+        margin-top: 30px;
+        letter-spacing: 3px;
+    }
+    .clothSortImgContainer p{
+        font-size: 22px;
+    }
+    .mainProductContainer .productContainer{
+        padding-bottom: 130px;
+    }
+    .mainProductContainer .productContainer .product{
         margin-left: 20px;
+        margin-bottom: 20px;
+        width: 30%;
+    }
+    .mainProductContainer .productContainer .product .imgContainer{
+        height: 200px;
+    }
+    .mainProductContainer .productContainer .product .imgContainer img{
+        width: 100%;
         margin-bottom: 10px;
     }
-    footer .footerContentContainer .contactUs .contact img{
-        width: 4%;
+    .mainProductContainer .productContainer .product .aText{
+        padding: 0 14px;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 12px;
+    .mainProductContainer .productContainer .product .aText a{
+        font-size: 13px;
+    }
+    .clothUl{
+        margin: 520px 0px 0 0;
+    }
+    .clothUl li{
+        padding: 8px 0px;
+    }
+    .clothUl li a{
+        padding: 8px 56px;
+        letter-spacing: 4px;
+    }
+    .clothSort{
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+    .clothSort li{
+        margin-left: -1px;
+        padding: 2px 0px;
+        border: 1px solid rgb(2, 121, 202);
+    }
+    .clothSort li a{
+        padding: 2px 10px;
+    }
+    .rightNowClothTitle p{
         padding-left: 20px;
-        letter-spacing: 2px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .rightNowClothTitle hr{
+        border: 2px solid rgb(2, 121, 202);
+    }
+    .clothSortImgContainer{
+        margin-bottom: 30px;
+    }
+    .clothSortImg50{
+        padding: 10px;
+    }
+    .clothSortImg50:hover{
+        transform: scale(1.05);
+    }
+    .clothSortImg50 img{
+        width: 100%;
     }
 }
 @media(max-width:576px){
-    footer{
-        margin-top: -90px;
+    .otherBanner{
+        margin-top: 43px;
+        height: 240px;
     }
-    footer .imgContainer .footer768{
-        display: none;
-    }
-    footer .imgContainer{
-        padding-top: 200px;
-    }
-    footer .imgContainer .imgContact .textContainer{
+    .otherBannerContainer .otherBannerTitle h1{
+        font-size: 26px;
         letter-spacing: 4px;
     }
-    footer .imgContainer .imgContact .textContainer p{
-        font-size: 24px;
-    }
-    footer .imgContainer .imgContact .textContainer .smallText{
+    .otherBannerContainer .otherBannerTitle p{
         font-size: 14px;
-    }
-    footer .footerContentContainer{
-        display: flex;
-    }
-    footer .footerContentContainer .titleDesignContainer{
-        height: 150px;
-    }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 40px;
-        padding-top: 10px;
-    }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 160px;
-    }
-    footer .footerContentContainer .design{
-        padding-left: 50px;
-        padding-bottom: 30px;
-    }
-    footer .footerContentContainer .design p{
-        color: #fff;
-        font-size: 10px;
-        line-height: 12px;
-        letter-spacing: 2px;
-    }
-    footer .footerContentContainer .contactUsContainer{
-        width: 70%;
-    }
-    footer .footerContentContainer .contactUsContainer .qrCode{
-        height: 60px;
-        padding-top: 10px;
-        padding-left: 0;
-        padding-right: 10px;
-    }
-    footer .footerContentContainer .contactUs{
-        padding-top: 10px;
-    }
-    footer .footerContentContainer .contactUs .contact{
-        display: flex;
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
-    footer .footerContentContainer .contactUs .contact img{
-        width: 5%;
-    }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 10px;
-        padding-left: 20px;
-        letter-spacing: 2px;
-    }
-}
-@media(max-width:420px){
-    footer{
-        margin-top: -110px;
-    }
-    footer .imgContainer .footer768{
-        display: none;
-    }
-    footer .imgContainer{
-        padding-top: 200px;
-    }
-    footer .imgContainer .imgContact .textContainer{
-        letter-spacing: 2px;
-    }
-    footer .imgContainer .imgContact .textContainer p{
-        font-size: 20px;
-    }
-    footer .imgContainer .imgContact .textContainer .smallText{
-        font-size: 10px;
         letter-spacing: -1px;
     }
-    footer .footerContentContainer{
+    .anton-regular{
+        font-weight: 800;
+        letter-spacing: 0px;
+    }
+    .mainProductContainer .mainContainer{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .mainProductContainer .mainContainer .mainTitle h2{
+        text-align: center;
+        font-size: 18px;
+    }
+    .mainProductContainer .mainContainer .mainTitle p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .rightnowText{
+        font-weight: 600;
+        letter-spacing: 4px;
+        font-size: 10px;
+        right: 10px;
+        top: 60px;
+        border: 2px dashed #fff;
+        padding: 3px;
+    }
+    .mainProductContainer{
+        padding: 0 20px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    footer .footerContentContainer .titleDesignContainer{
-        height: 150px;
+    .mainProductContainer button,.otherBannerContainer .clothTopBtn{
+        bottom: 10px;
+        right: 10px;
+        border: 2px solid rgb(182, 182, 182);
+        padding: 0;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 15px;
-        padding-top: 30px;
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 18px;
+        padding: 0px 10px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 130px;
+    .mainProductContainer .mainContainer .slideFixed{
+        padding-left: 10px;
     }
-    footer .footerContentContainer .design{
-        padding-left: 20px;
-        padding-bottom: 30px;
+    .mainProductContainer .mainContainer ul li i{
+        font-size: 8px;
     }
-    footer .footerContentContainer .design p{
-        color: #fff;
-        font-size: 6px;
-        line-height: 12px;
+    .mainProductContainer .mainContainer ul li a{
         letter-spacing: 2px;
+        font-size: 14px;
+        padding: 8px;
     }
-    footer .footerContentContainer .contactUsContainer{
+    .mainProductContainer .productContainer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mainProductContainer .bigProductImg img{
+        width: 90%;
+    }
+    .mainProductContainer .bigProductLowerbody60Img img{
+        width: 60%;
+    }
+    .mainProductContainer .bigProductLowerbodyImg img{
+        width: 45%;
+    }
+    .clothSortImgContainer{
+        padding-top: 30px;
+    }
+    .clothSortImgContainer img{
+        width: 100%;
+    }
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
         width: 50%;
+        margin-top: 30px;
+        letter-spacing: 3px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
-        height: 40px;
-        padding-top: 30px;
-        padding-left: 0;
-        padding-right: 10px;
+    .clothSortImgContainer p{
+        font-size: 22px;
     }
-    footer .footerContentContainer .contactUs{
-        padding-top: 30px;
+    .mainProductContainer .productContainer{
+        padding-bottom: 130px;
     }
-    footer .footerContentContainer .contactUs .contact{
-        display: flex;
+    .mainProductContainer .productContainer .product{
         margin-left: 20px;
+        margin-bottom: 20px;
+        width: 45%;
+    }
+    .mainProductContainer .productContainer .product .imgContainer{
+        height: 200px;
+    }
+    .mainProductContainer .productContainer .product .imgContainer img{
+        width: 100%;
         margin-bottom: 10px;
     }
-    footer .footerContentContainer .contactUs .contact img{
-        width: 4%;
+    .mainProductContainer .productContainer .product .aText{
+        padding: 0 14px;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 6px;
+    .mainProductContainer .productContainer .product .aText a{
+        font-size: 12px;
+    }
+    .clothUl{
+        margin: 520px 0px 0 0;
+    }
+    .clothUl li{
+        padding: 8px 0px;
+    }
+    .clothUl li a{
+        padding: 8px 56px;
+        letter-spacing: 4px;
+    }
+    .clothSort{
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+    .clothSort li{
+        margin-left: -1px;
+        padding: 2px 0px;
+        border: 1px solid rgb(2, 121, 202);
+    }
+    .clothSort li a{
+        padding: 2px 10px;
+    }
+    .rightNowClothTitle p{
         padding-left: 20px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .rightNowClothTitle hr{
+        border: 2px solid rgb(2, 121, 202);
+    }
+    .clothSortImgContainer{
+        margin-bottom: 30px;
+    }
+    .clothSortImg50{
+        padding: 10px;
+    }
+    .clothSortImg50:hover{
+        transform: scale(1.05);
+    }
+    .clothSortImg50 img{
+        width: 100%;
+    }
+}
+@media(max-width:430px){
+    .otherBanner{
+        margin-top: 38px;
+        height: 160px;
+    }
+    .otherBannerContainer .otherBannerTitle h1{
+        font-size: 20px;
         letter-spacing: 2px;
+    }
+    .otherBannerContainer .otherBannerTitle p{
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+    .anton-regular{
+        font-weight: 800;
+        letter-spacing: 0px;
+    }
+    .mainProductContainer .mainContainer{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .mainProductContainer .mainContainer .mainTitle h2{
+        text-align: center;
+        font-size: 16px;
+    }
+    .mainProductContainer .mainContainer .mainTitle p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .rightnowText{
+        font-weight: 600;
+        letter-spacing: 4px;
+        font-size: 8px;
+        right: 10px;
+        top: 50px;
+        border: 1.5px dashed #fff;
+        padding: 2px;
+    }
+    .mainProductContainer{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainProductContainer button,.otherBannerContainer .clothTopBtn{
+        bottom: 10px;
+        right: 10px;
+        border: 2px solid rgb(182, 182, 182);
+        padding: 0;
+    }
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 12px;
+        padding: 0px 6px;
+    }
+    .mainProductContainer .mainContainer .slideFixed{
+        padding-left: 0px;
+    }
+    .mainProductContainer .mainContainer ul li i{
+        font-size: 8px;
+    }
+    .mainProductContainer .mainContainer ul li a{
+        letter-spacing: 2px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .mainProductContainer .bigProductImg img{
+        width: 90%;
+    }
+    .mainProductContainer .bigProductLowerbody60Img img{
+        width: 60%;
+    }
+    .mainProductContainer .bigProductLowerbodyImg img{
+        width: 45%;
+    }
+    .clothSortImgContainer{
+        padding-top: 30px;
+    }
+    .clothSortImgContainer img{
+        width: 100%;
+    }
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+        width: 50%;
+        margin-top: 30px;
+        letter-spacing: 3px;
+    }
+    .clothSortImgContainer p{
+        font-size: 22px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 0px;
+    }
+    .mainProductContainer .productContainer .product{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-top: 60px;
+        width: 70%;
+        border: 1px solid rgb(182, 182, 182);
+    }
+    .mainProductContainer .productContainer .product430Hidden{
+        display: none;
+    }
+    .mainProductContainer .productContainer .product .imgContainer{
+        height: 200px;
+    }
+    .mainProductContainer .productContainer .product .imgContainer img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .mainProductContainer .productContainer .product .aText{
+        padding: 0 14px;
+        border-top: 1px solid rgb(182, 182, 182);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainProductContainer .productContainer .product .aText a{
+        font-size: 10px;
+    }
+    .clothUl{
+        margin: 520px 0px 0 0;
+    }
+    .clothUl li{
+        padding: 8px 0px;
+    }
+    .clothUl li a{
+        padding: 8px 56px;
+        letter-spacing: 4px;
+    }
+    .clothSort{
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+    .clothSort li{
+        margin-left: -1px;
+        padding: 2px 0px;
+        border: 1px solid rgb(2, 121, 202);
+    }
+    .clothSort li a{
+        padding: 2px 10px;
+    }
+    .rightNowClothTitle p{
+        padding-left: 20px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .rightNowClothTitle hr{
+        border: 2px solid rgb(2, 121, 202);
+    }
+    .clothSortImgContainer{
+        margin-bottom: 30px;
+    }
+    .clothSortImg50{
+        padding: 10px;
+    }
+    .clothSortImg50:hover{
+        transform: scale(1.05);
+    }
+    .clothSortImg50 img{
+        width: 100%;
+    }
+}
+@media(max-width:390px){
+    .otherBanner{
+        margin-top: 36px;
+        height: 160px;
+    }
+    .otherBannerContainer .otherBannerTitle h1{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .otherBannerContainer .otherBannerTitle p{
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+    .anton-regular{
+        font-weight: 800;
+        letter-spacing: 0px;
+    }
+    .mainProductContainer .mainContainer{
+        margin-top: 16px;
+        width: 100%;
+    }
+    .mainProductContainer .mainContainer .mainTitle h2{
+        text-align: center;
+        font-size: 14px;
+    }
+    .mainProductContainer .mainContainer .mainTitle p{
+        text-align: center;
+        font-size: 10px;
+    }
+    .rightnowText{
+        font-weight: 600;
+        letter-spacing: 3px;
+        font-size: 8px;
+        right: 10px;
+        top: 40px;
+        border: 1.5px dashed #fff;
+        padding: 2px;
+    }
+    .mainProductContainer{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainProductContainer button,.otherBannerContainer .clothTopBtn{
+        bottom: 10px;
+        right: 10px;
+        border: 2px solid rgb(182, 182, 182);
+        padding: 0;
+    }
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 12px;
+        padding: 0px 6px;
+    }
+    .mainProductContainer .mainContainer ul li i{
+        font-size: 7px;
+    }
+    .mainProductContainer .mainContainer ul li a{
+        letter-spacing: 2px;
+        font-size: 11px;
+        padding: 4px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .mainProductContainer .bigProductImg img{
+        width: 90%;
+    }
+    .mainProductContainer .bigProductLowerbody60Img img{
+        width: 60%;
+    }
+    .mainProductContainer .bigProductLowerbodyImg img{
+        width: 45%;
+    }
+    .clothSortImgContainer{
+        padding-top: 30px;
+    }
+    .clothSortImgContainer img{
+        width: 100%;
+    }
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+        width: 50%;
+        margin-top: 30px;
+        letter-spacing: 3px;
+    }
+    .clothSortImgContainer p{
+        font-size: 22px;
+    }
+    .mainProductContainer .productContainer .product{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-top: 60px;
+        width: 70%;
+    }
+    .mainProductContainer .productContainer .product430Hidden{
+        display: none;
+    }
+    .mainProductContainer .productContainer .product .imgContainer{
+        height: 200px;
+    }
+    .mainProductContainer .productContainer .product .imgContainer img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .mainProductContainer .productContainer .product .aText{
+        padding: 0 14px;
+    }
+    .mainProductContainer .productContainer .product .aText a{
+        font-size: 10px;
+    }
+    .clothUl{
+        margin: 520px 0px 0 0;
+    }
+    .clothUl li{
+        padding: 8px 0px;
+    }
+    .clothUl li a{
+        padding: 8px 56px;
+        letter-spacing: 4px;
+    }
+    .clothSort{
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+    .clothSort li{
+        margin-left: -1px;
+        padding: 2px 0px;
+        border: 1px solid rgb(2, 121, 202);
+    }
+    .clothSort li a{
+        padding: 2px 10px;
+    }
+    .rightNowClothTitle p{
+        padding-left: 20px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .rightNowClothTitle hr{
+        border: 2px solid rgb(2, 121, 202);
+    }
+    .clothSortImgContainer{
+        margin-bottom: 30px;
+    }
+    .clothSortImg50{
+        padding: 10px;
+    }
+    .clothSortImg50:hover{
+        transform: scale(1.05);
+    }
+    .clothSortImg50 img{
+        width: 100%;
     }
 }
 @media(max-width:375px){
-    footer{
-        margin-top: -80px;
+    .otherBanner{
+        margin-top: 29px;
+        height: 120px;
     }
-    footer .imgContainer .footer768{
-        display: none;
-    }
-    footer .imgContainer{
-        padding-top: 140px;
-    }
-    footer .imgContainer .imgContact img{
-        height: 100px;
-    }
-    footer .imgContainer .imgContact .textContainer{
-        letter-spacing: 2px;
-    }
-    footer .imgContainer .imgContact .textContainer p{
+    .otherBannerContainer .otherBannerTitle h1{
         font-size: 16px;
+        letter-spacing: 1px;
     }
-    footer .imgContainer .imgContact .textContainer .smallText{
-        font-size: 8px;
+    .otherBannerContainer .otherBannerTitle p{
+        font-size: 9px;
         letter-spacing: 0px;
     }
-    footer .footerContentContainer{
+    .anton-regular{
+        font-weight: 800;
+        letter-spacing: 0px;
+    }
+    .mainProductContainer .mainContainer{
+        margin-top: 12px;
+        width: 100%;
+    }
+    .mainProductContainer .mainContainer .mainTitle h2{
+        text-align: center;
+        font-size: 12px;
+    }
+    .mainProductContainer .mainContainer .mainTitle p{
+        text-align: center;
+        font-size: 8px;
+    }
+    .rightnowText{
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 7px;
+        right: 10px;
+        top: 30px;
+        border: 1.5px dashed #fff;
+        padding: 1.5px;
+    }
+    .mainProductContainer{
+        padding: 0 20px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    footer .footerContentContainer .titleDesignContainer{
-        height: 100px;
+    .mainProductContainer button,.otherBannerContainer .clothTopBtn{
+        bottom: 10px;
+        right: 10px;
+        border: 1.5px solid rgb(182, 182, 182);
+        padding: 0;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 15px;
-        padding-top: 20px;
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 10px;
+        padding: 0px 4px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 120px;
+    .mainProductContainer .mainContainer ul li i{
+        font-size: 6px;
     }
-    footer .footerContentContainer .design{
-        padding-left: 20px;
+    .mainProductContainer .mainContainer ul li a{
+        letter-spacing: 1px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 0px;
         padding-bottom: 30px;
     }
-    footer .footerContentContainer .design p{
-        color: #fff;
-        font-size: 4px;
-        line-height: 4px;
-        letter-spacing: 2px;
+    .mainProductContainer .bigProductImg img{
+        width: 90%;
     }
-    footer .footerContentContainer .contactUsContainer{
-        width: 40%;
+    .mainProductContainer .bigProductLowerbody60Img img{
+        width: 60%;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
-        height: 30px;
-        padding-top: 20px;
-        padding-left: 0;
-        padding-right: 10px;
+    .mainProductContainer .bigProductLowerbodyImg img{
+        width: 45%;
     }
-    footer .footerContentContainer .contactUs{
-        padding-top: 20px;
+    .clothSortImgContainer{
+        padding-top: 30px;
     }
-    footer .footerContentContainer .contactUs .contact{
-        display: flex;
+    .clothSortImgContainer img{
+        width: 100%;
+    }
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+        width: 50%;
+        margin-top: 30px;
+        letter-spacing: 3px;
+    }
+    .clothSortImgContainer p{
+        font-size: 22px;
+    }
+    .mainProductContainer .productContainer .product{
         margin-left: 20px;
-        margin-bottom: 6px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-top: 60px;
+        width: 70%;
     }
-    footer .footerContentContainer .contactUs .contact img{
-        width: 4%;
+    .mainProductContainer .productContainer .product430Hidden{
+        display: none;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 4px;
+    .mainProductContainer .productContainer .product .imgContainer{
+        height: 200px;
+    }
+    .mainProductContainer .productContainer .product .imgContainer img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .mainProductContainer .productContainer .product .aText{
+        padding: 0 14px;
+    }
+    .mainProductContainer .productContainer .product .aText a{
+        font-size: 9px;
+    }
+    .clothUl{
+        margin: 520px 0px 0 0;
+    }
+    .clothUl li{
+        padding: 8px 0px;
+    }
+    .clothUl li a{
+        padding: 8px 56px;
+        letter-spacing: 4px;
+    }
+    .clothSort{
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+    .clothSort li{
+        margin-left: -1px;
+        padding: 2px 0px;
+        border: 1px solid rgb(2, 121, 202);
+    }
+    .clothSort li a{
+        padding: 2px 10px;
+    }
+    .rightNowClothTitle p{
         padding-left: 20px;
-        letter-spacing: 2px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .rightNowClothTitle hr{
+        border: 2px solid rgb(2, 121, 202);
+    }
+    .clothSortImgContainer{
+        margin-bottom: 30px;
+    }
+    .clothSortImg50{
+        padding: 10px;
+    }
+    .clothSortImg50:hover{
+        transform: scale(1.05);
+    }
+    .clothSortImg50 img{
+        width: 100%;
     }
 }
 @media(max-width:320px){
-    footer{
-        margin-top: -60px;
-    }
-    footer .imgContainer .footer768{
-        display: none;
-    }
-    footer .imgContainer{
-        padding-top: 110px;
-    }
-    footer .imgContainer .imgContact img{
-        height: 70px;
-    }
-    footer .imgContainer .imgContact .textContainer{
-        letter-spacing: 2px;
-    }
-    footer .imgContainer .imgContact .textContainer p{
-        font-size: 14px;
-    }
-    footer .imgContainer .imgContact .textContainer .smallText{
-        font-size: 6px;
-        letter-spacing: 0px;
-    }
-    footer .footerContentContainer{
-        display: flex;
-    }
-    footer .footerContentContainer .titleDesignContainer{
+    .otherBanner{
+        margin-top: 24px;
         height: 100px;
     }
-    footer .footerContentContainer .titleDesignContainer .titlePicture{
-        padding-left: 15px;
-        padding-top: 20px;
-    }
-    footer .footerContentContainer .titleDesignContainer .titlePicture img{
-        width: 100px;
-    }
-    footer .footerContentContainer .design{
-        padding-left: 20px;
-        padding-bottom: 30px;
-    }
-    footer .footerContentContainer .design p{
-        color: #fff;
-        font-size: 4px;
-        line-height: 4px;
+    .otherBannerContainer .otherBannerTitle h1{
+        font-size: 12px;
         letter-spacing: 1px;
     }
-    footer .footerContentContainer .contactUsContainer{
-        width: 50%;
+    .otherBannerContainer .otherBannerTitle p{
+        font-size: 7px;
+        letter-spacing: 0px;
     }
-    footer .footerContentContainer .contactUsContainer .qrCode{
-        height: 20px;
-        padding-top: 20px;
-        padding-left: 0;
-        padding-right: 0px;
+    .anton-regular{
+        font-weight: 800;
+        letter-spacing: 0px;
     }
-    footer .footerContentContainer .contactUs{
-        padding-top: 20px;
+    .mainProductContainer .mainContainer{
+        margin-top: 8px;
+        width: 100%;
     }
-    footer .footerContentContainer .contactUs .contact{
-        display: flex;
-        margin-left: 30px;
-        margin-bottom: 6px;
+    .mainProductContainer .mainContainer .mainTitle h2{
+        text-align: center;
+        font-size: 12px;
     }
-    footer .footerContentContainer .contactUs .contact img{
-        width: 4%;
+    .mainProductContainer .mainContainer .mainTitle p{
+        text-align: center;
+        font-size: 8px;
     }
-    footer .footerContentContainer .contactUs .contact p{
-        font-size: 4px;
-        padding-left: 10px;
+    .rightnowText{
+        font-weight: 600;
         letter-spacing: 2px;
+        font-size: 6px;
+        right: 10px;
+        top: 26px;
+        border: 1px dashed #fff;
+        padding: 1.5px;
+    }
+    .mainProductContainer{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainProductContainer button,.otherBannerContainer .clothTopBtn{
+        bottom: 10px;
+        right: 10px;
+        border: 1px solid rgb(182, 182, 182);
+        padding: 0;
+    }
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 10px;
+        padding: 0px 4px;
+    }
+    .mainProductContainer .mainContainer ul li i{
+        font-size: 6px;
+    }
+    .mainProductContainer .mainContainer ul li a{
+        letter-spacing: 1px;
+        font-size: 9px;
+        padding: 2px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .mainProductContainer .bigProductImg img{
+        width: 90%;
+    }
+    .mainProductContainer .bigProductLowerbody60Img img{
+        width: 60%;
+    }
+    .mainProductContainer .bigProductLowerbodyImg img{
+        width: 45%;
+    }
+    .clothSortImgContainer{
+        padding-top: 30px;
+    }
+    .clothSortImgContainer img{
+        width: 100%;
+    }
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+        width: 50%;
+        margin-top: 30px;
+        letter-spacing: 3px;
+    }
+    .clothSortImgContainer p{
+        font-size: 22px;
+    }
+    .mainProductContainer .productContainer .product{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 14px;
+        padding-top: 60px;
+        width: 70%;
+    }
+    .mainProductContainer .productContainer .product430Hidden{
+        display: none;
+    }
+    .mainProductContainer .productContainer .product .imgContainer{
+        height: 200px;
+    }
+    .mainProductContainer .productContainer .product .imgContainer img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .mainProductContainer .productContainer .product .aText{
+        padding: 0 14px;
+    }
+    .mainProductContainer .productContainer .product .aText a{
+        font-size: 9px;
+    }
+    .clothUl{
+        margin: 520px 0px 0 0;
+    }
+    .clothUl li{
+        padding: 8px 0px;
+    }
+    .clothUl li a{
+        padding: 8px 56px;
+        letter-spacing: 4px;
+    }
+    .clothSort{
+        padding-left: 200px;
+        margin-top: 30px;
+    }
+    .clothSort li{
+        margin-left: -1px;
+        padding: 2px 0px;
+        border: 1px solid rgb(2, 121, 202);
+    }
+    .clothSort li a{
+        padding: 2px 10px;
+    }
+    .rightNowClothTitle p{
+        padding-left: 20px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .rightNowClothTitle hr{
+        border: 2px solid rgb(2, 121, 202);
+    }
+    .clothSortImgContainer{
+        margin-bottom: 30px;
+    }
+    .clothSortImg50{
+        padding: 10px;
+    }
+    .clothSortImg50:hover{
+        transform: scale(1.05);
+    }
+    .clothSortImg50 img{
+        width: 100%;
     }
 }

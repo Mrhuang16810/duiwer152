@@ -7,19 +7,25 @@
     font-size: 60px;
     font-weight: 900;
     color: rgb(1, 121, 182);
-    margin: 20px 0;
     transform: rotate(90deg);
 }
 .orderProcessContainer .orderProcess{
-    border: 2px solid rgb(1 , 121 , 202);
+    border: 4px solid rgb(1 , 121 , 202);
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin-top: 50px;
     padding: 10px 0 30px 0;
 }
-.orderProcessContainer .orderProcess .imgText{
+.orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+    border: 4px solid rgb(1 , 121 , 202);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
     font-size: 26px;
     font-weight: 900;
 }
@@ -31,4 +37,251 @@
 }
 .orderProcessContainer .orderProcess img{
     padding-left: 50px;
+}
+.orderProcessContainer .orderProcess2 img{
+    padding-left: 20px;
+}
+.orderProcessContainer .orderProcess3 img{
+    padding-left: 30px;
+}
+@media(max-width:1024px){
+    .orderContainer{
+        padding-bottom: 30px;
+    }
+    .orderProcessContainer .downMark{
+        font-size: 50px;
+    }
+    .orderProcessContainer .orderProcess{
+        border: 3px solid rgb(1 , 121 , 202);
+        margin-top: 40px;
+        padding: 10px 0 30px 0;
+    }
+    .orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+        border: 3px solid rgb(1 , 121 , 202);
+    }
+    .orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
+        font-size: 26px;
+    }
+    .orderProcessContainer .orderProcess ul li{
+        margin-bottom: 5px;
+    }
+    .orderProcessContainer .orderProcess img{
+        padding-left: 30px;
+    }
+    .orderProcessContainer .orderProcess2 img{
+        padding-left: 40px;
+    }
+    .orderProcessContainer .orderProcess3 img{
+        padding-left: 30px;
+    }
+    /* .orderFooter{
+        margin-top:-80px;
+    } */
+}
+@media(max-width:768px){
+    .orderProcessContainer .downMark{
+        font-size: 40px;
+    }
+    .orderProcessContainer .orderProcess{
+        border: 2.5px solid rgb(1 , 121 , 202);
+        margin-top: 30px;
+        padding: 10px 0 30px 0;
+    }
+    .orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+        border: 2.5px solid rgb(1 , 121 , 202);
+    }
+    .orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
+        font-size: 22px;
+        text-align: center;
+    }
+    .orderProcessContainer .orderProcess ul li{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .orderProcessContainer .orderProcess img{
+        padding-left: 26px;
+    }
+    .orderProcessContainer .orderProcess2 img{
+        padding-left: 30px;
+    }
+    .orderProcessContainer .orderProcess3 img{
+        padding-left: 20px;
+    }
+    /* .orderFooter{
+        margin-top:-60px;
+    } */
+}
+@media(max-width:576px){
+    .orderProcessContainer .downMark{
+        font-size: 30px;
+    }
+    .orderProcessContainer .orderProcess{
+        border: 2px solid rgb(1 , 121 , 202);
+        margin-top: 30px;
+        padding: 10px 0 30px 0;
+    }
+    .orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+        border: 2px solid rgb(1 , 121 , 202);
+    }
+    .orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
+        font-size: 18px;
+        text-align: center;
+    }
+    .orderProcessContainer .orderProcess ul li{
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .orderProcessContainer .orderProcess img{
+        padding-left: 20px;
+    }
+    .orderProcessContainer .orderProcess2 img{
+        padding-left: 20px;
+    }
+    .orderProcessContainer .orderProcess3 img{
+        padding-left: 10px;
+    }
+    /* .orderFooter{
+        margin-top:-50px;
+    } */
+}
+@media(max-width:430px){
+    .orderProcessContainer .downMark{
+        font-size: 24px;
+    }
+    .orderProcessContainer .orderProcess{
+        border: 1.5px solid rgb(1 , 121 , 202);
+        margin-top: 30px;
+        padding: 10px 0 30px 0;
+    }
+    .orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+        border: 1.5px solid rgb(1 , 121 , 202);
+    }
+    .orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
+        font-size: 14px;
+        text-align: center;
+    }
+    .orderProcessContainer .orderProcess ul li{
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .orderProcessContainer .orderProcess img{
+        padding-left: 20px;
+    }
+    .orderProcessContainer .orderProcess2 img{
+        padding-left: 10px;
+    }
+    .orderProcessContainer .orderProcess3 img{
+        padding-left: 4px;
+    }
+    /* .orderFooter{
+        margin-top: -30px;
+    } */
+}
+@media(max-width:390px){
+    .orderProcessContainer .downMark{
+        font-size: 24px;
+    }
+    .orderProcessContainer .orderProcess{
+        border: 1px solid rgb(1 , 121 , 202);
+        margin-top: 20px;
+        padding: 10px 0 20px 0;
+    }
+    .orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+        border: 1px solid rgb(1 , 121 , 202);
+    }
+    .orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
+        font-size: 12px;
+        text-align: center;
+    }
+    .orderProcessContainer .orderProcess ul{
+        padding-left: 34px;
+    }
+    .orderProcessContainer .orderProcess ul li{
+        margin-bottom: 3px;
+        font-size: 9px;
+    }
+    .orderProcessContainer .orderProcess img{
+        padding-left: 20px;
+    }
+    .orderProcessContainer .orderProcess2 img{
+        padding-left: 4px;
+    }
+    .orderProcessContainer .orderProcess3 img{
+        padding-left: 2px;
+    }
+    /* .orderFooter{
+        margin-top: -40px;
+    } */
+}
+@media(max-width:375px){
+    .orderProcessContainer .downMark{
+        font-size: 24px;
+    }
+    .orderProcessContainer .orderProcess{
+        border: 1px solid rgb(1 , 121 , 202);
+        margin-top: 20px;
+        padding: 10px 0 20px 0;
+    }
+    .orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+        border: 1px solid rgb(1 , 121 , 202);
+    }
+    .orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
+        font-size: 12px;
+        text-align: center;
+    }
+    .orderProcessContainer .orderProcess ul{
+        padding-left: 36px;
+    }
+    .orderProcessContainer .orderProcess ul li{
+        margin-bottom: 3px;
+        font-size: 8px;
+    }
+    .orderProcessContainer .orderProcess img{
+        padding-left: 20px;
+    }
+    .orderProcessContainer .orderProcess2 img{
+        padding-left: 4px;
+    }
+    .orderProcessContainer .orderProcess3 img{
+        padding-left: 2px;
+    }
+    /* .orderFooter{
+        margin-top: -40px;
+    } */
+}
+@media(max-width:320px){
+    .orderProcessContainer .downMark{
+        font-size: 24px;
+    }
+    .orderProcessContainer .orderProcess{
+        border: 1px solid rgb(1 , 121 , 202);
+        margin-top: 10px;
+        padding: 4px 0 10px 0;
+    }
+    .orderProcessContainer .orderProcess2,.orderProcessContainer .orderProcess3{
+        border: 1px solid rgb(1 , 121 , 202);
+    }
+    .orderProcessContainer .orderProcess .imgText,.orderProcessContainer .orderProcess2 .imgText,.orderProcessContainer .orderProcess3 .imgText{
+        font-size: 12px;
+        text-align: center;
+    }
+    .orderProcessContainer .orderProcess ul{
+        padding-left: 30px;
+    }
+    .orderProcessContainer .orderProcess ul li{
+        margin-bottom: 3px;
+        font-size: 7px;
+    }
+    .orderProcessContainer .orderProcess img{
+        padding-left: 20px;
+    }
+    .orderProcessContainer .orderProcess2 img{
+        padding-left: 4px;
+    }
+    .orderProcessContainer .orderProcess3 img{
+        padding-left: 2px;
+    }
+    /* .orderFooter{
+        margin-top: -40px;
+    } */
 }

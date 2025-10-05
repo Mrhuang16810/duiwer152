@@ -1,3 +1,6 @@
+.companyTitleHr{
+    overflow-x: hidden;
+}
 .logoContainer h2{
     margin-top: 50px;
     padding-left: 20px;
@@ -9,10 +12,230 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow-x: hidden;
 }
 .logoContainer .logoImgMediumBox{
-    padding-top: 500px;
+    padding-top: 50px;
+    overflow-x: hidden;
 }
 .logoContainer .logoImgDownBox{
     padding: 50px 0;
+    overflow-x: hidden;
+}
+.logoContainer .logoImgDownBox img{
+    width: 100%;
+}
+@media(max-width:1024px){
+    .logoContainer{
+        padding: 0 50px;
+    }
+    /* .logoFooter{
+        background: linear-gradient(172.5deg,#fff 26%,rgb(1,121,202) 0%);
+        margin-top: -90px;
+    }
+    .logoFooter .imgContainer{
+        padding-top: 210px;
+    } */
+}
+@media(max-width:768px){
+    /* .logoFooter{
+        background: linear-gradient(172.5deg,#fff 26%,rgb(1,121,202) 0%);
+    }
+    .logoFooter .imgContainer{
+        padding-top: 200px;
+    } */
+    .logoContainer{
+        padding: 0 20px;
+    }
+    .logoContainer h2{
+        margin-top: 50px;
+        padding-left: 20px;
+    }
+    .logoContainer hr{
+        border: 1px solid rgb(1, 121, 202);
+    }
+    .logoContainer .logoImgUpBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logoContainer .logoImgMediumBox{
+        padding-top: 50px;
+    }
+    .logoContainer .logoImgDownBox{
+        padding: 50px 0;
+    }
+    /* .logoFooter{
+        margin-top: -50px;
+    }
+} */
+@media(max-width:576px){
+    /* .logoFooter .imgContainer{
+        padding-top: 200px;
+    } */
+    .logoContainer{
+        padding: 0 20px;
+    }
+    .logoContainer h2{
+        margin-top: 50px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .logoContainer hr{
+        border: 0.8px solid rgb(1, 121, 202);
+    }
+    .logoContainer .logoImgUpBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logoContainer .logoImgMediumBox{
+        padding-top: 20px;
+    }
+    .logoContainer .logoImgDownBox{
+        padding: 20px 0;
+    }
+    /* .logoFooter{
+        margin-top: -10px;
+    }
+    .logoFooter .imgContainer{
+        padding-top: 100px;
+        background: linear-gradient(172.5deg,#fff 36%,rgb(1,121,202) 0%);
+    } */
+}
+@media(max-width:430px){
+    /* .logoFooter .imgContainer{
+        padding-top: 200px;
+    } */
+    .logoContainer{
+        padding: 0 20px;
+    }
+    .logoContainer h2{
+        margin-top: 50px;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .logoContainer hr{
+        border: 0.8px solid rgb(1, 121, 202);
+    }
+    .logoContainer .logoImgUpBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logoContainer .logoImgMediumBox{
+        padding-top: 20px;
+    }
+    .logoContainer .logoImgDownBox{
+        padding: 20px 0;
+    }
+    /* .logoFooter{
+        margin-top: -20px;
+    }
+    .logoFooter .imgContainer{
+        padding-top: 100px;
+        background: linear-gradient(172.5deg,#fff 36%,rgb(1,121,202) 0%);
+    } */
+}
+@media(max-width:390px){
+    /* .logoFooter .imgContainer{
+        padding-top: 200px;
+    } */
+    .logoContainer{
+        padding: 0 20px;
+    }
+    .logoContainer h2{
+        margin-top: 30px;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .logoContainer hr{
+        border: 0.8px solid rgb(1, 121, 202);
+    }
+    .logoContainer .logoImgUpBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logoContainer .logoImgMediumBox{
+        padding-top: 20px;
+    }
+    .logoContainer .logoImgDownBox{
+        padding: 20px 0;
+    }
+    /* .logoFooter{
+        margin-top: -20px;
+    }
+    .logoFooter .imgContainer{
+        padding-top: 90px;
+        background: linear-gradient(172.5deg,#fff 36%,rgb(1,121,202) 0%);
+    } */
+}
+@media(max-width:375px){
+    /* .logoFooter .imgContainer{
+        padding-top: 200px;
+    } */
+    .logoContainer{
+        padding: 0 20px;
+    }
+    .logoContainer h2{
+        margin-top: 30px;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .logoContainer hr{
+        border: 0.8px solid rgb(1, 121, 202);
+    }
+    .logoContainer .logoImgUpBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logoContainer .logoImgMediumBox{
+        padding-top: 20px;
+    }
+    .logoContainer .logoImgDownBox{
+        padding: 20px 0;
+    }
+    /* .logoFooter{
+        margin-top: -20px;
+    }
+    .logoFooter .imgContainer{
+        padding-top: 80px;
+        background: linear-gradient(172.5deg,#fff 36%,rgb(1,121,202) 0%);
+    } */
+}
+@media(max-width:320px){
+    /* .logoFooter .imgContainer{
+        padding-top: 200px;
+    } */
+    .logoContainer{
+        padding: 0 20px;
+    }
+    .logoContainer h2{
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+    .logoContainer hr{
+        border: 0.5px solid rgb(1, 121, 202);
+    }
+    .logoContainer .logoImgUpBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logoContainer .logoImgMediumBox{
+        padding-top: 20px;
+    }
+    .logoContainer .logoImgDownBox{
+        padding: 14px 0;
+    }
+    /* .logoFooter{
+        margin-top: -20px;
+    }
+    .logoFooter .imgContainer{
+        padding-top: 66px;
+        background: linear-gradient(172.5deg,#fff 36%,rgb(1,121,202) 0%);
+    } */
 }
