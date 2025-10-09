@@ -1766,8 +1766,7 @@ nav button{
     box-shadow: 3px 3px 3px #000;
     cursor: pointer;
     color: #000;
-    /* background-color: rgb(182,182,182); */
-    border: transparent;
+    background-color: transparent;
 }
 .footer420hidden .footerContentContainer .titleDesignContainer{
     position: relative;
