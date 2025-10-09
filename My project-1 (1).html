@@ -87,7 +87,21 @@
                 </div>
                 <div class="design">
                     <p>Website Design Copyright 2025 © 華仁服飾有限公司</p>
-                    <p>All Rights Reserved 網頁設計 by Peeta</p>
+                    <p>All Rights Reserved 網頁設計 by <button class="myCard">Peeta</button></p>
+                </div>
+                <div class="myCardImgList">
+                    <div class="myCardImg">
+                        <img src="images/My QRcode.png" alt="My QRcode.png">
+                        <p>LineID：mrhuang16810</p>
+                        <p>聯絡電話：0983-066-635</p>
+                        <p>發案 請加line或電聯</p>
+                    </div>
+                    <br>
+                    <div class="myCardContentContainer">
+                        <p class="myCardContent">Peeta 作品雖不多，但 擁有學習的精神，精益求精，不斷要求自己 寫code、審美觀的進步，讓作品達到您滿意。</p>
+                        <br>
+                        <p class="myCardContent">Peeta 會依照您的產業，先畫出風格草稿給您做參考，待搞確認無誤後，即專心寫code。</p>
+                    </div>
                 </div>
             </div>
             <div class="contactUsContainer">
@@ -137,7 +151,19 @@
                     </div>
                     <div class="design">
                         <p>Website Design Copyright 2025 © 華仁服飾有限公司</p>
-                        <p>All Rights Reserved 網頁設計 by Peeta</p>
+                        <p>All Rights Reserved 網頁設計 by <button class="myCard">Peeta</button></p>
+                    </div>
+                    <div class="myCardImgList">
+                        <div class="myCardImg">
+                            <img src="images/My QRcode.png" alt="My QRcode.png">
+                            <p>LineID：mrhuang16810</p>
+                            <p>聯絡電話：0983-066-635</p>
+                            <p>發案 請加line或電聯</p>
+                        </div>
+                        <div class="myCardContentContainer">
+                            <p class="myCardContent">Peeta 作品雖不多，但 擁有學習的精神，精益求精，不斷要求自己 寫code、審美觀的進步，讓作品達到您滿意。</p>
+                            <p class="myCardContent">Peeta 會依照您的產業，先畫出風格草稿給您做參考，待搞確認無誤後，即專心寫code。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="contactUsContainer">
@@ -188,7 +214,19 @@
                     </div>
                     <div class="design">
                         <p>Website Design Copyright 2025 © 華仁服飾有限公司</p>
-                        <p>All Rights Reserved 網頁設計 by Peeta</p>
+                        <p>All Rights Reserved 網頁設計 by <button class="myCard">Peeta</button></p>
+                    </div>
+                    <div class="myCardImgList">
+                        <div class="myCardImg">
+                            <img src="images/My QRcode.png" alt="My QRcode.png">
+                            <p>LineID：mrhuang16810</p>
+                            <p>聯絡電話：0983-066-635</p>
+                            <p>發案 請加line或電聯</p>
+                        </div>
+                        <div class="myCardContentContainer">
+                            <p class="myCardContent">Peeta 作品雖不多，但 擁有學習的精神，精益求精，不斷要求自己 寫code、審美觀的進步，讓作品達到您滿意。</p>
+                            <p class="myCardContent">Peeta 會依照您的產業，先畫出風格草稿給您做參考，待搞確認無誤後，即專心寫code。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="contactUsContainer">
@@ -220,6 +258,10 @@
         </div>
     </footer>
     <script>
+        const myCard = document.querySelector(".myCard")
+        $('.myCard').click(function(){
+            $('.myCardImgList').toggle()
+        })
         $(function(){
             $(".nav-btn").click(function(){
                 $(".nav-ulRwd").slideToggle(1000)
