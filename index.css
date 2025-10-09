@@ -1761,7 +1761,7 @@ nav button{
     line-height: 14px;
     letter-spacing: 3px;
 }
-.footer420hidden .footerContentContainer .design p .myCard{
+.footer420hidden .footerContentContainer .design p span{
     font-weight: 900;
     box-shadow: 3px 3px 3px #000;
     cursor: pointer;
@@ -1865,7 +1865,7 @@ nav button{
         line-height: 10px;
         letter-spacing: 3px;
     }
-    .footer420hidden .footerContentContainer .design p .myCard{
+    .footer420hidden .footerContentContainer .design p span{
         font-weight: 900;
         box-shadow: 3px 3px 3px #000;
         cursor: pointer;
@@ -1961,7 +1961,7 @@ nav button{
         line-height: 10px;
         letter-spacing: 2px;
     }
-    .footer420hidden .footerContentContainer .design p .myCard{
+    .footer420hidden .footerContentContainer .design p span{
         font-weight: 900;
         box-shadow: 3px 3px 3px #000;
         cursor: pointer;
@@ -2058,7 +2058,7 @@ nav button{
         line-height: 10px;
         letter-spacing: 1px;
     }
-    .footer420hidden .footerContentContainer .design p .myCard{
+    .footer420hidden .footerContentContainer .design p span{
         font-weight: 900;
         box-shadow: 2.5px 2.5px 2.5px #000;
         cursor: pointer;
@@ -2176,7 +2176,7 @@ nav button{
         line-height: 6px;
         letter-spacing: 0.5px;
     }
-    .footer420show .footerContentContainer .design p .myCard{
+    .footer420show .footerContentContainer .design p span{
         font-weight: 900;
         box-shadow: 2px 2px 2px #000;
         font-size: 8px;
@@ -2286,7 +2286,7 @@ nav button{
         line-height: 6px;
         letter-spacing: 0.5px;
     }
-    .footer420show .footerContentContainer .design p .myCard{
+    .footer420show .footerContentContainer .design p span{
         font-weight: 900;
         box-shadow: 2px 2px 2px #000;
         cursor: pointer;
@@ -2413,7 +2413,7 @@ nav button{
         line-height: 4px;
         letter-spacing: 0.5px;
     }
-    .footer375show .footerContentContainer .design p .myCard{
+    .footer375show .footerContentContainer .design p span{
         font-weight: 900;
         box-shadow: 1.5px 1.5px 1.5px #000;
         cursor: pointer;
@@ -2529,7 +2529,7 @@ nav button{
         line-height: 4px;
         letter-spacing: 0.5px;
     }
-    .footer375show .footerContentContainer .design p .myCard{
+    .footer375show .footerContentContainer .design p span{
         font-weight: 900;
         box-shadow: 1px 1px 1px #000;
         cursor: pointer;
