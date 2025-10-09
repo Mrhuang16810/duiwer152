@@ -1761,12 +1761,11 @@ nav button{
     line-height: 14px;
     letter-spacing: 3px;
 }
-.footer420hidden .footerContentContainer .design p button{
+.footer420hidden .footerContentContainer .design p span{
     font-weight: 900;
-    box-shadow: 3px 3px 3px #000;
+    text-shadow: 2px 2px 2px #fff;
     cursor: pointer;
     color: #000;
-    background-color: transparent;
 }
 .footer420hidden .footerContentContainer .titleDesignContainer{
     position: relative;
@@ -1865,9 +1864,9 @@ nav button{
         line-height: 10px;
         letter-spacing: 3px;
     }
-    .footer420hidden .footerContentContainer .design p button{
+    .footer420hidden .footerContentContainer .design p span{
         font-weight: 900;
-        box-shadow: 3px 3px 3px #000;
+        text-shadow: 2px 2px 2px #fff;
         cursor: pointer;
     }
     .footer420hidden .footerContentContainer .titleDesignContainer{
@@ -1961,9 +1960,9 @@ nav button{
         line-height: 10px;
         letter-spacing: 2px;
     }
-    .footer420hidden .footerContentContainer .design p button{
+    .footer420hidden .footerContentContainer .design p span{
         font-weight: 900;
-        box-shadow: 3px 3px 3px #000;
+        text-shadow: 2px 2px 2px #fff;
         cursor: pointer;
         font-size: 12px;
     }
@@ -2058,9 +2057,9 @@ nav button{
         line-height: 10px;
         letter-spacing: 1px;
     }
-    .footer420hidden .footerContentContainer .design p button{
+    .footer420hidden .footerContentContainer .design p span{
         font-weight: 900;
-        box-shadow: 2.5px 2.5px 2.5px #000;
+        text-shadow: 2px 2px 2px #fff;
         cursor: pointer;
         font-size: 10px;
     }
@@ -2176,11 +2175,12 @@ nav button{
         line-height: 6px;
         letter-spacing: 0.5px;
     }
-    .footer420show .footerContentContainer .design p button{
+    .footer420show .footerContentContainer .design p span{
         font-weight: 900;
-        box-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #fff;
         font-size: 8px;
         cursor: pointer;
+        color: #000;
     }
     .footer420show .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -2286,9 +2286,9 @@ nav button{
         line-height: 6px;
         letter-spacing: 0.5px;
     }
-    .footer420show .footerContentContainer .design p button{
+    .footer420show .footerContentContainer .design p span{
         font-weight: 900;
-        box-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #fff;
         cursor: pointer;
         font-size: 7px;
     }
@@ -2413,11 +2413,12 @@ nav button{
         line-height: 4px;
         letter-spacing: 0.5px;
     }
-    .footer375show .footerContentContainer .design p button{
+    .footer375show .footerContentContainer .design p span{
         font-weight: 900;
-        box-shadow: 1.5px 1.5px 1.5px #000;
+        text-shadow: 2px 2px 2px #fff;
         cursor: pointer;
         font-size: 6px;
+        color: #000;
     }
     .footer375show .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -2529,9 +2530,9 @@ nav button{
         line-height: 4px;
         letter-spacing: 0.5px;
     }
-    .footer375show .footerContentContainer .design p button{
+    .footer375show .footerContentContainer .design p span{
         font-weight: 900;
-        box-shadow: 1px 1px 1px #000;
+        text-shadow: 2px 2px 2px #fff;
         cursor: pointer;
         font-size: 5px;
     }
