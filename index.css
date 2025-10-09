@@ -1761,6 +1761,43 @@ nav button{
     line-height: 14px;
     letter-spacing: 3px;
 }
+.footer420hidden .footerContentContainer .design p button{
+    font-weight: 900;
+    box-shadow: 3px 3px 3px #000;
+    cursor: pointer;
+}
+.footer420hidden .footerContentContainer .titleDesignContainer{
+    position: relative;
+    z-index: 11;
+}
+.footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList{
+    position: absolute;
+    right: 50px;
+    top: -170px;
+    width: 200px;
+    border: 5px outset rgb(182,182,182);
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+}
+.footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList img{
+    width: 70%;
+}
+.footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 900;
+}
+.footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 200;
+}
 .footer420hidden .footerContentContainer .contactUsContainer{
     margin-top: 30px;
     display: flex;
@@ -1826,6 +1863,43 @@ nav button{
         line-height: 10px;
         letter-spacing: 3px;
     }
+    .footer420hidden .footerContentContainer .design p button{
+        font-weight: 900;
+        box-shadow: 3px 3px 3px #000;
+        cursor: pointer;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -70px;
+        top: -190px;
+        width: 190px;
+        border: 5px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 70%;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 12px;
+        font-weight: 200;
+    }
     .footer420hidden .footerContentContainer .contactUsContainer{
         margin-top: 20px;
     }
@@ -1885,6 +1959,44 @@ nav button{
         line-height: 10px;
         letter-spacing: 2px;
     }
+    .footer420hidden .footerContentContainer .design p button{
+        font-weight: 900;
+        box-shadow: 3px 3px 3px #000;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -130px;
+        top: -160px;
+        width: 170px;
+        border: 4px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 60%;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 10px;
+        font-weight: 200;
+    }
     .footer420hidden .footerContentContainer .contactUsContainer{
         margin-top: 20px;
     }
@@ -1943,6 +2055,44 @@ nav button{
         font-size: 8px;
         line-height: 10px;
         letter-spacing: 1px;
+    }
+    .footer420hidden .footerContentContainer .design p button{
+        font-weight: 900;
+        box-shadow: 2.5px 2.5px 2.5px #000;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -156px;
+        top: -140px;
+        width: 160px;
+        border: 4px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 50%;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 10px;
+        font-weight: 900;
+    }
+    .footer420hidden .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 9px;
+        font-weight: 200;
     }
     .footer420hidden .footerContentContainer .contactUsContainer{
         margin-top: 20px;
@@ -2024,6 +2174,45 @@ nav button{
         line-height: 6px;
         letter-spacing: 0.5px;
     }
+    .footer420show .footerContentContainer .design p button{
+        font-weight: 900;
+        box-shadow: 2px 2px 2px #000;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -126px;
+        top: -120px;
+        width: 130px;
+        border: 3px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 50%;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 9px;
+        font-weight: 900;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 8px;
+        font-weight: 200;
+        padding-top: 8px;
+    }
     .footer420show .footerContentContainer .contactUsContainer{
         margin-top:20px;
         display: flex;
@@ -2094,6 +2283,44 @@ nav button{
         font-size: 6px;
         line-height: 6px;
         letter-spacing: 0.5px;
+    }
+    .footer420show .footerContentContainer .design p button{
+        font-weight: 900;
+        box-shadow: 2px 2px 2px #000;
+        cursor: pointer;
+        font-size: 7px;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -130px;
+        top: -110px;
+        width: 130px;
+        border: 3px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 40%;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 8px;
+        font-weight: 900;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 7px;
+        font-weight: 200;
     }
     .footer420show .footerContentContainer .contactUsContainer{
         margin-top:10px;
@@ -2184,6 +2411,45 @@ nav button{
         line-height: 4px;
         letter-spacing: 0.5px;
     }
+    .footer375show .footerContentContainer .design p button{
+        font-weight: 900;
+        box-shadow: 1.5px 1.5px 1.5px #000;
+        cursor: pointer;
+        font-size: 6px;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -100px;
+        top: -90px;
+        width: 100px;
+        border: 3px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 40%;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 7px;
+        font-weight: 900;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 6px;
+        font-weight: 200;
+        padding-top: 5px;
+    }
     .footer375show .footerContentContainer .contactUsContainer{
         display: flex;
         margin-top: 10px;
@@ -2260,6 +2526,45 @@ nav button{
         font-size: 5px;
         line-height: 4px;
         letter-spacing: 0.5px;
+    }
+    .footer375show .footerContentContainer .design p button{
+        font-weight: 900;
+        box-shadow: 1px 1px 1px #000;
+        cursor: pointer;
+        font-size: 5px;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -86px;
+        top: -60px;
+        width: 80px;
+        border: 3px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 6px;
+        display: none;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 40%;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 6px;
+        font-weight: 900;
+    }
+    .footer375show .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 5px;
+        font-weight: 200;
+        padding-top: 5px;
     }
     .footer375show .footerContentContainer .contactUsContainer{
         display: flex;
