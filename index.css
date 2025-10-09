@@ -1761,13 +1761,18 @@ nav button{
     line-height: 14px;
     letter-spacing: 3px;
 }
-.footer420hidden .footerContentContainer .design p button{
+.footer420hidden .footerContentContainer .design .pBtnContainer{
+    display: flex;
+    align-items: center;
+}
+.footer420hidden .footerContentContainer .design button{
     font-weight: 900;
     box-shadow: 3px 3px 3px #000;
     cursor: pointer;
     color: #000;
-    border-radius: 0%;
-    border: none;
+    padding: 0 5px;
+    height: 24px;
+    margin-left: 10px;
 }
 .footer420hidden .footerContentContainer .titleDesignContainer{
     position: relative;
@@ -1866,12 +1871,10 @@ nav button{
         line-height: 10px;
         letter-spacing: 3px;
     }
-    .footer420hidden .footerContentContainer .design p button{
+    .footer420hidden .footerContentContainer .design button{
         font-weight: 900;
         box-shadow: 3px 3px 3px #000;
         cursor: pointer;
-        border-radius: 0%;
-        border: none;
     }
     .footer420hidden .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -1964,13 +1967,11 @@ nav button{
         line-height: 10px;
         letter-spacing: 2px;
     }
-    .footer420hidden .footerContentContainer .design p button{
+    .footer420hidden .footerContentContainer .design button{
         font-weight: 900;
         box-shadow: 3px 3px 3px #000;
         cursor: pointer;
         font-size: 12px;
-        border-radius: 0%;
-        border: none;
     }
     .footer420hidden .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -2063,13 +2064,11 @@ nav button{
         line-height: 10px;
         letter-spacing: 1px;
     }
-    .footer420hidden .footerContentContainer .design p button{
+    .footer420hidden .footerContentContainer .design button{
         font-weight: 900;
         box-shadow: 2.5px 2.5px 2.5px #000;
         cursor: pointer;
         font-size: 10px;
-        border-radius: 0%;
-        border: none;
     }
     .footer420hidden .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -2189,8 +2188,6 @@ nav button{
         font-size: 8px;
         cursor: pointer;
         color: #000;
-        border-radius: 0%;
-        border: none;
     }
     .footer420show .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -2302,8 +2299,6 @@ nav button{
         cursor: pointer;
         font-size: 7px;
         color: #000;
-        border-radius: 0%;
-        border: none;
     }
     .footer420show .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -2432,8 +2427,6 @@ nav button{
         cursor: pointer;
         font-size: 6px;
         color: #000;
-        border-radius: 0%;
-        border: none;
     }
     .footer375show .footerContentContainer .titleDesignContainer{
         position: relative;
@@ -2551,8 +2544,6 @@ nav button{
         cursor: pointer;
         font-size: 5px;
         color: #000;
-        border-radius: 0%;
-        border: none;
     }
     .footer375show .footerContentContainer .titleDesignContainer{
         position: relative;
