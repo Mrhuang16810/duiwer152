@@ -103,7 +103,21 @@
                 </div>
                 <div class="design">
                     <p>Website Design Copyright 2025 © 華仁服飾有限公司</p>
-                    <p>All Rights Reserved 網頁設計 by Peeta</p>
+                    <p>All Rights Reserved 網頁設計 by <button class="myCard">Peeta</button></p>
+                </div>
+                <div class="myCardImgList">
+                    <div class="myCardImg">
+                        <img src="images/My QRcode.png" alt="My QRcode.png">
+                        <p>LineID：mrhuang16810</p>
+                        <p>聯絡電話：0983-066-635</p>
+                        <p>發案 請加line或電聯</p>
+                    </div>
+                    <br>
+                    <div class="myCardContentContainer">
+                        <p class="myCardContent">Peeta 作品雖不多，但 擁有學習的精神，精益求精，不斷要求自己 寫code、審美觀的進步，讓作品達到您滿意。</p>
+                        <br>
+                        <p class="myCardContent">Peeta 會依照您的產業，先畫出風格草稿給您做參考，待搞確認無誤後，即專心寫code。</p>
+                    </div>
                 </div>
             </div>
             <div class="contactUsContainer">
@@ -153,7 +167,19 @@
                     </div>
                     <div class="design">
                         <p>Website Design Copyright 2025 © 華仁服飾有限公司</p>
-                        <p>All Rights Reserved 網頁設計 by Peeta</p>
+                        <p>All Rights Reserved 網頁設計 by <button class="myCard">Peeta</button></p>
+                    </div>
+                    <div class="myCardImgList">
+                        <div class="myCardImg">
+                            <img src="images/My QRcode.png" alt="My QRcode.png">
+                            <p>LineID：mrhuang16810</p>
+                            <p>聯絡電話：0983-066-635</p>
+                            <p>發案 請加line或電聯</p>
+                        </div>
+                        <div class="myCardContentContainer">
+                            <p class="myCardContent">Peeta 作品雖不多，但 擁有學習的精神，精益求精，不斷要求自己 寫code、審美觀的進步，讓作品達到您滿意。</p>
+                            <p class="myCardContent">Peeta 會依照您的產業，先畫出風格草稿給您做參考，待搞確認無誤後，即專心寫code。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="contactUsContainer">
@@ -204,7 +230,19 @@
                     </div>
                     <div class="design">
                         <p>Website Design Copyright 2025 © 華仁服飾有限公司</p>
-                        <p>All Rights Reserved 網頁設計 by Peeta</p>
+                        <p>All Rights Reserved 網頁設計 by <button class="myCard">Peeta</button></p>
+                    </div>
+                    <div class="myCardImgList">
+                        <div class="myCardImg">
+                            <img src="images/My QRcode.png" alt="My QRcode.png">
+                            <p>LineID：mrhuang16810</p>
+                            <p>聯絡電話：0983-066-635</p>
+                            <p>發案 請加line或電聯</p>
+                        </div>
+                        <div class="myCardContentContainer">
+                            <p class="myCardContent">Peeta 作品雖不多，但 擁有學習的精神，精益求精，不斷要求自己 寫code、審美觀的進步，讓作品達到您滿意。</p>
+                            <p class="myCardContent">Peeta 會依照您的產業，先畫出風格草稿給您做參考，待搞確認無誤後，即專心寫code。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="contactUsContainer">
@@ -236,11 +274,37 @@
         </div>
     </footer>
     <script>
+        const myCard = document.querySelector(".myCard")
+        $('.myCard').click(function(){
+            $('.myCardImgList').toggle()
+        })
         $(function(){
             $(".nav-btn").click(function(){
                 $(".nav-ulRwd").slideToggle(1000)
             })
         })
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({ 
+            // ─── 全域設定 ─── 
+            disable: false, // 何時停用 AOS：可填 'phone' / 'tablet' / 'mobile'，或直接給布林值、表達式、函式 
+            startEvent: 'DOMContentLoaded',// AOS 什麼事件被觸發時才開始初始化 
+            initClassName: 'aos-init', // 元素在初始化完成後會先加上的類名 
+            animatedClassName: 'aos-animate', // 動畫正式啟動時套用的類名 
+            useClassNames: false, // 若設為 true，會把 `data-aos` 的值做為類名，在滾動時一併加上 
+            disableMutationObserver: false,// 是否關閉 MutationObserver 自動偵測 DOM 變動（進階） 
+            debounceDelay: 50, // 視窗尺寸改變時的 debounce 間隔（毫秒） 
+            throttleDelay: 99, // 滾動事件的throttle 間隔（毫秒） 
+            // ─── 可用 `data-aos-*` 覆寫的項目 ─── 
+            offset: 120, // 觸發動畫時，元素與視窗的距離（px）120~150 
+            delay: 0, // 動畫延遲 0–3000 ms，步進 50 ms （最好不要下）
+            duration: 800, // 動畫時長 0–3000 ms，步進 50 ms 可調整成400~800（0.4~0.8秒）
+            easing: 'ease', // 動畫預設 easing 函式 
+            once: false, // true 表示動畫只在第一次向下滾動時播放 （動畫只跑一次false  往上再往下滾動時重新動畫一次true）
+            mirror: true, // true 表示滾過元素後向上滑回可再次播放（鏡像效果） 
+            anchorPlacement: 'top-bottom', // 判定元素相對視窗的位置來觸發動畫，例如 'top-bottom' 代表元素頂端到視窗底端 
+            }); 
     </script>
 </body>
 </html>
