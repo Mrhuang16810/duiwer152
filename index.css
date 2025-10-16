@@ -593,6 +593,9 @@ nav button{
 .product .productImgName li img{
     width: 100%;
 }
+.product .productImgName li .imgWidth70{
+    width: 70%;
+}
 .product .productImgName li .productNumName p{
     font-weight: 900;
     text-align: center;
@@ -735,6 +738,9 @@ nav button{
     }
     .product .productImgName li a img{
         width: 92%;
+    }
+    .product .productImgName li .imgWidth70{
+        width: 64%;
     }
     .product .productImgName li .productNumName p{
         font-size: 10px;

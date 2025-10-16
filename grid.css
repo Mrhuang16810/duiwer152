@@ -674,7 +674,7 @@ body{
         float: left;
     }
 }
-@media(min-width:420px){
+@media(min-width:430px){
     .col-phone430-100{
         width: 100%;
         float: left;
