@@ -593,7 +593,7 @@ nav button{
 .product .productImgName li img{
     width: 100%;
 }
-.product .productImgName li .imgWidth70{
+.product .productImgName li a .imgWidth70{
     width: 70%;
 }
 .product .productImgName li .productNumName p{
