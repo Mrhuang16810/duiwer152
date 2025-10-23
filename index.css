@@ -577,6 +577,9 @@ nav button{
     padding: 0;
     margin-top: 80px;
 }
+.product .productImgName li{
+    border: 1px solid rgb(182,182,182);
+}
 .product .productImgName li:hover{
     transform: scale(1.1);
 }
