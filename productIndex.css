@@ -853,7 +853,7 @@
         margin-left: 20px;
         margin-bottom: 20px;
         margin-top: 20px;
-        padding-top: 60px;
+        padding-top: 26px;
         width: 70%;
         border: 1px solid rgb(182, 182, 182);
     }
@@ -865,11 +865,7 @@
     }
     .mainProductContainer .productContainer .product .imgContainer img{
         width: 100%;
-        margin-bottom: 50px;
-    }
-    .mainProductContainer .productContainer .product .imgContainer .width80{
-        width: 70%;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
     }
     .mainProductContainer .productContainer .product .imgContainer .width62{
         width: 100%;
@@ -1024,7 +1020,7 @@
         margin-left: 20px;
         margin-bottom: 20px;
         margin-top: 10px;
-        padding-top: 60px;
+        padding-top: 10px;
         width: 70%;
     }
     .mainProductContainer .productContainer .product430Hidden{
@@ -1035,7 +1031,7 @@
     }
     .mainProductContainer .productContainer .product .imgContainer img{
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 14px;
@@ -1181,7 +1177,7 @@
         margin-left: 20px;
         margin-bottom: 20px;
         margin-top: 10px;
-        padding-top: 60px;
+        padding-top: 0px;
         width: 70%;
     }
     .mainProductContainer .productContainer .product430Hidden{
@@ -1192,7 +1188,7 @@
     }
     .mainProductContainer .productContainer .product .imgContainer img{
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 14px;
@@ -1339,7 +1335,7 @@
         margin-left: 20px;
         margin-bottom: 20px;
         margin-top: 14px;
-        padding-top: 60px;
+        padding-top: 0px;
         width: 70%;
     }
     .mainProductContainer .productContainer .product430Hidden{
@@ -1350,7 +1346,7 @@
     }
     .mainProductContainer .productContainer .product .imgContainer img{
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 14px;
