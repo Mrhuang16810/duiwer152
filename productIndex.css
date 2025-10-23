@@ -867,6 +867,10 @@
         width: 100%;
         margin-bottom: 50px;
     }
+    .mainProductContainer .productContainer .product .imgContainer .width80{
+        width: 70%;
+        margin-bottom: 70px;
+    }
     .mainProductContainer .productContainer .product .imgContainer .width62{
         width: 100%;
         height: 250px;
