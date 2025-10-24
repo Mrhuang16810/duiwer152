@@ -170,6 +170,7 @@
 .mainProductContainer .productContainer .product .imgContainer a{
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 .mainProductContainer .productContainer .product .imgContainer img{
     width: 100%;
@@ -204,6 +205,38 @@
     text-align: center;
 }
 .mainProductContainer .productContainer .product .aText a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.mainProductContainer .productContainer .productLong{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.mainProductContainer .productContainer .productLong:hover{
+    transform: scale(1.1);
+}
+.mainProductContainer .productContainer .productLong .imgContainer{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainProductContainer .productContainer .productLong .imgContainer a{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.mainProductContainer .productContainer .productLong .imgContainer img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mainProductContainer .productContainer .productLong .aText{
+    padding: 0 14px;
+    text-align: center;
+}
+.mainProductContainer .productContainer .productLong .aText a{
     text-decoration: none;
     color: #000;
     font-size: 14px;
@@ -396,6 +429,39 @@
     .mainProductContainer .productContainer .product .aText a{
         font-size: 13px;
     }
+    .mainProductContainer .productContainer .productLong{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .mainProductContainer .productContainer .productLong:hover{
+        transform: scale(1.1);
+    }
+    .mainProductContainer .productContainer .productLong .imgContainer{
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainProductContainer .productContainer .productLong .imgContainer a{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        width: 90%;
+    }
+    .mainProductContainer .productContainer .productLong .imgContainer img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mainProductContainer .productContainer .productLong .aText{
+        padding: 0 14px;
+        text-align: center;
+    }
+    .mainProductContainer .productContainer .productLong .aText a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
     .clothUl{
         margin: 520px 0px 0 0;
     }
@@ -546,6 +612,9 @@
     }
     .mainProductContainer .productContainer .product .aText a{
         font-size: 13px;
+    }
+    .mainProductContainer .productContainer .productLong .imgContainer a{
+        width: 100%;
     }
     .clothUl{
         margin: 520px 0px 0 0;
@@ -709,6 +778,9 @@
     .mainProductContainer .productContainer .product .aText a{
         font-size: 12px;
     }
+    .mainProductContainer .productContainer .productLong .imgContainer a{
+        width: 90%;
+    }
     .clothUl{
         margin: 520px 0px 0 0;
     }
@@ -857,9 +929,6 @@
         width: 70%;
         border: 1px solid rgb(182, 182, 182);
     }
-    .mainProductContainer .productContainer .product430Hidden{
-        display: none;
-    }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 200px;
     }
@@ -880,6 +949,9 @@
     }
     .mainProductContainer .productContainer .product .aText a{
         font-size: 10px;
+    }
+    .mainProductContainer .productContainer .productLong .imgContainer a{
+        width: 84%;
     }
     .clothUl{
         margin: 520px 0px 0 0;
@@ -1022,9 +1094,6 @@
         margin-top: 10px;
         padding-top: 10px;
         width: 70%;
-    }
-    .mainProductContainer .productContainer .product430Hidden{
-        display: none;
     }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 200px;
@@ -1179,9 +1248,6 @@
         margin-top: 10px;
         padding-top: 0px;
         width: 70%;
-    }
-    .mainProductContainer .productContainer .product430Hidden{
-        display: none;
     }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 200px;
@@ -1338,11 +1404,8 @@
         padding-top: 0px;
         width: 70%;
     }
-    .mainProductContainer .productContainer .product430Hidden{
-        display: none;
-    }
     .mainProductContainer .productContainer .product .imgContainer{
-        height: 200px;
+        height: 160px;
     }
     .mainProductContainer .productContainer .product .imgContainer img{
         width: 100%;
