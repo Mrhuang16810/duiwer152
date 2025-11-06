@@ -371,6 +371,10 @@
         const optionD = document.querySelector('#optionD')
         const changeImg = document.querySelector('.imgSmallSmallCircle')
         const content = document.querySelector('.content')
+        const myCard = document.querySelector(".myCard")
+        $('.myCard').click(function(){
+            $('.myCardImgList').toggle()
+        })
 
         optionA.addEventListener('click',function(){
             changeImg.setAttribute('class','imgSmallSmallCircle');
