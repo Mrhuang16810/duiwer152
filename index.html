@@ -364,14 +364,55 @@
         </div>
     </footer>
     <script>
-        const myCard = document.querySelector(".myCard")
-        $('.myCard').click(function(){
-            $('.myCardImgList').toggle()
-        })
         $(function(){
             $(".nav-btn").click(function(){
                 $(".nav-ulRwd").slideToggle(1000)
             })
+        })
+        const optionA = document.querySelector('#optionA')
+        const optionB = document.querySelector('#optionB')
+        const optionC = document.querySelector('#optionC')
+        const optionD = document.querySelector('#optionD')
+        const changeImg = document.querySelector('.imgSmallSmallCircle')
+        const content = document.querySelector('.content')
+
+        optionA.addEventListener('click',function(){
+            changeImg.setAttribute('class','imgSmallSmallCircle');
+        })
+        optionB.addEventListener('click',function(){
+            changeImg.setAttribute('class','imgSmallSmallCircle2');
+        })
+        optionC.addEventListener('click',function(){
+            changeImg.setAttribute('class','imgSmallSmallCircle3');
+        })
+        optionD.addEventListener('click',function(){
+            changeImg.setAttribute('class','imgSmallSmallCircle4');
+        })
+        $('#optionA').click(function(){
+            $(".content").show();
+            $(".content2").hide();
+            $(".content3").hide();
+            $(".content4").hide();
+
+        })
+        $('#optionB').click(function(){
+            $(".content").hide();
+            $(".content2").show();
+            $(".content3").hide();
+            $(".content4").hide();
+
+        })
+        $('#optionC').click(function(){
+            $(".content").hide();
+            $(".content2").hide();
+            $(".content3").show();
+            $(".content4").hide();
+        })
+        $('#optionD').click(function(){
+            $(".content").hide();
+            $(".content2").hide();
+            $(".content3").hide();
+            $(".content4").show();
         })
     </script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
