@@ -5,7 +5,7 @@ nav{
     background-color: #fff;
     height: 83.33px;
     width: 100%;
-    z-index: 10;
+    z-index: 12;
 }
 nav .leftTitle{
     display: flex;
