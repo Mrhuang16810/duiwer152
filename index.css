@@ -240,8 +240,9 @@ nav button{
 .banner{
     margin-top: 83.33px;
     background-image: url("images/橫幅第二版-1.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     height: 710px;
     display: flex;
     flex-direction: column;
