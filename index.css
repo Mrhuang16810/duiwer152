@@ -245,9 +245,282 @@ nav button{
     background-position: center;
     height: 710px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     overflow-x: hidden;
+}
+.banner .bannerBox1{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .bannerBox1 .polo{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 14px;
+    display: block;
+    text-align: center;
+    width: 70%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-left: 160px;
+    margin-top: 16px;
+}
+.banner .bannerBox1 .polo img{
+    width: 70%;
+}
+.banner .bannerBox1 .christmas{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 32px;
+    display: block;
+    text-align: center;
+    width: 70%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 0px;
+}
+.banner .bannerBox1 .christmas img{
+    width: 90%;
+}
+.banner .bannerBox2{
+    /* background-color: red; */
+    /* padding-top: 14px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .bannerBox2 .blouse{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 30px 20px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    font-size: 14px;
+    margin-left: 200px;
+}
+.banner .bannerBox2 .blouse img{
+    width: 100%;
+}
+.banner .bannerBox2 .towel{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 14px 22px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: 60px;
+}
+.banner .bannerBox2 .towel img{
+    width: 90%;
+}
+.banner .bannerBox2 .apron{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 22px;
+    display: block;
+    text-align: center;
+    width: 66%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+.banner .bannerBox2 .apron img{
+    width: 88%;
+}
+.banner .bannerBox3{
+    /* background-color: grey;     */
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .bannerBox3 .coat{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 22px 20px;
+    display: block;
+    text-align: center;
+    width: 66%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+.banner .bannerBox3 .coat img{
+    width: 90%;
+}
+.banner .bannerBox3 .hat{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 18px 20px;
+    display: block;
+    text-align: center;
+    width: 66%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 12px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+.banner .bannerBox3 .hat img{
+    width: 80%;
+}
+.banner .bannerBox4{
+    /* background-color: blue;     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .bannerBox4 .tshirt{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 10px 14px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    font-size: 14px;
+}
+.banner .bannerBox4 .tshirt img{
+    width: 70%;
+}
+.banner .bannerBox4 .basketball{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 16px 18px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 10px;
+    font-size: 14px;
+}
+.banner .bannerBox4 .basketball img{
+    width: 38%;
+    margin: 10px 0;
+}
+.banner .bannerBox5{
+    /* background-color: brown;     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.banner .bannerBox5 .arm{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 26px 30px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    font-size: 14px;
+}
+.banner .bannerBox5 .arm img{
+    width: 100%;
+}
+.banner .bannerBox5 .test{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 28px 36px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    font-size: 14px;
+}
+.banner .bannerBox5 .test img{
+    width: 110%;
+}
+.banner .bannerBox6{
+    /* background-color: pink;   */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .bannerBox6 .bag{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 14px 30px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    font-size: 14px;
+}
+.banner .bannerBox6 .bag img{
+    width: 90%;
+}
+.banner .bannerBox6 .strap{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 12px 26px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    font-size: 14px;
+}
+.banner .bannerBox6 .strap img{
+    width: 80%;
+}
+.banner .bannerBox7{
+    /* background-color: green;     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .bannerBox7 .catTshirt{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 12px 26px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 6px;
+    font-size: 14px;
+}
+.banner .bannerBox7 .catTshirt img{
+    width: 80%;
+}
+.banner .bannerBox7 .knickers{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 40px 26px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 14px;
+    font-size: 14px;
+}
+.banner .bannerBox7 .knickers img{
+    width: 110%;
 }
 .banner p{
     color: #fff;
@@ -285,6 +558,284 @@ nav button{
         margin-top: 70px;
         height: 510px;
     }
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px;
+        display: block;
+        text-align: center;
+        width: 70%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 130px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 70%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 24px;
+        display: block;
+        text-align: center;
+        width: 68%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 90%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 26px 20px;
+        display: block;
+        text-align: center;
+        width: 54%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 12px;
+        margin-left: 200px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 18px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 12px;
+        margin-top: -16px;
+        margin-left: 56px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 90%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 18px;
+        display: block;
+        text-align: center;
+        width: 65%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 88%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 18px 16px;
+        display: block;
+        text-align: center;
+        width: 54%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -20px;
+        margin-left: 74px;
+        font-size: 12px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 16px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: 46px;
+        font-size: 12px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 80%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 14px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 70%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 16px 18px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 26px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 24px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 14px;
+        font-size: 12px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 30px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 26px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 26px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 80%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 30px 22px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 14px;
+        font-size: 12px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
+    }
     .banner p{
         font-size: 30px;
         font-weight: 900;
@@ -320,6 +871,288 @@ nav button{
         margin-top: 52px;
         height: 380px;
     }
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 12px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 110px;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 70%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 16px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 90%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 16px;
+        display: block;
+        text-align: center;
+        width: 44%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 11px;
+        margin-top: 10px;
+        margin-left: 160px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 18px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 10px;
+        margin-top: -16px;
+        margin-left: 40px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 90%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 14px;
+        display: block;
+        text-align: center;
+        width: 64%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 88%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 16px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -30px;
+        margin-left: 50px;
+        font-size: 11px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: 24px;
+        font-size: 11px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 80%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 14px;
+        display: block;
+        text-align: center;
+        width: 46%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -54px;
+        font-size: 11px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 70%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 16px 18px;
+        display: block;
+        text-align: center;
+        width: 44%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -14px;
+        margin-left: 40px;
+        font-size: 11px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 16px 22px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: 20px;
+        margin-right: 0px;
+        font-size: 11px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 16px 20px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 24px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        font-size: 11px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 22px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        font-size: 11px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 20px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        font-size: 11px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 80%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 16px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
+    }
     .banner p{
         font-size: 20px;
         font-weight: 900;
@@ -354,6 +1187,293 @@ nav button{
     .banner{
         margin-top: 43px;
         height: 290px;
+    }
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 8px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 90px;
+        margin-top: 10px;
+        font-size: 9px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 90%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 18px 12px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -10px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 90%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 12px;
+        display: block;
+        text-align: center;
+        width: 44%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 9px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 18px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 8px;
+        margin-top: -10px;
+        margin-left: 30px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 14px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        margin-left: -10px;
+        font-size: 11px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 88%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -44px;
+        margin-left: 38px;
+        font-size: 9px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 45%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -4px;
+        margin-left: -26px;
+        font-size: 9px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 80%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -60px;
+        font-size: 9px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 70%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 14px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -8px;
+        margin-left: 14px;
+        font-size: 8px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 16px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: -30px;
+        margin-right: 0px;
+        font-size: 9px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 16px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -10px;
+        font-size: 9px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 20px;
+        display: block;
+        text-align: center;
+        width: 32%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -50px;
+        font-size: 8px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 16px;
+        display: block;
+        text-align: center;
+        width: 46%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: -24px;
+        font-size: 8px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 20px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: -50px;
+        font-size: 11px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 80%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 16px 16px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -30px;
+        font-size: 9px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
     }
     .banner p{
         font-size: 16px;
@@ -391,6 +1511,293 @@ nav button{
         margin-top:38px;
         height: 220px;
     }
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 90%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 8px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -16px;
+        margin-left: 0px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 100%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 38%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 7px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 18px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 6px;
+        margin-top: -8px;
+        margin-left: 34px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 12px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        margin-left: -10px;
+        font-size: 9px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 100%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 10px;
+        display: block;
+        text-align: center;
+        width: 42%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -54px;
+        margin-left: 30px;
+        font-size: 6px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 35%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -6px;
+        margin-left: -26px;
+        font-size: 7px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 80%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -50px;
+        font-size: 8px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 10px;
+        display: block;
+        text-align: center;
+        width: 42%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -30px;
+        margin-left: 26px;
+        font-size: 6px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 6px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 24%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        margin-left: -30px;
+        margin-right: 0px;
+        font-size: 7px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 14px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 6px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -50px;
+        font-size: 6px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: -10px;
+        font-size: 5px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 14px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: -50px;
+        font-size: 7px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 14px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: -20px;
+        font-size: 6px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
+    }
     .banner p{
         font-size: 14px;
         font-weight: 900;
@@ -420,10 +1827,875 @@ nav button{
         padding-left: 8px;
     }
 }
+@media(max-width:420px){
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 90%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 8px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -16px;
+        margin-left: 0px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 100%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 38%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 7px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 46%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 5px;
+        margin-top: -6px;
+        margin-left: 34px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 12px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        margin-left: -10px;
+        font-size: 9px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 100%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 10px;
+        display: block;
+        text-align: center;
+        width: 42%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -54px;
+        margin-left: 30px;
+        font-size: 6px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 35%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -6px;
+        margin-left: -26px;
+        font-size: 7px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 80%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -50px;
+        font-size: 8px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 10px;
+        display: block;
+        text-align: center;
+        width: 42%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -30px;
+        margin-left: 26px;
+        font-size: 6px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 6px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 24%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        margin-left: -30px;
+        margin-right: 0px;
+        font-size: 7px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 14px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 6px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -50px;
+        font-size: 6px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: -10px;
+        font-size: 5px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 14px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: -50px;
+        font-size: 7px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 14px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: -20px;
+        font-size: 6px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
+    }
+}
+@media(max-width:390px){
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 90%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 20px 8px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -16px;
+        margin-left: 0px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 100%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 38%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 7px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 46%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 5px;
+        margin-top: -6px;
+        margin-left: 34px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 12px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        margin-left: -10px;
+        font-size: 9px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 100%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 10px;
+        display: block;
+        text-align: center;
+        width: 42%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -54px;
+        margin-left: 30px;
+        font-size: 6px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 35%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -6px;
+        margin-left: -26px;
+        font-size: 7px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 80%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -50px;
+        font-size: 8px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 12px 10px;
+        display: block;
+        text-align: center;
+        width: 42%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -30px;
+        margin-left: 26px;
+        font-size: 6px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 6px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 24%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 0px;
+        margin-left: -30px;
+        margin-right: 0px;
+        font-size: 7px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 14px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 6px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -50px;
+        font-size: 6px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: -10px;
+        font-size: 5px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 14px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: -50px;
+        font-size: 7px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 14px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: -20px;
+        font-size: 6px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
+    }
+}
 @media(max-width:375px){
     .banner{
         margin-top: 29px;
         height: 190px;
+    }
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 90%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 10px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -16px;
+        margin-left: 0px;
+        font-size: 5px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 100%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 7px;
+        margin-top: 10px;
+        margin-left: 64px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 8px;
+        display: block;
+        text-align: center;
+        width: 46%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 4px;
+        margin-top: 42px;
+        margin-left: 0px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 12px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -86px;
+        margin-left: 20px;
+        font-size: 7px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 100%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 2px 14px;
+        display: block;
+        text-align: center;
+        width: 64%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -26px;
+        margin-left: 24px;
+        font-size: 5px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 24%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -82px;
+        margin-left: 6px;
+        font-size: 5.5px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 100%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 12px;
+        display: block;
+        text-align: center;
+        width: 28%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -54px;
+        font-size: 8px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 6px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -30px;
+        margin-left: 20px;
+        font-size: 5px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 6px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 24%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -8px;
+        margin-right: 0px;
+        font-size: 6px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 12px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 2px;
+        font-size: 6px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        width: 32%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -20px;
+        font-size: 5px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 8px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: -10px;
+        font-size: 4px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 12px;
+        display: block;
+        text-align: center;
+        width: 34%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -30px;
+        font-size: 7px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 14px 14px;
+        display: block;
+        text-align: center;
+        width: 32%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: -10px;
+        font-size: 5px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
     }
     .banner p{
         font-size: 12px;
@@ -460,6 +2732,293 @@ nav button{
     .banner{
         margin-top: 24px;
         height: 160px;
+    }
+    .banner .bannerBox1{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox1 .polo{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 7px;
+    }
+    .banner .bannerBox1 .polo img{
+        width: 90%;
+    }
+    .banner .bannerBox1 .christmas{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 8px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -20px;
+        margin-left: 0px;
+        font-size: 5px;
+    }
+    .banner .bannerBox1 .christmas img{
+        width: 100%;
+    }
+    .banner .bannerBox2{
+        /* background-color: red; */
+        /* padding-top: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox2 .blouse{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 6px;
+        display: block;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: 64px;
+    }
+    .banner .bannerBox2 .blouse img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .towel{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 8px;
+        display: block;
+        text-align: center;
+        width: 46%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        font-size: 4px;
+        margin-top: 33px;
+        margin-left: 0px;
+    }
+    .banner .bannerBox2 .towel img{
+        width: 100%;
+    }
+    .banner .bannerBox2 .apron{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 10px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -72px;
+        margin-left: 34px;
+        font-size: 5px;
+    }
+    .banner .bannerBox2 .apron img{
+        width: 100%;
+    }
+    .banner .bannerBox3{
+        /* background-color: grey;     */
+        padding-top: 116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 1px 14px;
+        display: block;
+        text-align: center;
+        width: 64%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -40px;
+        margin-left: 24px;
+        font-size: 4px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .hat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 8px;
+        display: block;
+        text-align: center;
+        width: 24%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -69px;
+        margin-left: 10px;
+        font-size: 5.5px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 100%;
+    }
+    .banner .bannerBox4{
+        /* background-color: blue;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox4 .tshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 10px;
+        display: block;
+        text-align: center;
+        width: 28%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 10px;
+        margin-left: -44px;
+        font-size: 6px;
+    }
+    .banner .bannerBox4 .tshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox4 .basketball{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 4px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: -32px;
+        margin-left: 20px;
+        font-size: 4px;
+    }
+    .banner .bannerBox4 .basketball img{
+        width: 42%;
+        margin: 4px 0;
+    }
+    .banner .bannerBox5{
+        /* background-color: brown;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 6px;
+    }
+    .banner .bannerBox5 .arm{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 10px;
+        display: block;
+        text-align: center;
+        width: 26%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: -10px;
+        margin-right: 0px;
+        font-size: 6px;
+    }
+    .banner .bannerBox5 .arm img{
+        width: 110%;
+    }
+    .banner .bannerBox5 .test{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 8px 10px;
+        display: block;
+        text-align: center;
+        width: 40%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 2px;
+        font-size: 6px;
+    }
+    .banner .bannerBox5 .test img{
+        width: 110%;
+    }
+    .banner .bannerBox6{
+        /* background-color: pink;   */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox6 .bag{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 10px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -26px;
+        font-size: 5px;
+    }
+    .banner .bannerBox6 .bag img{
+        width: 90%;
+    }
+    .banner .bannerBox6 .strap{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 8px;
+        display: block;
+        text-align: center;
+        width: 38%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: -10px;
+        font-size: 3px;
+    }
+    .banner .bannerBox6 .strap img{
+        width: 80%;
+    }
+    .banner .bannerBox7{
+        /* background-color: green;     */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .bannerBox7 .catTshirt{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 2px 12px;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 8px;
+        margin-left: -36px;
+        font-size: 7px;
+    }
+    .banner .bannerBox7 .catTshirt img{
+        width: 100%;
+    }
+    .banner .bannerBox7 .knickers{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 10px;
+        display: block;
+        text-align: center;
+        width: 32%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: -22px;
+        font-size: 5px;
+    }
+    .banner .bannerBox7 .knickers img{
+        width: 110%;
     }
     .banner p{
         font-size: 10px;
@@ -701,7 +3260,7 @@ nav button{
 }
 @media(max-width:768px){
     .topContainer{
-        margin-top: 30px;
+        margin-top: 460px;
     }
     .product .productTitle{
         margin-bottom: 50px;
@@ -764,7 +3323,7 @@ nav button{
 }
 @media(max-width:576px){
     .topContainer{
-        margin-top: 20px;
+        margin-top: 360px;
     }
     .product .productTitle{
         margin-bottom: 10px;
@@ -843,7 +3402,7 @@ nav button{
 }
 @media(max-width:430px){
     .topContainer{
-        margin-top: 10px;
+        margin-top: 270px;
     }
     .product .productTitle{
         margin-bottom: 10px;
@@ -919,9 +3478,14 @@ nav button{
         border: 1.5px solid rgb(1,121,202);
     }
 }
+@media(max-width:420px){
+    .topContainer{
+        margin-top: 270px;
+    }
+}
 @media(max-width:390px){
     .topContainer{
-        margin-top: 6px;
+        margin-top: 270px;
     }
     .product .productTitle{
         margin-bottom: 4px;
@@ -975,7 +3539,7 @@ nav button{
 }
 @media(max-width:375px){
     .topContainer{
-        margin-top: 6px;
+        margin-top: 230px;
     }
     .product .productTitle{
         margin-bottom: 4px;
@@ -1021,7 +3585,7 @@ nav button{
 }
 @media(max-width:320px){
     .topContainer{
-        margin-top: 6px;
+        margin-top: 200px;
     }
     .product .classifyList{
         margin-top: 0px;
