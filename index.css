@@ -237,6 +237,10 @@ nav button{
         padding: 6px 6.5px;
     }
 }
+.bannerBox{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .banner{
     margin-top: 83.33px;
     background-image: url("images/橫幅第二版.png");
