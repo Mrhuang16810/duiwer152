@@ -389,7 +389,7 @@ nav button{
 .banner .bannerBox4 .tshirt{
     border: 1px solid rgb(1, 121, 202);
     border-radius: 50%;
-    padding: 10px 14px;
+    padding: 20px 14px;
     display: block;
     text-align: center;
     width: 60%;
@@ -399,7 +399,7 @@ nav button{
     font-size: 14px;
 }
 .banner .bannerBox4 .tshirt img{
-    width: 70%;
+    width: 90%;
 }
 .banner .bannerBox4 .basketball{
     border: 1px solid rgb(1, 121, 202);
@@ -701,7 +701,7 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 14px;
+        padding: 20px 14px;
         display: block;
         text-align: center;
         width: 60%;
@@ -711,7 +711,7 @@ nav button{
         font-size: 12px;
     }
     .banner .bannerBox4 .tshirt img{
-        width: 70%;
+        width: 90%;
     }
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
@@ -1015,7 +1015,7 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 14px;
+        padding: 14px 12px;
         display: block;
         text-align: center;
         width: 46%;
@@ -1026,7 +1026,7 @@ nav button{
         font-size: 11px;
     }
     .banner .bannerBox4 .tshirt img{
-        width: 70%;
+        width: 100%;
     }
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
@@ -1333,7 +1333,7 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 10px 10px;
         display: block;
         text-align: center;
         width: 40%;
@@ -1341,10 +1341,10 @@ nav button{
         color: rgb(1, 121, 202);
         margin-top: 10px;
         margin-left: -60px;
-        font-size: 9px;
+        font-size: 8px;
     }
     .banner .bannerBox4 .tshirt img{
-        width: 70%;
+        width: 110%;
     }
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
@@ -1656,7 +1656,7 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 8px 10px;
         display: block;
         text-align: center;
         width: 30%;
@@ -1667,7 +1667,7 @@ nav button{
         font-size: 8px;
     }
     .banner .bannerBox4 .tshirt img{
-        width: 100%;
+        width: 110%;
     }
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
@@ -1678,8 +1678,8 @@ nav button{
         width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -30px;
-        margin-left: 26px;
+        margin-top: -20px;
+        margin-left: 22px;
         font-size: 6px;
     }
     .banner .bannerBox4 .basketball img{
@@ -1995,7 +1995,7 @@ nav button{
         width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -30px;
+        margin-top: -20px;
         margin-left: 26px;
         font-size: 6px;
     }
@@ -2262,7 +2262,7 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 12px 12px;
         display: block;
         text-align: center;
         width: 30%;
@@ -2270,10 +2270,10 @@ nav button{
         color: rgb(1, 121, 202);
         margin-top: 10px;
         margin-left: -50px;
-        font-size: 8px;
+        font-size: 6px;
     }
     .banner .bannerBox4 .tshirt img{
-        width: 100%;
+        width: 110%;
     }
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
@@ -2284,7 +2284,7 @@ nav button{
         width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -30px;
+        margin-top: -24px;
         margin-left: 26px;
         font-size: 6px;
     }
@@ -2555,7 +2555,7 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 12px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
         width: 28%;
@@ -2577,7 +2577,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -30px;
+        margin-top: -24px;
         margin-left: 20px;
         font-size: 5px;
     }
@@ -2878,7 +2878,7 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 10px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
         width: 28%;
@@ -2900,7 +2900,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -32px;
+        margin-top: -22px;
         margin-left: 20px;
         font-size: 4px;
     }
