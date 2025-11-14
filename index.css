@@ -3143,6 +3143,7 @@ nav button{
 }
 .product .productImgName li{
     border: 1px solid rgb(182,182,182);
+
 }
 .product .productImgName li:hover{
     transform: scale(1.1);
@@ -3159,6 +3160,10 @@ nav button{
 }
 .product .productImgName li img{
     width: 100%;
+    height: 320px;
+}
+.product .productImgName li .productImgOneUpDown{
+    width: 60%;
     height: 320px;
 }
 .product .productImgName li .productNumName p{
@@ -3246,6 +3251,10 @@ nav button{
         width: 90%;
         height: 300px;
     }
+    .product .productImgName li .productImgOneUpDown{
+        width: 60%;
+        height: 300px;
+    }
     .product .productImgName li a .imgWidth70{
         width: 70%;
     }
@@ -3307,6 +3316,10 @@ nav button{
     }
     .product .productImgName li img{
         width: 90%;
+        height: 240px;
+    }
+    .product .productImgName li .productImgOneUpDown{
+        width: 56%;
         height: 240px;
     }
     .product .productImgName li a .imgWidth70{
@@ -3388,6 +3401,10 @@ nav button{
         width: 66%;
         height: 240px;
     }
+    .product .productImgName li .productImgOneUpDown{
+        width: 46%;
+        height: 240px;
+    }
     .product .productImgName li a .imgWidth70{
         width: 50%;
     }
@@ -3466,6 +3483,10 @@ nav button{
         width: 46%;
         height: 240px;
     }
+    .product .productImgName li .productImgOneUpDown{
+        width: 30%;
+        height: 240px;
+    }
     .product .productImgName li a .imgWidth70{
         width: 36%;
     }
@@ -3530,6 +3551,10 @@ nav button{
         width: 46%;
         height: 220px;
     }
+    .product .productImgName li .productImgOneUpDown{
+        width: 26%;
+        height: 220px;
+    }
     .product .productImgName li a .imgWidth70{
         width: 32%;
     }
@@ -3576,6 +3601,10 @@ nav button{
         width: 42%;
         height: 190px;
     }
+    .product .productImgName li .productImgOneUpDown{
+        width: 24%;
+        height: 190px;
+    }
     .product .productImgName li a .imgWidth70{
         width: 32%;
     }
@@ -3619,6 +3648,10 @@ nav button{
     }
     .product .productImgName li img{
         width: 38%;
+        height: 160px;
+    }
+    .product .productImgName li .productImgOneUpDown{
+        width: 20%;
         height: 160px;
     }
     .product .productImgName li a .imgWidth70{
