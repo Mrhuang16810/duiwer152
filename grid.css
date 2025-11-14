@@ -1341,3 +1341,169 @@ body{
         float: left;
     }
 }
+@media(min-width:1024px){
+    .col-desktop1440-100{
+        width: 100%;
+        float: left;
+    }
+    .col-desktop1440-98{
+        width: 98%;
+        float: left;
+    }
+    .col-desktop1440-97{
+        width: 97%;
+        float: left;
+    }
+    .col-desktop1440-93{
+        width: 93%;
+        float: left;
+    }
+    .col-desktop1440-91{
+        width: 91%;
+        float: left;
+    }
+    .col-desktop1440-90{
+        width: 90%;
+        float: left;
+    }
+    .col-desktop1440-87{
+        width: 87%;
+        float: left;
+    }
+    .col-desktop1440-80{
+        width: 80%;
+        float: left;
+    }
+    .col-desktop1440-75{
+        width: 75%;
+        float: left;
+    }
+    .col-desktop1440-68{
+        width: 68%;
+        float: left;
+    }
+    .col-desktop1440-67{
+        width: 66.667%;
+        float: left;
+    }
+    .col-desktop1440-66{
+        width: 66%;
+        float: left;
+    }
+    .col-desktop1440-65{
+        width: 65%;
+        float: left;
+    }
+    .col-desktop1440-60{
+        width: 60%;
+        float: left;
+    }
+    .col-desktop1440-55{
+        width: 55%;
+        float: left;
+    }
+    .col-desktop1440-53{
+        width: 53%;
+        float: left;
+    }
+    .col-desktop1440-50{
+        width: 50%;
+        float: left;
+    }
+    .col-desktop1440-48{
+        width: 48%;
+        float: left;
+    }
+    .col-desktop1440-45{
+        width: 45%;
+        float: left;
+    }
+    .col-desktop1440-40{
+        width: 40%;
+        float: left;
+    }
+    .col-desktop1440-36{
+        width: 36%;
+        float: left;
+    }
+    .col-desktop1440-33{
+        width: 33.333%;
+        float: left;
+    }
+    .col-desktop1440-32{
+        width: 32%;
+        float: left;
+    }
+    .col-desktop1440-31{
+        width: 31%;
+        float: left;
+    }
+    .col-desktop1440-30{
+        width: 30%;
+        float: left;
+    }
+    .col-desktop1440-29{
+        width: 29%;
+        float: left;
+    }
+    .col-desktop1440-25{
+        width: 25%;
+        float: left;
+    }
+    .col-desktop1440-24{
+        width: 24%;
+        float: left;
+    }
+    .col-desktop1440-20{
+        width: 20%;
+        float: left;
+    }
+    .col-desktop1440-18{
+        width: 18%;
+        float: left;
+    }
+    .col-desktop1440-15{
+        width: 15%;
+        float: left;
+    }
+    .col-desktop1440-14{
+        width: 14%;
+        float: left;
+    }
+    .col-desktop1440-13{
+        width: 13%;
+        float: left;
+    }
+    .col-desktop1440-12{
+        width: 12%;
+        float: left;
+    }
+    .col-desktop1440-10{
+        width: 10%;
+        float: left;
+    }
+    .col-desktop1440-9{
+        width: 9%;
+        float: left;
+    }
+    .col-desktop1440-7{
+        width: 7%;
+        float: left;
+    }
+    .col-desktop1440-5{
+        width: 5%;
+        float: left;
+    }
+    .col-desktop1440-4{
+        width: 4%;
+        float: left;
+    }
+    .col-desktop1440-3{
+        width: 3%;
+        float: left;
+    }
+    .col-desktop1440-2{
+        width: 2%;
+        float: left;
+    }
+}
