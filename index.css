@@ -442,17 +442,18 @@ nav button{
 .banner .bannerBox5 .test{
     border: 1px solid rgb(1, 121, 202);
     border-radius: 50%;
-    padding: 28px 36px;
+    padding: 18px 28px;
     display: block;
     text-align: center;
     width: 60%;
     text-decoration: none;
     color: rgb(1, 121, 202);
     margin-top: 6px;
+    margin-left: -4px;
     font-size: 14px;
 }
 .banner .bannerBox5 .test img{
-    width: 110%;
+    width: 76%;
 }
 .banner .bannerBox6{
     /* background-color: pink;   */
@@ -756,17 +757,17 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 20px 24px;
+        padding: 16px 24px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 14px;
+        margin-top: 6px;
         font-size: 12px;
     }
     .banner .bannerBox5 .test img{
-        width: 110%;
+        width: 86%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
@@ -1072,18 +1073,18 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 16px 20px;
+        padding: 10px 16px;
         display: block;
         text-align: center;
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
+        margin-top: 4px;
         margin-left: 20px;
         font-size: 10px;
     }
     .banner .bannerBox5 .test img{
-        width: 110%;
+        width: 86%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
@@ -1390,18 +1391,18 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 12px 16px;
+        padding: 8px 14px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
+        margin-top: 4px;
         margin-left: -10px;
         font-size: 9px;
     }
     .banner .bannerBox5 .test img{
-        width: 110%;
+        width: 100%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
@@ -1702,8 +1703,8 @@ nav button{
         width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
-        margin-left: -30px;
+        margin-top: 16px;
+        margin-left: -18px;
         margin-right: 0px;
         font-size: 7px;
     }
@@ -1719,12 +1720,12 @@ nav button{
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 20px;
+        margin-top: 2px;
         margin-left: 10px;
         font-size: 6px;
     }
     .banner .bannerBox5 .test img{
-        width: 110%;
+        width: 100%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
@@ -2019,13 +2020,13 @@ nav button{
         width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
-        margin-left: -30px;
+        margin-top: 14px;
+        margin-left: -18px;
         margin-right: 0px;
         font-size: 7px;
     }
     .banner .bannerBox5 .arm img{
-        width: 110%;
+        width: 100%;
     }
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
@@ -2036,7 +2037,7 @@ nav button{
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 20px;
+        margin-top: 2px;
         margin-left: 10px;
         font-size: 6px;
     }
@@ -2308,8 +2309,8 @@ nav button{
         width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
-        margin-left: -30px;
+        margin-top: 20px;
+        margin-left: -16px;
         margin-right: 0px;
         font-size: 7px;
     }
@@ -2319,18 +2320,18 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 14px;
+        padding: 10px 12px;
         display: block;
         text-align: center;
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 10px;
         font-size: 6px;
     }
     .banner .bannerBox5 .test img{
-        width: 110%;
+        width: 100%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
@@ -2497,10 +2498,10 @@ nav button{
         padding: 6px 12px;
         display: block;
         text-align: center;
-        width: 30%;
+        width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -86px;
+        margin-top: -88px;
         margin-left: 20px;
         font-size: 7px;
     }
@@ -2536,11 +2537,11 @@ nav button{
         padding: 6px 10px;
         display: block;
         text-align: center;
-        width: 24%;
+        width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -82px;
-        margin-left: 6px;
+        margin-top: -88px;
+        margin-left: 20px;
         font-size: 5.5px;
     }
     .banner .bannerBox3 .hat img{
@@ -2607,18 +2608,18 @@ nav button{
         font-size: 6px;
     }
     .banner .bannerBox5 .arm img{
-        width: 110%;
+        width: 90%;
     }
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 12px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
+        margin-top: 2px;
         margin-left: 2px;
         font-size: 6px;
     }
@@ -2862,8 +2863,8 @@ nav button{
         width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -69px;
-        margin-left: 10px;
+        margin-top: -70px;
+        margin-left: 16px;
         font-size: 5.5px;
     }
     .banner .bannerBox3 .hat img{
@@ -2935,7 +2936,7 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 10px;
+        padding: 4px 8px;
         display: block;
         text-align: center;
         width: 40%;
@@ -2946,7 +2947,7 @@ nav button{
         font-size: 6px;
     }
     .banner .bannerBox5 .test img{
-        width: 110%;
+        width: 90%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
