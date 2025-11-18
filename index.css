@@ -3059,6 +3059,475 @@ nav button{
 .topContainer{
     margin-top: 850px;
 }
+.sale{
+    overflow-x: hidden;
+}
+.sale .saleTitle{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.sale .saleTitle p{
+    font-weight: bold;
+    text-align: center;
+}
+.sale .saleTitle .engText{
+    letter-spacing: -2px;
+    font-size: 26px;
+    margin: 0;
+}
+.sale .saleTitle .engText span{
+    color: rgb(1, 121, 202);
+}
+.sale .saleTitle .chinessText{
+    font-size: 34px;
+    letter-spacing: 10px;
+    margin: 0;
+}
+.sale .classify{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+.sale .classify li a{
+    color: rgb(1, 121, 202);
+    font-weight: 500;
+    font-size: 20px;
+    border: 4px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 16px 24px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.sale .classify li a:hover,.sale .classifyList li a:hover{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.sale .classify .colorText a,.sale .classifyList .colorText a,.sale .classifyListList .colorText a{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.sale .classifyList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 40px;
+    padding-right: 460px;
+}
+.sale .classifyListList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 640px;
+}
+.sale .classifyListList li a:hover{
+    cursor: pointer;
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+}
+.sale .classifyList li span,.sale .classifyListList li span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sale .classifyList li a,.sale .classifyListList li a{
+    font-size: 18px;
+    color: rgb(1, 121, 202);
+    padding: 6px 14px;
+    border: 1px solid rgb(1, 121, 202);
+}
+.sale .saleImgName{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+.sale .saleImgName li{
+    border: 1px solid rgb(182,182,182);
+    margin-top: 6px;
+}
+.sale .saleImgName li:hover{
+    transform: scale(1.1);
+}
+.sale .saleImgName li a{
+    border: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+}
+.sale .saleImgName li img{
+    width: 90%;
+    height: 180px;
+}
+.sale .saleImgName li .saleImgOneUpDown{
+    width: 60%;
+    height: 320px;
+}
+.sale .saleImgName li .saleNumName p{
+    font-weight: 900;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+.sale a{
+    color: rgb(1, 121, 202);
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sale .moreContainer{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.sale .moreContainer a{
+    border: 3px solid rgb(1,121,202);
+    border-radius: 50%;
+}
+.sale .moreContainer a:hover{
+    background-color: rgb(1, 121, 202);
+    color: #fff;
+    border-radius: 50%;
+}
+@media(max-width:1024px){
+    .topContainer{
+        margin-top: 600px;
+    }
+    .sale .saleTitle{
+        margin-bottom: 30px;
+    }
+    .sale .saleTitle .engText{
+        letter-spacing: -2px;
+        font-size: 20px;
+    }
+    .sale .saleTitle .chinessText{
+        font-size: 26px;
+        letter-spacing: 10px;
+    }
+    .sale .saleImgName{
+        margin-top: 0px;
+    }
+    .sale .saleImgName li img{
+        width: 86%;
+        height: 180px;
+    }
+    .sale .saleImgName li .saleImgOneUpDown{
+        width: 60%;
+        height: 300px;
+    }
+    .sale .saleImgName li a .imgWidth70{
+        width: 70%;
+    }
+    .sale .saleImgName li .saleNumName p{
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 14px;
+    }
+    .sale a{
+        padding: 6px 22px;
+        font-size: 16px;
+    }
+    .sale .moreContainer a{
+        border: 2px solid rgb(1,121,202);
+    }
+}
+@media(max-width:768px){
+    .topContainer{
+        margin-top: 460px;
+    }
+    .sale .saleTitle{
+        margin-bottom: 20px;
+    }
+    .sale .saleTitle .engText{
+        letter-spacing: -2px;
+        font-size: 16px;
+    }
+    .sale .saleTitle .chinessText{
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    .sale .saleImgName{
+        margin-top: 0px;
+    }
+    .sale .saleImgName li img{
+        width: 80%;
+        height: 140px;
+    }
+    .sale .saleImgName li .saleImgOneUpDown{
+        width: 56%;
+        height: 240px;
+    }
+    .sale .saleImgName li a .imgWidth70{
+        width: 70%;
+    }
+    .sale .saleImgName li .saleNumName p{
+        font-size: 9px;
+        line-height: 11px;
+        margin-top: 10px;
+    }
+    .sale a{
+        padding: 4px 18px;
+        font-size: 10px;
+    }
+    .sale .moreContainer{
+        margin-bottom: 40px;
+    }
+    .sale .moreContainer a{
+        border: 2px solid rgb(1,121,202);
+    }
+}
+@media(max-width:576px){
+    .topContainer{
+        margin-top: 360px;
+    }
+    .sale .saleTitle{
+        margin-bottom: 10px;
+    }
+    .sale .saleTitle .engText{
+        letter-spacing: -1px;
+        font-size: 10px;
+    }
+    .sale .saleTitle .chinessText{
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .sale .saleImgName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+    .sale .saleImgName li{
+        width: 50%;
+    }
+     .sale .classifyList li a,.sale .classifyListList li a{
+        font-size: 10px;
+        padding: 3px 8px;
+    }
+    .sale .saleImgName{
+        margin-top: -30px;
+    }
+    .sale .saleImgName li{
+        margin-top: 40px;
+    }
+    .sale .saleImgName li img{
+        width: 66%;
+        height: 200px;
+    }
+    .sale .saleImgName li .saleImgOneUpDown{
+        width: 46%;
+        height: 240px;
+    }
+    .sale .saleImgName li a .imgWidth70{
+        width: 50%;
+    }
+    .sale .saleImgName li .saleNumName p{
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 10px;
+    }
+    .sale a{
+        padding: 3px 14px;
+        font-size: 10px;
+    }
+    .sale .moreContainer{
+        margin-bottom: 20px;
+    }
+    .sale .moreContainer a{
+        border: 1.5px solid rgb(1,121,202);
+    }
+}
+@media(max-width:430px){
+    .topContainer{
+        margin-top: 270px;
+    }
+    .sale .saleTitle{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .sale .saleTitle .engText{
+        letter-spacing: -0.5px;
+        font-size: 8px;
+    }
+    .sale .saleTitle .chinessText{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .sale .saleImgName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        margin-top: -30px;
+    }
+    .sale .saleImgName li{
+        width: 100%;
+        margin-top: -30px;
+        margin-top: 40px;
+    }
+    .sale .classifyList li a,.sale .classifyListList li a{
+        font-size: 8px;
+        padding: 2px 6px;
+    }
+    .sale .saleImgName li img{
+        width: 42%;
+        height: 180px;
+    }
+    .sale .saleImgName li .saleImgOneUpDown{
+        width: 30%;
+        height: 240px;
+    }
+    .sale .saleImgName li a .imgWidth70{
+        width: 36%;
+    }
+    .sale .saleImgName li .saleNumName p{
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 14px;
+    }
+    .sale a{
+        padding: 4px 16px;
+        font-size: 10px;
+    }
+    .sale .moreContainer a{
+        border: 1.5px solid rgb(1,121,202);
+    }
+}
+@media(max-width:420px){
+    .topContainer{
+        margin-top: 270px;
+    }
+}
+@media(max-width:390px){
+    .topContainer{
+        margin-top: 270px;
+    }
+    .sale .saleTitle{
+        margin-bottom: 10px;
+    }
+    .sale .saleTitle .engText{
+        letter-spacing: -0.5px;
+        font-size: 8px;
+    }
+    .sale .saleTitle .chinessText{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .sale .saleImgName li img{
+        width: 46%;
+        height: 220px;
+    }
+    .sale .saleImgName li .saleImgOneUpDown{
+        width: 26%;
+        height: 220px;
+    }
+    .sale .saleImgName li a .imgWidth70{
+        width: 32%;
+    }
+    .sale a{
+        padding: 3px 12px;
+        font-size: 9px;
+    }
+    .sale .moreContainer a{
+        border: 1px solid rgb(1,121,202);
+    }
+}
+@media(max-width:375px){
+    .topContainer{
+        margin-top: 230px;
+    }
+    .sale .saleTitle{
+        margin-bottom: 4px;
+    }
+    .sale .saleTitle .engText{
+        letter-spacing: -0.5px;
+        font-size: 8px;
+    }
+    .sale .saleTitle .chinessText{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .sale .saleImgName li img{
+        width: 42%;
+        height: 160px;
+    }
+    .sale .saleImgName li .saleImgOneUpDown{
+        width: 24%;
+        height: 190px;
+    }
+    .sale .saleImgName li .saleNumName p{
+        font-size: 8px;
+        line-height: 12px;
+        margin-top: 14px;
+    }
+    .sale .saleImgName li a .imgWidth70{
+        width: 32%;
+    }
+    .sale a{
+        padding: 3px 12px;
+        font-size: 9px;
+    }
+    .sale .moreContainer a{
+        border: 1px solid rgb(1,121,202);
+    }
+}
+@media(max-width:320px){
+    .topContainer{
+        margin-top: 200px;
+    }
+    .sale .saleImgName li{
+        width: 100%;
+    }
+    .sale .saleTitle{
+        margin-bottom: 10px;
+    }
+    .sale .classifyList li a,.sale .classifyListList li a{
+        font-size: 6px;
+        padding: 2px 6px;
+    }
+    .sale .saleImgName{
+        margin-top: -36px;
+    }
+    .sale .saleImgName li{
+        margin-top: 40px;
+    }
+    .sale .saleImgName li img{
+        width: 38%;
+        height: 160px;
+    }
+    .sale .saleImgName li .saleImgOneUpDown{
+        width: 20%;
+        height: 160px;
+    }
+    .sale .saleImgName li a .imgWidth70{
+        width: 32%;
+    }
+    .sale .saleImgName li .saleNumName p{
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 14px;
+    }
+    .sale a{
+        padding: 3px 14px;
+        font-size: 8px;
+    }
+    .sale .moreContainer a{
+        border: 1px solid rgb(1,121,202);
+    }
+}
+.topContainer{
+    margin-top: 850px;
+}
 .product{
     overflow-x: hidden;
 }
