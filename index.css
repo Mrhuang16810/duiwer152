@@ -500,10 +500,10 @@ nav button{
 .banner .bannerBox7 .catTshirt{
     border: 1px solid rgb(1, 121, 202);
     border-radius: 50%;
-    padding: 12px 26px;
+    padding: 36px 0px;
     display: block;
     text-align: center;
-    width: 60%;
+    width: 100%;
     text-decoration: none;
     color: rgb(1, 121, 202);
     margin-top: 6px;
@@ -814,10 +814,10 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 12px 26px;
+        padding: 24px 0px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 90%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 6px;
@@ -1131,10 +1131,10 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 20px;
+        padding: 20px 4px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 2px;
@@ -1451,14 +1451,14 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 20px;
+        padding: 14px 6px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 90%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 2px;
-        margin-left: -50px;
+        margin-left: -30px;
         font-size: 11px;
     }
     .banner .bannerBox7 .catTshirt img{
@@ -1473,8 +1473,8 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 10px;
-        margin-left: -30px;
+        margin-top: 4px;
+        margin-left: -26px;
         font-size: 9px;
     }
     .banner .bannerBox7 .knickers img{
@@ -1774,14 +1774,14 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 14px;
+        padding: 10px 8px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 6px;
-        margin-left: -50px;
+        margin-left: -40px;
         font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
@@ -1790,14 +1790,14 @@ nav button{
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 14px 14px;
+        padding: 8px 8px;
         display: block;
         text-align: center;
-        width: 34%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 2px;
-        margin-left: -20px;
+        margin-left: -14px;
         font-size: 6px;
     }
     .banner .bannerBox7 .knickers img{
@@ -2091,10 +2091,10 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 14px;
+        padding: 10px 6px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 6px;
@@ -2107,13 +2107,13 @@ nav button{
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 14px 14px;
+        padding: 10px 8px;
         display: block;
         text-align: center;
-        width: 34%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
+        margin-top: 0px;
         margin-left: -20px;
         font-size: 6px;
     }
@@ -2303,14 +2303,14 @@ nav button{
     .banner .bannerBox5 .arm{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 8px;
         display: block;
         text-align: center;
-        width: 24%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 20px;
-        margin-left: -16px;
+        margin-top: 8px;
+        margin-left: -4px;
         margin-right: 0px;
         font-size: 7px;
     }
@@ -2326,7 +2326,7 @@ nav button{
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
+        margin-top: 4px;
         margin-left: 10px;
         font-size: 6px;
     }
@@ -2342,14 +2342,14 @@ nav button{
     .banner .bannerBox6 .bag{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 12px;
         display: block;
         text-align: center;
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 8px;
-        margin-left: -50px;
+        margin-left: -20px;
         font-size: 6px;
     }
     .banner .bannerBox6 .bag img{
@@ -2358,14 +2358,14 @@ nav button{
     .banner .bannerBox6 .strap{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 8px;
+        padding: 8px 2px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 6px;
-        margin-left: -10px;
+        margin-top: 4px;
+        margin-left: -6px;
         font-size: 5px;
     }
     .banner .bannerBox6 .strap img{
@@ -2380,14 +2380,14 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 14px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 6px;
-        margin-left: -50px;
+        margin-left: -20px;
         font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
@@ -2396,14 +2396,14 @@ nav button{
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 14px 14px;
+        padding: 10px 8px;
         display: block;
         text-align: center;
-        width: 34%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
-        margin-left: -20px;
+        margin-top: 4px;
+        margin-left: -10px;
         font-size: 6px;
     }
     .banner .bannerBox7 .knickers img{
@@ -2596,13 +2596,13 @@ nav button{
     .banner .bannerBox5 .arm{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 2px 4px;
         display: block;
         text-align: center;
-        width: 24%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 10px;
+        margin-top: 4px;
         margin-left: -8px;
         margin-right: 0px;
         font-size: 6px;
@@ -2635,10 +2635,10 @@ nav button{
     .banner .bannerBox6 .bag{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 8px;
         display: block;
         text-align: center;
-        width: 32%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 8px;
@@ -2651,13 +2651,13 @@ nav button{
     .banner .bannerBox6 .strap{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 8px;
+        padding: 4px 6px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
+        margin-top: 2px;
         margin-left: -10px;
         font-size: 4px;
     }
@@ -2673,14 +2673,14 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 12px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
-        width: 34%;
+        width: 70%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
-        margin-left: -30px;
+        margin-top: 10px;
+        margin-left: -20px;
         font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
@@ -2689,13 +2689,13 @@ nav button{
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 14px 14px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
-        width: 32%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
+        margin-top: 4px;
         margin-left: -10px;
         font-size: 5px;
     }
@@ -2919,14 +2919,14 @@ nav button{
     .banner .bannerBox5 .arm{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 10px;
+        padding: 2px 6px;
         display: block;
         text-align: center;
-        width: 26%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
-        margin-left: -10px;
+        margin-top: 2px;
+        margin-left: -8px;
         margin-right: 0px;
         font-size: 6px;
     }
@@ -2936,7 +2936,7 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 8px;
+        padding: 4px 6px;
         display: block;
         text-align: center;
         width: 40%;
@@ -2944,7 +2944,7 @@ nav button{
         color: rgb(1, 121, 202);
         margin-top: 4px;
         margin-left: 2px;
-        font-size: 6px;
+        font-size: 5px;
     }
     .banner .bannerBox5 .test img{
         width: 90%;
@@ -2958,14 +2958,14 @@ nav button{
     .banner .bannerBox6 .bag{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 10px;
+        padding: 2px 6px;
         display: block;
         text-align: center;
-        width: 30%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
-        margin-left: -26px;
+        margin-top: 2px;
+        margin-left: -18px;
         font-size: 5px;
     }
     .banner .bannerBox6 .bag img{
@@ -2974,10 +2974,10 @@ nav button{
     .banner .bannerBox6 .strap{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 8px;
+        padding: 4px 4px;
         display: block;
         text-align: center;
-        width: 38%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 2px;
@@ -2996,15 +2996,15 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 2px 12px;
+        padding: 4px 6px;
         display: block;
         text-align: center;
-        width: 30%;
+        width: 70%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
-        margin-left: -36px;
-        font-size: 7px;
+        margin-top: 4px;
+        margin-left: -20px;
+        font-size: 6px;
     }
     .banner .bannerBox7 .catTshirt img{
         width: 100%;
@@ -3012,14 +3012,14 @@ nav button{
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 10px;
+        padding: 8px 6px;
         display: block;
         text-align: center;
-        width: 32%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
-        margin-left: -22px;
+        margin-top: 4px;
+        margin-left: -16px;
         font-size: 5px;
     }
     .banner .bannerBox7 .knickers img{
