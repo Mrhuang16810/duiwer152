@@ -297,14 +297,14 @@ nav button{
 .banner .bannerBox2 .blouse{
     border: 1px solid rgb(1, 121, 202);
     border-radius: 50%;
-    padding: 30px 20px;
+    padding: 24px 20px;
     display: block;
     text-align: center;
     width: 60%;
     text-decoration: none;
     color: rgb(1, 121, 202);
     font-size: 14px;
-    margin-left: 200px;
+    margin-left: 120px;
 }
 .banner .bannerBox2 .blouse img{
     width: 100%;
@@ -319,8 +319,8 @@ nav button{
     text-decoration: none;
     color: rgb(1, 121, 202);
     font-size: 14px;
-    margin-top: -4px;
-    margin-left: 60px;
+    margin-top: 4px;
+    margin-left: 50px;
 }
 .banner .bannerBox2 .towel img{
     width: 90%;
@@ -335,7 +335,7 @@ nav button{
     text-decoration: none;
     color: rgb(1, 121, 202);
     margin-top: 6px;
-    margin-left: 50px;
+    margin-left: 30px;
     font-size: 14px;
 }
 .banner .bannerBox2 .apron img{
@@ -343,42 +343,58 @@ nav button{
 }
 .banner .bannerBox3{
     /* background-color: grey;     */
-    padding-top: 120px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner .bannerBox3 .coat{
+.banner .bannerBox3 .hat{
     border: 1px solid rgb(1, 121, 202);
     border-radius: 50%;
-    padding: 22px 20px;
+    padding: 8px 0px;
     display: block;
     text-align: center;
     width: 66%;
     text-decoration: none;
     color: rgb(1, 121, 202);
-    margin-top: 6px;
-    margin-left: 60px;
+    margin-top: 8px;
+    margin-left: 70px;
+    font-size: 14px;
+}
+.banner .bannerBox3 .hat img{
+    width: 60%;
+}
+.banner .bannerBox3 .flag{
+    border: 1px solid rgb(182,182,182);
+    border-radius: 50%;
+    padding: 20px 22px;
+    display: block;
+    text-align: center;
+    width: 80%;
+    text-decoration: none;
+    color: rgb(182,182,182);
+    margin-top: 10px;
+    margin-left: 36px;
+    font-size: 12px;
+}
+.banner .bannerBox3 .flag img{
+    width: 90%;
+}
+.banner .bannerBox3 .coat{
+    border: 1px solid rgb(1, 121, 202);
+    border-radius: 50%;
+    padding: 18px 26px;
+    display: block;
+    text-align: center;
+    width: 66%;
+    text-decoration: none;
+    color: rgb(1, 121, 202);
+    margin-top: 8px;
+    margin-left: 50px;
     font-size: 14px;
 }
 .banner .bannerBox3 .coat img{
     width: 90%;
-}
-.banner .bannerBox3 .hat{
-    border: 1px solid rgb(1, 121, 202);
-    border-radius: 50%;
-    padding: 18px 20px;
-    display: block;
-    text-align: center;
-    width: 66%;
-    text-decoration: none;
-    color: rgb(1, 121, 202);
-    margin-top: 12px;
-    margin-left: 60px;
-    font-size: 14px;
-}
-.banner .bannerBox3 .hat img{
-    width: 80%;
 }
 .banner .bannerBox4{
     /* background-color: blue;     */
@@ -396,6 +412,7 @@ nav button{
     text-decoration: none;
     color: rgb(1, 121, 202);
     margin-top: 6px;
+    margin-left: 30px;
     font-size: 14px;
 }
 .banner .bannerBox4 .tshirt img{
@@ -411,6 +428,7 @@ nav button{
     text-decoration: none;
     color: rgb(1, 121, 202);
     margin-top: 10px;
+    margin-left: 30px;
     font-size: 14px;
 }
 .banner .bannerBox4 .basketball img{
@@ -572,13 +590,13 @@ nav button{
     .banner .bannerBox1 .polo{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 14px;
+        padding: 12px;
         display: block;
         text-align: center;
         width: 70%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 130px;
+        margin-left: 90px;
         margin-top: 10px;
         font-size: 12px;
     }
@@ -610,14 +628,14 @@ nav button{
     .banner .bannerBox2 .blouse{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 26px 20px;
+        padding: 22px 20px;
         display: block;
         text-align: center;
         width: 54%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         font-size: 12px;
-        margin-left: 200px;
+        margin-left: 100px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -632,8 +650,8 @@ nav button{
         text-decoration: none;
         color: rgb(1, 121, 202);
         font-size: 12px;
-        margin-top: -16px;
-        margin-left: 56px;
+        margin-top: -4px;
+        margin-left: 2px;
     }
     .banner .bannerBox2 .towel img{
         width: 90%;
@@ -655,43 +673,59 @@ nav button{
         width: 88%;
     }
     .banner .bannerBox3{
-        /* background-color: grey;     */
-        padding-top: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .banner .bannerBox3 .coat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 18px 16px;
-        display: block;
-        text-align: center;
-        width: 54%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -20px;
-        margin-left: 74px;
-        font-size: 12px;
-    }
-    .banner .bannerBox3 .coat img{
-        width: 90%;
+    /* background-color: grey;     */
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
     .banner .bannerBox3 .hat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 12px 16px;
+        padding: 6px 0px;
         display: block;
         text-align: center;
-        width: 60%;
+        width: 66%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
-        margin-left: 46px;
+        margin-top: 0px;
+        margin-left: 70px;
         font-size: 12px;
     }
     .banner .bannerBox3 .hat img{
+        width: 60%;
+    }
+    .banner .bannerBox3 .flag{
+        border: 1px solid rgb(182,182,182);
+        border-radius: 50%;
+        padding: 14px 22px;
+        display: block;
+        text-align: center;
         width: 80%;
+        text-decoration: none;
+        color: rgb(182,182,182);
+        margin-top: 2px;
+        margin-left: 14px;
+        font-size: 12px;
+    }
+    .banner .bannerBox3 .flag img{
+        width: 90%;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 10px 22px;
+        display: block;
+        text-align: center;
+        width: 66%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -723,8 +757,8 @@ nav button{
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-left: 30px;
         font-size: 12px;
     }
     .banner .bannerBox4 .basketball img{
@@ -748,7 +782,7 @@ nav button{
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 6px;
-        margin-right: 20px;
+        margin-right: 0px;
         font-size: 12px;
     }
     .banner .bannerBox5 .arm img{
@@ -763,7 +797,8 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 6px;
+        margin-top: 4px;
+        margin-left: 10px;
         font-size: 12px;
     }
     .banner .bannerBox5 .test img{
@@ -891,7 +926,7 @@ nav button{
         width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 110px;
+        margin-left: 90px;
         margin-top: 10px;
         font-size: 11px;
     }
@@ -907,11 +942,11 @@ nav button{
         width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
+        margin-top: -8px;
         font-size: 11px;
     }
     .banner .bannerBox1 .christmas img{
-        width: 90%;
+        width: 100%;
     }
     .banner .bannerBox2{
         /* background-color: red; */
@@ -923,7 +958,7 @@ nav button{
     .banner .bannerBox2 .blouse{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 20px 16px;
+        padding: 16px 16px;
         display: block;
         text-align: center;
         width: 44%;
@@ -931,7 +966,7 @@ nav button{
         color: rgb(1, 121, 202);
         font-size: 11px;
         margin-top: 10px;
-        margin-left: 160px;
+        margin-left: 90px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -946,8 +981,8 @@ nav button{
         text-decoration: none;
         color: rgb(1, 121, 202);
         font-size: 10px;
-        margin-top: -16px;
-        margin-left: 40px;
+        margin-top: -6px;
+        margin-left: 10px;
     }
     .banner .bannerBox2 .towel img{
         width: 90%;
@@ -962,7 +997,7 @@ nav button{
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 4px;
-        margin-left: 20px;
+        margin-left: 0px;
         font-size: 11px;
     }
     .banner .bannerBox2 .apron img{
@@ -970,42 +1005,58 @@ nav button{
     }
     .banner .bannerBox3{
         /* background-color: grey;     */
-        padding-top: 120px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner .bannerBox3 .coat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 14px 16px;
-        display: block;
-        text-align: center;
-        width: 60%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -30px;
-        margin-left: 50px;
-        font-size: 11px;
-    }
-    .banner .bannerBox3 .coat img{
-        width: 90%;
-    }
     .banner .bannerBox3 .hat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 0px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 66%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
-        margin-left: 24px;
-        font-size: 11px;
+        margin-top: 0px;
+        margin-left: 70px;
+        font-size: 9px;
     }
     .banner .bannerBox3 .hat img{
+        width: 50%;
+    }
+    .banner .bannerBox3 .flag{
+        border: 1px solid rgb(182,182,182);
+        border-radius: 50%;
+        padding: 10px 20px;
+        display: block;
+        text-align: center;
         width: 80%;
+        text-decoration: none;
+        color: rgb(182,182,182);
+        margin-top: 2px;
+        margin-left: 28px;
+        font-size: 9px;
+    }
+    .banner .bannerBox3 .flag img{
+        width: 90%;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 6px 18px;
+        display: block;
+        text-align: center;
+        width: 66%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 6px;
+        margin-left: 30px;
+        font-size: 9px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -1016,14 +1067,14 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 14px 12px;
+        padding: 8px 12px;
         display: block;
         text-align: center;
         width: 46%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 10px;
-        margin-left: -54px;
+        margin-top: 14px;
+        margin-left: 34px;
         font-size: 11px;
     }
     .banner .bannerBox4 .tshirt img{
@@ -1032,13 +1083,13 @@ nav button{
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 16px 18px;
+        padding: 12px 18px;
         display: block;
         text-align: center;
         width: 44%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -14px;
+        margin-top: 6px;
         margin-left: 40px;
         font-size: 11px;
     }
@@ -1208,7 +1259,7 @@ nav button{
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 90px;
+        margin-left: 70px;
         margin-top: 10px;
         font-size: 9px;
     }
@@ -1247,9 +1298,9 @@ nav button{
         width: 44%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 9px;
+        font-size: 8px;
         margin-top: 10px;
-        margin-left: 130px;
+        margin-left: 64px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -1257,15 +1308,15 @@ nav button{
     .banner .bannerBox2 .towel{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 18px;
+        padding: 10px 14px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         font-size: 8px;
-        margin-top: -10px;
-        margin-left: 30px;
+        margin-top: -8px;
+        margin-left: -4px;
     }
     .banner .bannerBox2 .towel img{
         width: 100%;
@@ -1279,51 +1330,67 @@ nav button{
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
+        margin-top: 2px;
         margin-left: -10px;
-        font-size: 11px;
+        font-size: 9px;
     }
     .banner .bannerBox2 .apron img{
         width: 88%;
     }
     .banner .bannerBox3{
         /* background-color: grey;     */
-        padding-top: 120px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner .bannerBox3 .coat{
+    .banner .bannerBox3 .hat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 0px;
         display: block;
         text-align: center;
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -44px;
-        margin-left: 38px;
-        font-size: 9px;
+        margin-top: 0px;
+        margin-left: 26px;
+        font-size: 8px;
+    }
+    .banner .bannerBox3 .hat img{
+        width: 40%;
+    }
+    .banner .bannerBox3 .flag{
+        border: 1px solid rgb(182,182,182);
+        border-radius: 50%;
+        padding: 10px 14px;
+        display: block;
+        text-align: center;
+        width: 80%;
+        text-decoration: none;
+        color: rgb(182,182,182);
+        margin-top: 4px;
+        margin-left: 16px;
+        font-size: 6.5px;
+    }
+    .banner .bannerBox3 .flag img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 2px 18px;
+        display: block;
+        text-align: center;
+        width: 66%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 10px;
+        font-size: 8px;
     }
     .banner .bannerBox3 .coat img{
         width: 90%;
-    }
-    .banner .bannerBox3 .hat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 8px 12px;
-        display: block;
-        text-align: center;
-        width: 45%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -4px;
-        margin-left: -26px;
-        font-size: 9px;
-    }
-    .banner .bannerBox3 .hat img{
-        width: 80%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -1334,14 +1401,14 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 10px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 10px;
-        margin-left: -60px;
+        margin-left: -20px;
         font-size: 8px;
     }
     .banner .bannerBox4 .tshirt img{
@@ -1356,7 +1423,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -8px;
+        margin-top: 0px;
         margin-left: 14px;
         font-size: 8px;
     }
@@ -1531,7 +1598,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 70px;
+        margin-left: 60px;
         margin-top: 10px;
         font-size: 7px;
     }
@@ -1547,7 +1614,7 @@ nav button{
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -16px;
+        margin-top: -12px;
         margin-left: 0px;
         font-size: 7px;
     }
@@ -1570,9 +1637,9 @@ nav button{
         width: 38%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 7px;
-        margin-top: 10px;
-        margin-left: 100px;
+        font-size: 5px;
+        margin-top: 14px;
+        margin-left: 40px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -1580,15 +1647,15 @@ nav button{
     .banner .bannerBox2 .towel{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 18px;
+        padding: 8px 14px;
         display: block;
         text-align: center;
         width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 6px;
-        margin-top: -8px;
-        margin-left: 34px;
+        font-size: 4.5px;
+        margin-top: 2px;
+        margin-left: 0px;
     }
     .banner .bannerBox2 .towel img{
         width: 100%;
@@ -1596,14 +1663,14 @@ nav button{
     .banner .bannerBox2 .apron{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 12px;
+        padding: 6px 16px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
-        margin-left: -10px;
+        margin-top: 2px;
+        margin-left: -6px;
         font-size: 9px;
     }
     .banner .bannerBox2 .apron img{
@@ -1611,42 +1678,58 @@ nav button{
     }
     .banner .bannerBox3{
         /* background-color: grey;     */
-        padding-top: 116px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner .bannerBox3 .coat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 8px 10px;
-        display: block;
-        text-align: center;
-        width: 42%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -54px;
-        margin-left: 30px;
-        font-size: 6px;
-    }
-    .banner .bannerBox3 .coat img{
-        width: 100%;
-    }
     .banner .bannerBox3 .hat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 10px;
+        padding: 2px 0px;
         display: block;
         text-align: center;
-        width: 35%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -6px;
-        margin-left: -26px;
-        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 6px;
     }
     .banner .bannerBox3 .hat img{
+        width: 50%;
+    }
+    .banner .bannerBox3 .flag{
+        border: 1px solid rgb(182,182,182);
+        border-radius: 50%;
+        padding: 4px 14px;
+        display: block;
+        text-align: center;
         width: 80%;
+        text-decoration: none;
+        color: rgb(182,182,182);
+        margin-top: 2px;
+        margin-left: 16px;
+        font-size: 5px;
+    }
+    .banner .bannerBox3 .flag img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 2px 18px;
+        display: block;
+        text-align: center;
+        width: 66%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 2px;
+        margin-left: 20px;
+        font-size: 6px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -1657,14 +1740,14 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 10px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
         width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 10px;
-        margin-left: -50px;
+        margin-left: -44px;
         font-size: 8px;
     }
     .banner .bannerBox4 .tshirt img{
@@ -1673,14 +1756,14 @@ nav button{
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 12px 10px;
+        padding: 16px 6px;
         display: block;
         text-align: center;
         width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -20px;
-        margin-left: 22px;
+        margin-top: -26px;
+        margin-left: 26px;
         font-size: 6px;
     }
     .banner .bannerBox4 .basketball img{
@@ -1703,7 +1786,7 @@ nav button{
         width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 16px;
+        margin-top: 4px;
         margin-left: -18px;
         margin-right: 0px;
         font-size: 7px;
@@ -1714,7 +1797,7 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 14px;
+        padding: 14px 14px;
         display: block;
         text-align: center;
         width: 34%;
@@ -1742,8 +1825,8 @@ nav button{
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
-        margin-left: -50px;
+        margin-top: 10px;
+        margin-left: -40px;
         font-size: 6px;
     }
     .banner .bannerBox6 .bag img{
@@ -1758,8 +1841,8 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 6px;
-        margin-left: -10px;
+        margin-top: 0px;
+        margin-left: -2px;
         font-size: 5px;
     }
     .banner .bannerBox6 .strap img{
@@ -1848,7 +1931,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 70px;
+        margin-left: 60px;
         margin-top: 10px;
         font-size: 7px;
     }
@@ -1864,7 +1947,7 @@ nav button{
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -16px;
+        margin-top: -12px;
         margin-left: 0px;
         font-size: 7px;
     }
@@ -1887,9 +1970,9 @@ nav button{
         width: 38%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 7px;
-        margin-top: 10px;
-        margin-left: 100px;
+        font-size: 5px;
+        margin-top: 14px;
+        margin-left: 40px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -1897,15 +1980,15 @@ nav button{
     .banner .bannerBox2 .towel{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 14px;
         display: block;
         text-align: center;
-        width: 46%;
+        width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 5px;
-        margin-top: -6px;
-        margin-left: 34px;
+        font-size: 4.5px;
+        margin-top: 2px;
+        margin-left: 0px;
     }
     .banner .bannerBox2 .towel img{
         width: 100%;
@@ -1913,57 +1996,18 @@ nav button{
     .banner .bannerBox2 .apron{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 12px;
+        padding: 6px 16px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
-        margin-left: -10px;
+        margin-top: 2px;
+        margin-left: -6px;
         font-size: 9px;
     }
     .banner .bannerBox2 .apron img{
         width: 100%;
-    }
-    .banner .bannerBox3{
-        /* background-color: grey;     */
-        padding-top: 116px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .banner .bannerBox3 .coat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 8px 10px;
-        display: block;
-        text-align: center;
-        width: 42%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -54px;
-        margin-left: 30px;
-        font-size: 6px;
-    }
-    .banner .bannerBox3 .coat img{
-        width: 100%;
-    }
-    .banner .bannerBox3 .hat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 6px 10px;
-        display: block;
-        text-align: center;
-        width: 35%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -6px;
-        margin-left: -26px;
-        font-size: 7px;
-    }
-    .banner .bannerBox3 .hat img{
-        width: 80%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -1974,14 +2018,14 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
         width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 10px;
-        margin-left: -50px;
+        margin-left: -42px;
         font-size: 8px;
     }
     .banner .bannerBox4 .tshirt img{
@@ -2014,7 +2058,7 @@ nav button{
     .banner .bannerBox5 .arm{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 8px;
         display: block;
         text-align: center;
         width: 24%;
@@ -2031,7 +2075,7 @@ nav button{
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 14px;
+        padding: 14px 12px;
         display: block;
         text-align: center;
         width: 34%;
@@ -2060,7 +2104,7 @@ nav button{
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 8px;
-        margin-left: -50px;
+        margin-left: -46px;
         font-size: 6px;
     }
     .banner .bannerBox6 .bag img{
@@ -2075,7 +2119,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 6px;
+        margin-top: 2px;
         margin-left: -10px;
         font-size: 5px;
     }
@@ -2091,14 +2135,14 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 6px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
         width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 6px;
-        margin-left: -50px;
+        margin-left: -40px;
         font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
@@ -2113,7 +2157,7 @@ nav button{
         width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
+        margin-top: 4px;
         margin-left: -20px;
         font-size: 6px;
     }
@@ -2137,7 +2181,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 70px;
+        margin-left: 60px;
         margin-top: 10px;
         font-size: 7px;
     }
@@ -2147,13 +2191,13 @@ nav button{
     .banner .bannerBox1 .christmas{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 20px 8px;
+        padding: 16px 8px;
         display: block;
         text-align: center;
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -16px;
+        margin-top: -12px;
         margin-left: 0px;
         font-size: 7px;
     }
@@ -2176,9 +2220,9 @@ nav button{
         width: 38%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 7px;
-        margin-top: 10px;
-        margin-left: 100px;
+        font-size: 5px;
+        margin-top: 14px;
+        margin-left: 40px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -2186,15 +2230,15 @@ nav button{
     .banner .bannerBox2 .towel{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 12px;
+        padding: 4px 12px;
         display: block;
         text-align: center;
-        width: 46%;
+        width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 5px;
-        margin-top: -6px;
-        margin-left: 34px;
+        font-size: 4.5px;
+        margin-top: 4px;
+        margin-left: -4px;
     }
     .banner .bannerBox2 .towel img{
         width: 100%;
@@ -2202,14 +2246,14 @@ nav button{
     .banner .bannerBox2 .apron{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 12px;
+        padding: 4px 14px;
         display: block;
         text-align: center;
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 0px;
-        margin-left: -10px;
+        margin-top: 4px;
+        margin-left: -6px;
         font-size: 9px;
     }
     .banner .bannerBox2 .apron img{
@@ -2217,42 +2261,58 @@ nav button{
     }
     .banner .bannerBox3{
         /* background-color: grey;     */
-        padding-top: 116px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner .bannerBox3 .coat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 8px 10px;
-        display: block;
-        text-align: center;
-        width: 42%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -54px;
-        margin-left: 30px;
-        font-size: 6px;
-    }
-    .banner .bannerBox3 .coat img{
-        width: 100%;
-    }
     .banner .bannerBox3 .hat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 10px;
+        padding: 2px 0px;
         display: block;
         text-align: center;
-        width: 35%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -6px;
-        margin-left: -26px;
-        font-size: 7px;
+        margin-top: 2px;
+        margin-left: 2px;
+        font-size: 6px;
     }
     .banner .bannerBox3 .hat img{
+        width: 50%;
+    }
+    .banner .bannerBox3 .flag{
+        border: 1px solid rgb(182,182,182);
+        border-radius: 50%;
+        padding: 4px 14px;
+        display: block;
+        text-align: center;
         width: 80%;
+        text-decoration: none;
+        color: rgb(182,182,182);
+        margin-top: 4px;
+        margin-left: 10px;
+        font-size: 4px;
+    }
+    .banner .bannerBox3 .flag img{
+        width: 100%;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 2px 18px;
+        display: block;
+        text-align: center;
+        width: 66%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 20px;
+        font-size: 6px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -2263,18 +2323,18 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 12px 12px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
         width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 10px;
-        margin-left: -50px;
+        margin-top: 12px;
+        margin-left: -38px;
         font-size: 6px;
     }
     .banner .bannerBox4 .tshirt img{
-        width: 110%;
+        width: 100%;
     }
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
@@ -2285,7 +2345,7 @@ nav button{
         width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -24px;
+        margin-top: -20px;
         margin-left: 26px;
         font-size: 6px;
     }
@@ -2306,32 +2366,32 @@ nav button{
         padding: 4px 8px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 8px;
-        margin-left: -4px;
+        margin-left: -14px;
         margin-right: 0px;
         font-size: 7px;
     }
     .banner .bannerBox5 .arm img{
-        width: 110%;
+        width: 100%;
     }
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 12px;
+        padding: 14px 12px;
         display: block;
         text-align: center;
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
+        margin-top: 2px;
         margin-left: 10px;
         font-size: 6px;
     }
     .banner .bannerBox5 .test img{
-        width: 100%;
+        width: 110%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
@@ -2342,14 +2402,14 @@ nav button{
     .banner .bannerBox6 .bag{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 12px;
+        padding: 8px 12px;
         display: block;
         text-align: center;
         width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 8px;
-        margin-left: -20px;
+        margin-left: -46px;
         font-size: 6px;
     }
     .banner .bannerBox6 .bag img{
@@ -2358,14 +2418,14 @@ nav button{
     .banner .bannerBox6 .strap{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 2px;
+        padding: 8px 8px;
         display: block;
         text-align: center;
-        width: 60%;
+        width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
-        margin-left: -6px;
+        margin-top: 2px;
+        margin-left: -10px;
         font-size: 5px;
     }
     .banner .bannerBox6 .strap img{
@@ -2380,14 +2440,14 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 8px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
         width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 6px;
-        margin-left: -20px;
+        margin-left: -40px;
         font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
@@ -2403,7 +2463,7 @@ nav button{
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 4px;
-        margin-left: -10px;
+        margin-left: -20px;
         font-size: 6px;
     }
     .banner .bannerBox7 .knickers img{
@@ -2411,10 +2471,6 @@ nav button{
     }
 }
 @media(max-width:375px){
-    .banner{
-        margin-top: 29px;
-        height: 190px;
-    }
     .banner .bannerBox1{
         /* background-color: yellow; */
         display: flex;
@@ -2430,7 +2486,7 @@ nav button{
         width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 70px;
+        margin-left: 60px;
         margin-top: 10px;
         font-size: 7px;
     }
@@ -2440,15 +2496,15 @@ nav button{
     .banner .bannerBox1 .christmas{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 14px 10px;
+        padding: 16px 8px;
         display: block;
         text-align: center;
-        width: 60%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -16px;
+        margin-top: -12px;
         margin-left: 0px;
-        font-size: 5px;
+        font-size: 7px;
     }
     .banner .bannerBox1 .christmas img{
         width: 100%;
@@ -2466,12 +2522,12 @@ nav button{
         padding: 8px 8px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 38%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 7px;
-        margin-top: 10px;
-        margin-left: 64px;
+        font-size: 5px;
+        margin-top: 14px;
+        margin-left: 40px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -2479,15 +2535,15 @@ nav button{
     .banner .bannerBox2 .towel{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 8px;
+        padding: 4px 12px;
         display: block;
         text-align: center;
-        width: 46%;
+        width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 4px;
-        margin-top: 42px;
-        margin-left: 0px;
+        font-size: 4.5px;
+        margin-top: 6px;
+        margin-left: -8px;
     }
     .banner .bannerBox2 .towel img{
         width: 100%;
@@ -2495,57 +2551,73 @@ nav button{
     .banner .bannerBox2 .apron{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 12px;
+        padding: 4px 14px;
         display: block;
         text-align: center;
-        width: 34%;
+        width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -88px;
-        margin-left: 20px;
-        font-size: 7px;
+        margin-top: 2px;
+        margin-left: -4px;
+        font-size: 9px;
     }
     .banner .bannerBox2 .apron img{
         width: 100%;
     }
     .banner .bannerBox3{
         /* background-color: grey;     */
-        padding-top: 116px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner .bannerBox3 .coat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 2px 14px;
-        display: block;
-        text-align: center;
-        width: 64%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -26px;
-        margin-left: 24px;
-        font-size: 5px;
-    }
-    .banner .bannerBox3 .coat img{
-        width: 100%;
-    }
     .banner .bannerBox3 .hat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 10px;
+        padding: 2px 0px;
         display: block;
         text-align: center;
-        width: 34%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -88px;
-        margin-left: 20px;
-        font-size: 5.5px;
+        margin-top: 4px;
+        margin-left: 2px;
+        font-size: 6px;
     }
     .banner .bannerBox3 .hat img{
+        width: 50%;
+    }
+    .banner .bannerBox3 .flag{
+        border: 1px solid rgb(182,182,182);
+        border-radius: 50%;
+        padding: 4px 14px;
+        display: block;
+        text-align: center;
+        width: 80%;
+        text-decoration: none;
+        color: rgb(182,182,182);
+        margin-top: 4px;
+        margin-left: 10px;
+        font-size: 4px;
+    }
+    .banner .bannerBox3 .flag img{
         width: 100%;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 2px 18px;
+        display: block;
+        text-align: center;
+        width: 66%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 20px;
+        font-size: 6px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -2556,15 +2628,15 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 10px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
-        width: 28%;
+        width: 30%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 10px;
-        margin-left: -54px;
-        font-size: 8px;
+        margin-top: 14px;
+        margin-left: -38px;
+        font-size: 6px;
     }
     .banner .bannerBox4 .tshirt img{
         width: 100%;
@@ -2572,15 +2644,15 @@ nav button{
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 6px;
+        padding: 12px 10px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -24px;
-        margin-left: 20px;
-        font-size: 5px;
+        margin-top: -22px;
+        margin-left: 26px;
+        font-size: 6px;
     }
     .banner .bannerBox4 .basketball img{
         width: 42%;
@@ -2596,32 +2668,32 @@ nav button{
     .banner .bannerBox5 .arm{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 2px 4px;
+        padding: 4px 8px;
         display: block;
         text-align: center;
-        width: 60%;
+        width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
-        margin-left: -8px;
+        margin-top: 10px;
+        margin-left: -10px;
         margin-right: 0px;
-        font-size: 6px;
+        font-size: 7px;
     }
     .banner .bannerBox5 .arm img{
-        width: 90%;
+        width: 100%;
     }
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 8px;
+        padding: 14px 12px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 2px;
-        margin-left: 2px;
-        font-size: 6px;
+        margin-left: 10px;
+        font-size: 5px;
     }
     .banner .bannerBox5 .test img{
         width: 110%;
@@ -2635,15 +2707,15 @@ nav button{
     .banner .bannerBox6 .bag{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 8px;
+        padding: 8px 8px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 8px;
-        margin-left: -20px;
-        font-size: 5px;
+        margin-top: 12px;
+        margin-left: -42px;
+        font-size: 4px;
     }
     .banner .bannerBox6 .bag img{
         width: 90%;
@@ -2651,14 +2723,14 @@ nav button{
     .banner .bannerBox6 .strap{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 6px;
+        padding: 14px 8px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 2px;
-        margin-left: -10px;
+        margin-left: -8px;
         font-size: 4px;
     }
     .banner .bannerBox6 .strap img{
@@ -2673,14 +2745,14 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 8px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
-        width: 70%;
+        width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 10px;
-        margin-left: -20px;
+        margin-left: -40px;
         font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
@@ -2689,55 +2761,21 @@ nav button{
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 10px;
+        padding: 10px 8px;
         display: block;
         text-align: center;
         width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         margin-top: 4px;
-        margin-left: -10px;
-        font-size: 5px;
+        margin-left: -20px;
+        font-size: 6px;
     }
     .banner .bannerBox7 .knickers img{
         width: 110%;
     }
-    .banner p{
-        font-size: 12px;
-        font-weight: 900;
-    }
-    .banner .topText{
-        padding-left: 65px;
-        padding-top: 10px;
-        letter-spacing: 1px;
-    }
-    .banner .bannerThreeText{
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .banner .bannerThreeText p{
-        font-size: 8px;
-        line-height: 10px;
-        padding-right: 240px;
-    }
-    .banner .downText{
-        padding-left: 4px;
-        padding-bottom: 25px;
-    }
-    .banner .downText p{
-        font-size: 6px;
-        line-height: 6px;
-        letter-spacing: 2px;
-    }
-    .banner .downText .downText2{
-        padding-left: 10px;
-    }
 }
 @media(max-width:320px){
-    .banner{
-        margin-top: 24px;
-        height: 160px;
-    }
     .banner .bannerBox1{
         /* background-color: yellow; */
         display: flex;
@@ -2747,15 +2785,15 @@ nav button{
     .banner .bannerBox1 .polo{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 10px;
+        padding: 4px 8px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-left: 70px;
-        margin-top: 10px;
-        font-size: 7px;
+        margin-left: 30px;
+        margin-top: 14px;
+        font-size: 5px;
     }
     .banner .bannerBox1 .polo img{
         width: 90%;
@@ -2763,13 +2801,13 @@ nav button{
     .banner .bannerBox1 .christmas{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 8px;
+        padding: 16px 6px;
         display: block;
         text-align: center;
-        width: 60%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -20px;
+        margin-top: 0px;
         margin-left: 0px;
         font-size: 5px;
     }
@@ -2786,15 +2824,15 @@ nav button{
     .banner .bannerBox2 .blouse{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 6px;
+        padding: 8px 6px;
         display: block;
         text-align: center;
         width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
         font-size: 5px;
-        margin-top: 10px;
-        margin-left: 64px;
+        margin-top: 14px;
+        margin-left: 30px;
     }
     .banner .bannerBox2 .blouse img{
         width: 100%;
@@ -2802,15 +2840,15 @@ nav button{
     .banner .bannerBox2 .towel{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 8px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
-        width: 46%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        font-size: 4px;
-        margin-top: 33px;
-        margin-left: 0px;
+        font-size: 3px;
+        margin-top: 4px;
+        margin-left: -8px;
     }
     .banner .bannerBox2 .towel img{
         width: 100%;
@@ -2818,57 +2856,73 @@ nav button{
     .banner .bannerBox2 .apron{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 10px;
+        padding: 4px 12px;
         display: block;
         text-align: center;
-        width: 30%;
+        width: 50%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -72px;
-        margin-left: 34px;
-        font-size: 5px;
+        margin-top: 2px;
+        margin-left: 2px;
+        font-size: 6px;
     }
     .banner .bannerBox2 .apron img{
         width: 100%;
     }
     .banner .bannerBox3{
         /* background-color: grey;     */
-        padding-top: 116px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner .bannerBox3 .coat{
-        border: 1px solid rgb(1, 121, 202);
-        border-radius: 50%;
-        padding: 1px 14px;
-        display: block;
-        text-align: center;
-        width: 64%;
-        text-decoration: none;
-        color: rgb(1, 121, 202);
-        margin-top: -40px;
-        margin-left: 24px;
-        font-size: 4px;
-    }
-    .banner .bannerBox3 .coat img{
-        width: 100%;
-    }
     .banner .bannerBox3 .hat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 8px;
+        padding: 2px 0px;
         display: block;
         text-align: center;
-        width: 24%;
+        width: 54%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -70px;
-        margin-left: 16px;
-        font-size: 5.5px;
+        margin-top: 8px;
+        margin-left: 8px;
+        font-size: 5px;
     }
     .banner .bannerBox3 .hat img{
+        width: 50%;
+    }
+    .banner .bannerBox3 .flag{
+        border: 1px solid rgb(182,182,182);
+        border-radius: 50%;
+        padding: 4px 14px;
+        display: block;
+        text-align: center;
+        width: 80%;
+        text-decoration: none;
+        color: rgb(182,182,182);
+        margin-top: 4px;
+        margin-left: 10px;
+        font-size: 3.5px;
+    }
+    .banner .bannerBox3 .flag img{
         width: 100%;
+    }
+    .banner .bannerBox3 .coat{
+        border: 1px solid rgb(1, 121, 202);
+        border-radius: 50%;
+        padding: 4px 14px;
+        display: block;
+        text-align: center;
+        width: 66%;
+        text-decoration: none;
+        color: rgb(1, 121, 202);
+        margin-top: 4px;
+        margin-left: 22px;
+        font-size: 5px;
+    }
+    .banner .bannerBox3 .coat img{
+        width: 90%;
     }
     .banner .bannerBox4{
         /* background-color: blue;     */
@@ -2879,14 +2933,14 @@ nav button{
     .banner .bannerBox4 .tshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 8px;
+        padding: 6px 10px;
         display: block;
         text-align: center;
-        width: 28%;
+        width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 10px;
-        margin-left: -44px;
+        margin-top: 14px;
+        margin-left: -10px;
         font-size: 6px;
     }
     .banner .bannerBox4 .tshirt img{
@@ -2895,14 +2949,14 @@ nav button{
     .banner .bannerBox4 .basketball{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 4px;
+        padding: 12px 6px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -22px;
-        margin-left: 20px;
+        margin-top: -4px;
+        margin-left: 26px;
         font-size: 4px;
     }
     .banner .bannerBox4 .basketball img{
@@ -2919,35 +2973,35 @@ nav button{
     .banner .bannerBox5 .arm{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 2px 6px;
+        padding: 4px 8px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 24%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
-        margin-left: -8px;
+        margin-top: 10px;
+        margin-left: -20px;
         margin-right: 0px;
-        font-size: 6px;
+        font-size: 7px;
     }
     .banner .bannerBox5 .arm img{
-        width: 110%;
+        width: 100%;
     }
     .banner .bannerBox5 .test{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 6px;
+        padding: 14px 8px;
         display: block;
         text-align: center;
-        width: 40%;
+        width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
-        margin-left: 2px;
+        margin-top: 2px;
+        margin-left: 8px;
         font-size: 5px;
     }
     .banner .bannerBox5 .test img{
-        width: 90%;
+        width: 110%;
     }
     .banner .bannerBox6{
         /* background-color: pink;   */
@@ -2958,15 +3012,15 @@ nav button{
     .banner .bannerBox6 .bag{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 2px 6px;
+        padding: 12px 8px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 34%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
-        margin-left: -18px;
-        font-size: 5px;
+        margin-top: 14px;
+        margin-left: -44px;
+        font-size: 4px;
     }
     .banner .bannerBox6 .bag img{
         width: 90%;
@@ -2974,15 +3028,15 @@ nav button{
     .banner .bannerBox6 .strap{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 4px;
+        padding: 14px 6px;
         display: block;
         text-align: center;
-        width: 60%;
+        width: 40%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 2px;
+        margin-top: -2px;
         margin-left: -10px;
-        font-size: 3px;
+        font-size: 3.5px;
     }
     .banner .bannerBox6 .strap img{
         width: 80%;
@@ -2996,15 +3050,15 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 4px 6px;
+        padding: 10px 10px;
         display: block;
         text-align: center;
-        width: 70%;
+        width: 80%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
-        margin-left: -20px;
-        font-size: 6px;
+        margin-top: 10px;
+        margin-left: -36px;
+        font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
         width: 100%;
@@ -3012,48 +3066,18 @@ nav button{
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 6px;
+        padding: 10px 8px;
         display: block;
         text-align: center;
-        width: 50%;
+        width: 60%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: 4px;
-        margin-left: -16px;
-        font-size: 5px;
+        margin-top: 2px;
+        margin-left: -14px;
+        font-size: 6px;
     }
     .banner .bannerBox7 .knickers img{
         width: 110%;
-    }
-    .banner p{
-        font-size: 10px;
-        font-weight: 900;
-    }
-    .banner .topText{
-        padding-left: 50px;
-        padding-top: 10px;
-        letter-spacing: 1px;
-    }
-    .banner .bannerThreeText{
-        padding-top: 0px;
-        padding-bottom: 5px;
-    }
-    .banner .bannerThreeText p{
-        font-size: 6px;
-        line-height: 10px;
-        padding-right: 240px;
-    }
-    .banner .downText{
-        padding-left: 4px;
-        padding-bottom: 25px;
-    }
-    .banner .downText p{
-        font-size: 4px;
-        line-height: 4px;
-        letter-spacing: 1px;
-    }
-    .banner .downText .downText2{
-        padding-left: 10px;
     }
 }
 .topContainer{
