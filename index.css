@@ -5017,7 +5017,16 @@ nav button{
     display: flex;
     margin-bottom: 20px;
 }
+.footer420hidden .footerContentContainer .contactUs .contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
 .footer420hidden .footerContentContainer .contactUs .contact p{
+    text-decoration: none;
     color: white;
     font-size: 16px;
     margin: 0;
@@ -5121,6 +5130,13 @@ nav button{
     }
     .footer420hidden .footerContentContainer .contactUs .contact{
         margin-bottom: 20px;
+    }
+    .footer420hidden .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0;
+        padding-left: 16px;
+        letter-spacing: 2px;
     }
     .footer420hidden .footerContentContainer .contactUs .contact p{
         font-size: 16px;
@@ -5227,6 +5243,13 @@ nav button{
     .footer420hidden .footerContentContainer .contactUs .contact{
         margin-bottom: 20px;
     }
+    .footer420hidden .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 12px;
+        margin: 0;
+        padding-left: 16px;
+        letter-spacing: 2px;
+    }
     .footer420hidden .footerContentContainer .contactUs .contact p{
         font-size: 12px;
         margin: 0;
@@ -5331,6 +5354,13 @@ nav button{
     }
     .footer420hidden .footerContentContainer .contactUs .contact{
         margin-bottom: 14px;
+    }
+    .footer420hidden .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 9px;
+        margin: 0;
+        padding-left: 12px;
+        letter-spacing: 2px;
     }
     .footer420hidden .footerContentContainer .contactUs .contact p{
         font-size: 9px;
@@ -5462,11 +5492,19 @@ nav button{
         margin-left: 54px;
     }
     .footer420show .footerContentContainer .contactUs .contact{
-        margin-bottom: 5px;
+        margin-bottom: 7px;
         display: flex;
     }
     .footer420show .footerContentContainer .contactUs .contact img{
         width: 8%;
+    }
+    .footer420show .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 8px;
+        color: #fff;
+        margin: 0;
+        padding-left: 7px;
+        letter-spacing: 1px;
     }
     .footer420show .footerContentContainer .contactUs .contact p{
         font-size: 8px;
@@ -5584,6 +5622,14 @@ nav button{
     }
     .footer420show .footerContentContainer .contactUs .contact img{
         width: 8%;
+    }
+    .footer420show .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 6px;
+        color: #fff;
+        margin: 0;
+        padding-left: 6px;
+        letter-spacing: 1px;
     }
     .footer420show .footerContentContainer .contactUs .contact p{
         font-size: 6px;
@@ -5715,12 +5761,20 @@ nav button{
         margin-left: 54px;
     }
     .footer375show .footerContentContainer .contactUs .contact{
-        margin-bottom: 8px;
+        margin-bottom: 12px;
         margin-left: 18px;
         display: flex;
     }
     .footer375show .footerContentContainer .contactUs .contact img{
         width: 8%;
+    }
+    .footer375show .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 6px;
+        color: #fff;
+        margin: 0;
+        padding-left: 6px;
+        letter-spacing: 1px;
     }
     .footer375show .footerContentContainer .contactUs .contact p{
         font-size: 6px;
@@ -5845,6 +5899,12 @@ nav button{
     }
     .footer375show .footerContentContainer .contactUs .contact img{
         width: 7%;
+    }
+    .footer375show .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 5px;
+        padding-left: 4px;
+        letter-spacing: 1px;
     }
     .footer375show .footerContentContainer .contactUs .contact p{
         font-size: 5px;
