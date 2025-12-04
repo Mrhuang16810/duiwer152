@@ -158,6 +158,9 @@
     margin-bottom: 20px;
     overflow: hidden;
 }
+.mainProductContainer .productContainer .lineshare{
+    text-align: center;
+}
 .mainProductContainer .productContainer .product:hover{
     transform: scale(1.1);
 }
