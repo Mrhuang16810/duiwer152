@@ -1663,7 +1663,7 @@ nav button{
     .banner .bannerBox2 .apron{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 6px 16px;
+        padding: 4px 12px;
         display: block;
         text-align: center;
         width: 40%;
@@ -1671,7 +1671,7 @@ nav button{
         color: rgb(1, 121, 202);
         margin-top: 2px;
         margin-left: -6px;
-        font-size: 9px;
+        font-size: 7px;
     }
     .banner .bannerBox2 .apron img{
         width: 100%;
@@ -1713,12 +1713,12 @@ nav button{
         font-size: 5px;
     }
     .banner .bannerBox3 .flag img{
-        width: 100%;
+        width: 90%;
     }
     .banner .bannerBox3 .coat{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 2px 18px;
+        padding: 2px 12px;
         display: block;
         text-align: center;
         width: 66%;
@@ -1726,7 +1726,7 @@ nav button{
         color: rgb(1, 121, 202);
         margin-top: 2px;
         margin-left: 20px;
-        font-size: 6px;
+        font-size: 4px;
     }
     .banner .bannerBox3 .coat img{
         width: 90%;
@@ -1762,7 +1762,7 @@ nav button{
         width: 42%;
         text-decoration: none;
         color: rgb(1, 121, 202);
-        margin-top: -26px;
+        margin-top: -30px;
         margin-left: 26px;
         font-size: 6px;
     }
@@ -1857,7 +1857,7 @@ nav button{
     .banner .bannerBox7 .catTshirt{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 10px 8px;
+        padding: 8px 6px;
         display: block;
         text-align: center;
         width: 80%;
@@ -1868,12 +1868,12 @@ nav button{
         font-size: 7px;
     }
     .banner .bannerBox7 .catTshirt img{
-        width: 100%;
+        width: 90%;
     }
     .banner .bannerBox7 .knickers{
         border: 1px solid rgb(1, 121, 202);
         border-radius: 50%;
-        padding: 8px 8px;
+        padding: 6px 8px;
         display: block;
         text-align: center;
         width: 60%;
@@ -1884,7 +1884,7 @@ nav button{
         font-size: 6px;
     }
     .banner .bannerBox7 .knickers img{
-        width: 110%;
+        width: 100%;
     }
     .banner p{
         font-size: 14px;
