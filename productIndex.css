@@ -158,6 +158,9 @@
     margin-bottom: 20px;
     overflow: hidden;
 }
+.mainProductContainer .productContainer .width50{
+    width: 50%;
+}
 .mainProductContainer .productContainer .lineshare{
     text-align: center;
 }
@@ -330,6 +333,18 @@
 .clothSortImg50 img{
     width: 100%;
 }
+
+.clothSortImgHalf a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.clothSortImgHalf:hover{
+    transform: scale(1.05);
+}
+.clothSortImgHalf img{
+    width: 50%;
+}
 @media(max-width:1024px){
     .otherBanner{
         margin-top: 70px;
@@ -393,7 +408,6 @@
     }
     .clothSortImgContainer{
         padding-top: 30px;
-
     }
     .clothSortImgContainer img{
         width: 100%;
