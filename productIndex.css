@@ -56,7 +56,7 @@
 }
 .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
     text-decoration: none;
-    font-size: 26px;
+    font-size: 20px;
     color: rgb(182, 182, 182);
     padding: 3px 10px;
 }
@@ -382,7 +382,6 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 22px;
         padding: 0px 10px;
     }
     .mainProductContainer .mainContainer{
@@ -567,7 +566,7 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 22px;
+        font-size: 18px;
         padding: 0px 10px;
     }
     .mainProductContainer .mainContainer{
@@ -731,7 +730,7 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 18px;
+        font-size: 16px;
         padding: 0px 10px;
     }
     .mainProductContainer .mainContainer .slideFixed{
