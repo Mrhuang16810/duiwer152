@@ -4031,6 +4031,11 @@ nav button{
         margin-top: 270px;
     }
 }
+@media(max-width:402px){
+    .product .classifyList li a,.product .classifyListList li a{
+        font-size: 7px;
+    }
+}
 @media(max-width:390px){
     .topContainer{
         margin-top: 270px;
@@ -5516,6 +5521,151 @@ nav button{
     }
     .footer420show .footerContentContainer .contactUs .contact p{
         font-size: 8px;
+        color: #fff;
+        margin: 0;
+        padding-left: 7px;
+        letter-spacing: 1px;
+    }
+}
+@media(max-width:402px){
+    .footer420hidden{
+        display: none;
+    }
+    .footer420show{
+        display: block;
+        overflow-x: hidden;
+        margin-top: -80px;
+        padding-bottom: 24px;
+        background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
+    }
+    .footer420show .imgContainer{
+        padding-top: 140px;
+    }
+    .footer420show .imgContainer img{
+        height: 80px;
+        width: 100%;
+        opacity: 0.6;
+    }
+    .footer420show .imgContainer .imgContact{
+        position: relative;
+    }
+    .footer420show .imgContainer .imgContact .textContainer{
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        font-weight: bold;
+        letter-spacing: 10px;
+        transform: translate(-50%, -50%);
+    }
+    .footer420show .imgContainer .imgContact .textContainer p{
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+    }
+    .footer420show .imgContainer .imgContact .textContainer .smallText{
+        font-size: 8px;
+        letter-spacing: -0.5px;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 110px;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .titlePicture{
+        padding-left: 24px;
+        padding-top: 4px;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .titlePicture img{
+        width: 120px;
+    }
+    .footer420show .footerContentContainer .design{
+        padding-left: 24px;
+        padding-bottom: 0px;
+        color: #fff;
+    }
+    .footer420show .footerContentContainer .design .pBtnContainer{
+        display: flex;
+        align-items: center;
+    }
+    .footer420show .footerContentContainer .design p{
+        font-size: 6px;
+        line-height: 6px;
+        letter-spacing: 0.5px;
+    }
+    .footer420show .footerContentContainer .design .pBtnContainer{
+        display: flex;
+        align-items: center;
+    }
+    .footer420show .footerContentContainer .design button{
+        font-weight: 900;
+        box-shadow: 2px 2px 2px #000;
+        font-size: 8px;
+        cursor: pointer;
+        color: #000;
+        padding: 0 2px;
+        height: 14px;
+        margin-left: 4px;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer{
+        position: relative;
+        z-index: 11;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList{
+        position: absolute;
+        right: -126px;
+        top: -120px;
+        width: 130px;
+        border: 3px outset rgb(182,182,182);
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList .myCardImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList img{
+        width: 50%;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList p{
+        margin: 0;
+        font-size: 9px;
+        font-weight: 900;
+    }
+    .footer420show .footerContentContainer .titleDesignContainer .myCardImgList .myCardContentContainer .myCardContent{
+        margin: 0;
+        font-size: 8px;
+        font-weight: 200;
+        padding-top: 8px;
+    }
+    .footer420show .footerContentContainer .contactUsContainer{
+        margin-top:20px;
+        display: flex;
+    }
+    .footer420show .footerContentContainer .contactUsContainer .qrCode420{
+        height: 35px;
+        margin-left: 54px;
+    }
+    .footer420show .footerContentContainer .contactUs .contact{
+        margin-bottom: 6px;
+        display: flex;
+    }
+    .footer420show .footerContentContainer .contactUs .contact img{
+        width: 8%;
+    }
+    .footer420show .footerContentContainer .contactUs .contact a{
+        text-decoration: none;
+        font-size: 6px;
+        color: #fff;
+        margin: 0;
+        padding-left: 7px;
+        letter-spacing: 1px;
+    }
+    .footer420show .footerContentContainer .contactUs .contact p{
+        font-size: 6px;
         color: #fff;
         margin: 0;
         padding-left: 7px;
