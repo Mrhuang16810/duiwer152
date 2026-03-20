@@ -3668,9 +3668,9 @@ nav button{
         width: 36%;
     }
     .sale .saleImgName li .saleNumName p{
-        font-size: 10px;
-        line-height: 16px;
-        margin-top: 14px;
+        font-size: 6px;
+        line-height: 12px;
+        margin-top: 8px;
     }
     .sale a{
         padding: 4px 16px;
@@ -3743,11 +3743,6 @@ nav button{
         width: 54%;
         height: 120px;
     }
-    .sale .saleImgName li .saleNumName p{
-        font-size: 8px;
-        line-height: 12px;
-        margin-top: 14px;
-    }
     .sale .saleImgName li a .imgWidth70{
         width: 32%;
     }
@@ -3786,11 +3781,6 @@ nav button{
     }
     .sale .saleImgName li a .imgWidth70{
         width: 32%;
-    }
-    .sale .saleImgName li .saleNumName p{
-        font-size: 8px;
-        line-height: 10px;
-        margin-top: 14px;
     }
     .sale a{
         padding: 3px 14px;
