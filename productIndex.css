@@ -158,6 +158,9 @@
     margin-bottom: 20px;
     overflow: hidden;
 }
+.mainProductContainer .productContainer .productSales{
+    border: 4px double #000;
+}
 .mainProductContainer .productContainer .width50{
     width: 50%;
 }
@@ -214,6 +217,10 @@
     text-decoration: none;
     color: #000;
     font-size: 14px;
+}
+.mainProductContainer .productContainer .product .aText a span{
+    color: red;
+    font-weight: 900;
 }
 .mainProductContainer .productContainer .productLong{
     margin-left: 20px;
