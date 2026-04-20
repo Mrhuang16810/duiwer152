@@ -117,8 +117,20 @@
     justify-content: center;
     align-items: center;
 }
+.mainProductContainer .product50{
+    flex-direction: row;
+}
 .mainProductContainer .bigProductImg img{
     width: 70%;
+}
+.mainProductContainer .product50 img{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.mainProductContainer .product50 .product100{
+    width: 80%;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 .mainProductContainer .bigProductLowerbody60Img{
     display: flex;
