@@ -120,12 +120,25 @@
 .mainProductContainer .product50{
     flex-direction: row;
 }
+.mainProductContainer .product30{
+    flex-direction: row;
+}
 .mainProductContainer .bigProductImg img{
     width: 70%;
 }
 .mainProductContainer .product50 img{
     width: 40%;
+    margin-left: 10px;
     margin-bottom: 10px;
+}
+.mainProductContainer .product30 img{
+    width: 25%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}.mainProductContainer .product30 .product50{
+    width: 45%;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 .mainProductContainer .product50 .product100{
     width: 80%;
@@ -169,6 +182,9 @@
     margin-left: 20px;
     margin-bottom: 20px;
     overflow: hidden;
+}
+.mainProductContainer .productContainer p{
+    font-size: 12px;
 }
 .mainProductContainer .productContainer .productSales{
     border: 4px double #000;
@@ -447,6 +463,9 @@
         width: 30%;
         padding-top: 30px;
     }
+    .mainProductContainer .productContainer p{
+        font-size: 12px;
+    }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 200px;
     }
@@ -607,6 +626,20 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .mainProductContainer .product50 img{
+        width: 45%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .mainProductContainer .product30 img{
+        width: 27%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }.mainProductContainer .product30 .product50{
+        width: 45%;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
     .mainProductContainer .bigProductLowerbody60Img img{
         width: 60%;
     }
@@ -634,6 +667,9 @@
         margin-left: 20px;
         margin-bottom: 20px;
         width: 30%;
+    }
+    .mainProductContainer .productContainer p{
+        font-size: 11px;
     }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 200px;
@@ -796,6 +832,9 @@
         margin-bottom: 20px;
         width: 45%;
     }
+    .mainProductContainer .productContainer p{
+        font-size: 10px;
+    }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 200px;
     }
@@ -955,6 +994,9 @@
     }
     .mainProductContainer .productContainer{
         padding-top: 0px;
+    }
+    .mainProductContainer .productContainer p{
+        font-size: 8px;
     }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
@@ -1130,6 +1172,9 @@
     .mainProductContainer .productContainer{
         padding-top: 0px;
     }
+    .mainProductContainer .productContainer p{
+        font-size: 7px;
+    }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
         margin-bottom: 20px;
@@ -1304,6 +1349,9 @@
     .mainProductContainer .productContainer{
         padding-top: 0px;
     }
+    .mainProductContainer .productContainer p{
+        font-size: 7px;
+    }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
         margin-bottom: 20px;
@@ -1477,6 +1525,9 @@
     }
     .mainProductContainer .productContainer{
         padding-top: 0px;
+    }
+    .mainProductContainer .productContainer p{
+        font-size: 5px;
     }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
