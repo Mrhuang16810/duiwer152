@@ -24,7 +24,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productAll.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -114,22 +114,22 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productIndex.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productLowerBodyIndex.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productOtherIndex.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productPoloIndex.html</loc>
-  <lastmod>2026-04-12T05:52:39+00:00</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -149,17 +149,17 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productCoatIndex.html</loc>
-  <lastmod>2026-04-20</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productTshirtShort.html</loc>
-  <lastmod>2026-04-15</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productTshirtLong.html</loc>
-  <lastmod>2026-04-12T05:52:39+00:00</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -364,12 +364,12 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/capSales.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/bagSales.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -519,7 +519,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/coatSales.html</loc>
-  <lastmod>2026-04-20</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -1319,22 +1319,22 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productPoloShort.html</loc>
-  <lastmod>2026-04-12T05:52:39+00:00</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productPoloLong.html</loc>
-  <lastmod>2026-04-12T05:52:39+00:00</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productVestIndex.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productHot.html</loc>
-  <lastmod>2026-04-17</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -1384,52 +1384,67 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productCap.html</loc>
-  <lastmod>2026-04-18</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productBag.html</loc>
-  <lastmod>2026-04-18</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productSet.html</loc>
-  <lastmod>2026-04-17</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/vestSales.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/pantSales.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.duiwer.com.tw/https://www.duiwer.com.tw/hotSales.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <loc>https://www.duiwer.com.tw/longPoloSales.html</loc>
+  <lastmod>2026-04-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/hotSales.html</loc>
+  <lastmod>2026-04-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/shortTshirtSales.html</loc>
+  <lastmod>2026-04-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/longTshirtSales.html</loc>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/setSales.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/beltSales.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/sockSales.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/tieSales.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -1449,7 +1464,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productVestCoat.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -1464,7 +1479,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productPants.html</loc>
-  <lastmod>2026-04-22</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -1474,7 +1489,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productTshirtIndex.html</loc>
-  <lastmod>2026-04-15</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -1839,17 +1854,17 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productSock.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productBelt.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productTie.html</loc>
-  <lastmod>2026-04-21</lastmod>
+  <lastmod>2026-04-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
