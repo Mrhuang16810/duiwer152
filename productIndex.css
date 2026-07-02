@@ -106,7 +106,9 @@
 }
 .mainProductContainer .productContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     flex-wrap: wrap;
@@ -114,8 +116,8 @@
 .mainProductContainer .bigProductImg{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items:center;
 }
 .mainProductContainer .product50{
     flex-direction: row;
@@ -382,7 +384,7 @@
 }
 @media(max-width:1024px){
     .otherBanner{
-        margin-top: 70px;
+        margin-top: 50px;
         height: 360px;
     }
     .otherBannerContainer .otherBannerTitle h1{
@@ -547,7 +549,7 @@
         border: 2px solid rgb(2, 121, 202);
     }
     .clothSortImgContainer{
-        margin-bottom: 30px;
+        margin-bottom: 150px;
     }
     .clothSortImg50{
         padding: 10px;
@@ -561,7 +563,7 @@
 }
 @media(max-width:768px){
     .otherBanner{
-        margin-top: 52px;
+        margin-top: 40px;
         height: 300px;
     }
     .otherBannerContainer .otherBannerTitle h1{
@@ -594,8 +596,6 @@
     .mainProductContainer{
         padding: 0 20px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .mainProductContainer button,.otherBannerContainer .clothTopBtn{
         bottom: 10px;
@@ -609,7 +609,7 @@
     }
     .mainProductContainer .mainContainer{
         margin-top: 40px;
-        width: 100%;
+        /* width: 100%; */
     }
     .mainProductContainer .mainContainer .slideFixed{
         padding-left: 20px;
@@ -658,7 +658,7 @@
         letter-spacing: 3px;
     }
     .clothSortImgContainer p{
-        font-size: 22px;
+        font-size: 18px;
     }
     .mainProductContainer .productContainer{
         padding-bottom: 130px;
@@ -736,7 +736,7 @@
 }
 @media(max-width:576px){
     .otherBanner{
-        margin-top: 43px;
+        margin-top: 35px;
         height: 240px;
     }
     .otherBannerContainer .otherBannerTitle h1{
@@ -753,7 +753,6 @@
     }
     .mainProductContainer .mainContainer{
         margin-top: 30px;
-        width: 100%;
     }
     .mainProductContainer .mainContainer .mainTitle h2{
         text-align: center;
@@ -775,8 +774,6 @@
     .mainProductContainer{
         padding: 0 20px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .mainProductContainer button,.otherBannerContainer .clothTopBtn{
         bottom: 10px;
@@ -785,19 +782,24 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 16px;
+        font-size: 12px;
         padding: 0px 10px;
     }
     .mainProductContainer .mainContainer .slideFixed{
         padding-left: 10px;
+    }
+    .mainProductContainer .mainContainer ul li{
+        padding-right: 0;
     }
     .mainProductContainer .mainContainer ul li i{
         font-size: 8px;
     }
     .mainProductContainer .mainContainer ul li a{
         letter-spacing: 2px;
-        font-size: 14px;
-        padding: 8px;
+        font-size: 10px;
+        padding: 6px;
+        width: 100%;
+        margin-right: 0;
     }
     .mainProductContainer .productContainer{
         padding-top: 50px;
@@ -822,21 +824,20 @@
         font-size: 14px;
     }
     .clothSortImgContainer p{
-        font-size: 22px;
+        font-size: 16px;
     }
     .mainProductContainer .productContainer{
-        padding-bottom: 130px;
+        padding-top: 30px;
     }
     .mainProductContainer .productContainer .product{
-        margin-left: 20px;
+        margin-left: 60px;
         margin-bottom: 20px;
-        width: 45%;
     }
     .mainProductContainer .productContainer p{
         font-size: 10px;
     }
     .mainProductContainer .productContainer .product .imgContainer{
-        height: 200px;
+        height: 140px;
     }
     .mainProductContainer .productContainer .product .imgContainer img{
         width: 100%;
@@ -848,9 +849,10 @@
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 14px;
+        line-height: 14px;
     }
     .mainProductContainer .productContainer .product .aText a{
-        font-size: 12px;
+        font-size: 10px;
     }
     .mainProductContainer .productContainer .productLong .imgContainer a{
         width: 90%;
@@ -904,7 +906,7 @@
 }
 @media(max-width:430px){
     .otherBanner{
-        margin-top: 38px;
+        margin-top: 30px;
         height: 160px;
     }
     .otherBannerContainer .otherBannerTitle h1{
@@ -921,30 +923,28 @@
     }
     .mainProductContainer .mainContainer{
         margin-top: 20px;
-        width: 100%;
     }
     .mainProductContainer .mainContainer .mainTitle h2{
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
     }
     .mainProductContainer .mainContainer .mainTitle p{
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
+        font-weight: bold;
     }
     .rightnowText{
         font-weight: 600;
         letter-spacing: 4px;
-        font-size: 8px;
+        font-size: 7px;
         right: 10px;
-        top: 50px;
+        top: 55px;
         border: 1.5px dashed #fff;
         padding: 2px;
     }
     .mainProductContainer{
         padding: 0 20px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .mainProductContainer button,.otherBannerContainer .clothTopBtn{
         bottom: 10px;
@@ -953,19 +953,23 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 12px;
+        font-size: 9px;
         padding: 0px 6px;
     }
     .mainProductContainer .mainContainer .slideFixed{
         padding-left: 0px;
+    }
+    .mainProductContainer .mainContainer ul li{
+        padding-right: 0;
     }
     .mainProductContainer .mainContainer ul li i{
         font-size: 8px;
     }
     .mainProductContainer .mainContainer ul li a{
         letter-spacing: 2px;
-        font-size: 12px;
+        font-size: 8px;
         padding: 5px;
+        margin-right: 0;
     }
     .mainProductContainer .productContainer{
         padding-top: 50px;
@@ -985,26 +989,28 @@
     }
     .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
         width: 50%;
-        margin-top: 30px;
+        margin-top: 10px;
         letter-spacing: 3px;
         font-size: 12px;
     }
     .clothSortImgContainer p{
-        font-size: 22px;
+        font-size: 12px;
     }
     .mainProductContainer .productContainer{
-        padding-top: 0px;
+        padding-top: 20px;
     }
     .mainProductContainer .productContainer p{
         font-size: 8px;
     }
+    .mainProductContainer .productContainer .productSales{
+        border: 3px double #000;
+    }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         padding-top: 0px;
         width: 40%;
-        border: 1px solid rgb(182, 182, 182);
     }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 170px;
@@ -1019,7 +1025,6 @@
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 4px;
-        border-top: 1px solid rgb(182, 182, 182);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1079,9 +1084,44 @@
         width: 100%;
     }
 }
+@media(max-width:420px){
+    .rightnowText{
+        font-weight: 600;
+        letter-spacing: 4px;
+        font-size: 7px;
+        right: 10px;
+        top: 55px;
+        border: 1.5px dashed #fff;
+        padding: 2px;
+    }
+    .mainProductContainer .productContainer{
+        padding-top: 20px;
+    }
+    .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
+        width: 50%;
+        margin-top: 10px;
+        letter-spacing: 3px;
+        font-size: 8px;
+    }
+    .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
+        font-size: 9px;
+        padding: 0px 6px;
+    }
+    .mainProductContainer .mainContainer ul li{
+        padding-right: 0;
+    }
+    .mainProductContainer .mainContainer ul li a{
+        padding: 0px;
+        padding: 5px 0;
+        margin-right: 0;
+    }
+    .clothSortImgContainer p{
+        font-size: 11px;
+    }
+}
 @media(max-width:390px){
     .otherBanner{
-        margin-top: 38px;
+        margin-top: 30px;
         height: 160px;
     }
     .otherBannerContainer .otherBannerTitle h1{
@@ -1098,30 +1138,27 @@
     }
     .mainProductContainer .mainContainer{
         margin-top: 20px;
-        width: 100%;
     }
     .mainProductContainer .mainContainer .mainTitle h2{
         text-align: center;
-        font-size: 16px;
+        font-size: 10px;
     }
     .mainProductContainer .mainContainer .mainTitle p{
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
     }
     .rightnowText{
         font-weight: 600;
         letter-spacing: 4px;
-        font-size: 8px;
+        font-size: 6px;
         right: 10px;
-        top: 50px;
+        top: 55px;
         border: 1.5px dashed #fff;
         padding: 2px;
     }
     .mainProductContainer{
         padding: 0 20px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .mainProductContainer button,.otherBannerContainer .clothTopBtn{
         bottom: 10px;
@@ -1130,19 +1167,23 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 12px;
+        font-size: 9px;
         padding: 0px 6px;
     }
     .mainProductContainer .mainContainer .slideFixed{
         padding-left: 0px;
+    }
+    .mainProductContainer .mainContainer ul li{
+        padding-right: 0;
     }
     .mainProductContainer .mainContainer ul li i{
         font-size: 8px;
     }
     .mainProductContainer .mainContainer ul li a{
         letter-spacing: 2px;
-        font-size: 12px;
-        padding: 5px;
+        font-size: 8px;
+        padding: 5px 0;
+        margin-right: 0;
     }
     .mainProductContainer .productContainer{
         padding-top: 50px;
@@ -1162,26 +1203,25 @@
     }
     .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
         width: 50%;
-        margin-top: 30px;
+        margin-top: 10px;
         letter-spacing: 3px;
         font-size: 12px;
     }
     .clothSortImgContainer p{
-        font-size: 22px;
+        font-size: 10px;
     }
     .mainProductContainer .productContainer{
-        padding-top: 0px;
+        padding-top: 20px;
     }
     .mainProductContainer .productContainer p{
         font-size: 7px;
     }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         padding-top: 0px;
         width: 40%;
-        border: 1px solid rgb(182, 182, 182);
     }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 120px;
@@ -1196,13 +1236,14 @@
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 4px;
-        border-top: 1px solid rgb(182, 182, 182);
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .mainProductContainer .productContainer .product .aText a{
-        font-size: 7px;
+        margin-top: 10px;
+        font-size: 6px;
+        line-height: 10px;
         padding: 0;
     }
     .mainProductContainer .productContainer .productLong .imgContainer a{
@@ -1236,7 +1277,7 @@
     }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
@@ -1258,7 +1299,7 @@
 }
 @media(max-width:375px){
     .otherBanner{
-        margin-top: 38px;
+        margin-top: 25px;
         height: 160px;
     }
     .otherBannerContainer .otherBannerTitle h1{
@@ -1275,30 +1316,27 @@
     }
     .mainProductContainer .mainContainer{
         margin-top: 20px;
-        width: 100%;
     }
     .mainProductContainer .mainContainer .mainTitle h2{
         text-align: center;
-        font-size: 16px;
+        font-size: 10px;
     }
     .mainProductContainer .mainContainer .mainTitle p{
         text-align: center;
-        font-size: 12px;
+        font-size: 8px;
     }
     .rightnowText{
         font-weight: 600;
         letter-spacing: 4px;
-        font-size: 8px;
+        font-size: 5px;
         right: 10px;
-        top: 50px;
+        top: 60px;
         border: 1.5px dashed #fff;
         padding: 2px;
     }
     .mainProductContainer{
         padding: 0 20px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .mainProductContainer button,.otherBannerContainer .clothTopBtn{
         bottom: 10px;
@@ -1307,19 +1345,23 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 12px;
+        font-size: 8px;
         padding: 0px 6px;
     }
     .mainProductContainer .mainContainer .slideFixed{
         padding-left: 0px;
+    }
+    .mainProductContainer .mainContainer ul li{
+        padding-right: 0;
     }
     .mainProductContainer .mainContainer ul li i{
         font-size: 8px;
     }
     .mainProductContainer .mainContainer ul li a{
         letter-spacing: 2px;
-        font-size: 12px;
-        padding: 5px;
+        font-size: 6px;
+        padding: 5px 0;
+        margin-right: 0;
     }
     .mainProductContainer .productContainer{
         padding-top: 50px;
@@ -1339,26 +1381,26 @@
     }
     .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
         width: 50%;
-        margin-top: 30px;
+        margin-top: 10px;
         letter-spacing: 3px;
         font-size: 12px;
     }
     .clothSortImgContainer p{
-        font-size: 22px;
+        font-size: 10px;
+        margin-top: 10px;
     }
     .mainProductContainer .productContainer{
-        padding-top: 0px;
+        padding-top: 20px;
     }
     .mainProductContainer .productContainer p{
         font-size: 7px;
     }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 6px;
+        margin-top: 6px;
         padding-top: 0px;
-        width: 40%;
-        border: 1px solid rgb(182, 182, 182);
+        width: 38%;
     }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 120px;
@@ -1373,13 +1415,12 @@
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 4px;
-        border-top: 1px solid rgb(182, 182, 182);
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .mainProductContainer .productContainer .product .aText a{
-        font-size: 7px;
+        font-size: 6px;
         padding: 0;
     }
     .mainProductContainer .productContainer .productLong .imgContainer a{
@@ -1413,7 +1454,7 @@
     }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{
@@ -1435,7 +1476,7 @@
 }
 @media(max-width:320px){
     .otherBanner{
-        margin-top: 38px;
+        margin-top: 20px;
         height: 160px;
     }
     .otherBannerContainer .otherBannerTitle h1{
@@ -1452,20 +1493,19 @@
     }
     .mainProductContainer .mainContainer{
         margin-top: 20px;
-        width: 100%;
     }
     .mainProductContainer .mainContainer .mainTitle h2{
         text-align: center;
-        font-size: 16px;
+        font-size: 10px;
     }
     .mainProductContainer .mainContainer .mainTitle p{
         text-align: center;
-        font-size: 12px;
+        font-size: 8px;
     }
     .rightnowText{
         font-weight: 600;
-        letter-spacing: 4px;
-        font-size: 8px;
+        letter-spacing: 2px;
+        font-size: 6px;
         right: 10px;
         top: 50px;
         border: 1.5px dashed #fff;
@@ -1474,8 +1514,6 @@
     .mainProductContainer{
         padding: 0 20px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .mainProductContainer button,.otherBannerContainer .clothTopBtn{
         bottom: 10px;
@@ -1484,19 +1522,26 @@
         padding: 0;
     }
     .mainProductContainer button a,.otherBannerContainer .clothTopBtn a{
-        font-size: 12px;
+        font-size: 8px;
         padding: 0px 6px;
     }
     .mainProductContainer .mainContainer .slideFixed{
         padding-left: 0px;
     }
+    .mainProductContainer .mainContainer ul li{
+        padding-right: 0;
+    }
     .mainProductContainer .mainContainer ul li i{
         font-size: 8px;
     }
     .mainProductContainer .mainContainer ul li a{
-        letter-spacing: 2px;
-        font-size: 12px;
-        padding: 5px;
+        letter-spacing: 0px;
+        font-size: 6px;
+        padding: 4px 0;
+        margin-right: 0;
+    }
+    .mainProductContainer .mainContainer ul li ul li a{
+        font-size: 80px;
     }
     .mainProductContainer .productContainer{
         padding-top: 50px;
@@ -1514,28 +1559,31 @@
     .clothSortImgContainer img{
         width: 100%;
     }
+    .mainProductContainer .productContainer .productSales{
+        border: 2px double #000;
+    }
     .mainProductContainer .bigProductImg p,.mainProductContainer .bigProductLowerbodyImg p,.mainProductContainer .bigProductLowerbody60Img p,.clothSortImgContainer p{
         width: 50%;
-        margin-top: 30px;
+        margin-top: 10px;
         letter-spacing: 3px;
         font-size: 12px;
     }
     .clothSortImgContainer p{
-        font-size: 22px;
+        font-size: 8px;
+        margin-top: 10px;
     }
     .mainProductContainer .productContainer{
-        padding-top: 0px;
+        padding-top: 20px;
     }
     .mainProductContainer .productContainer p{
         font-size: 5px;
     }
     .mainProductContainer .productContainer .product{
         margin-left: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 8px;
+        margin-top: 8px;
         padding-top: 0px;
-        width: 40%;
-        border: 1px solid rgb(182, 182, 182);
+        width: 36%;
     }
     .mainProductContainer .productContainer .product .imgContainer{
         height: 100px;
@@ -1550,13 +1598,12 @@
     }
     .mainProductContainer .productContainer .product .aText{
         padding: 0 4px;
-        border-top: 1px solid rgb(182, 182, 182);
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .mainProductContainer .productContainer .product .aText a{
-        font-size: 7px;
+        font-size: 6px;
         padding: 0;
     }
     .mainProductContainer .productContainer .productLong .imgContainer a{
@@ -1590,7 +1637,7 @@
     }
     .rightNowClothTitle p{
         padding-left: 20px;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 900;
     }
     .rightNowClothTitle hr{

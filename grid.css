@@ -46,6 +46,27 @@ body{
     width: 75%;
     float: left;
 }
+.col-phone-74{
+    width: 74%;
+    float: left;
+}
+.col-phone-73{
+    width: 73%;
+    float: left;
+}
+.col-phone-72{
+    width: 72%;
+    float: left;
+}
+.col-phone-71{
+    width: 71%;
+    float: left;
+}
+
+.col-phone-70{
+    width: 68%;
+    float: left;
+}
 .col-phone-68{
     width: 68%;
     float: left;
@@ -126,8 +147,20 @@ body{
     width: 20%;
     float: left;
 }
+.col-phone-19{
+    width: 19%;
+    float: left;
+}
 .col-phone-18{
     width: 18%;
+    float: left;
+}
+.col-phone-17{
+    width: 17%;
+    float: left;
+}
+.col-phone-16{
+    width: 16%;
     float: left;
 }
 .col-phone-15{
@@ -144,6 +177,10 @@ body{
 }
 .col-phone-12{
     width: 12%;
+    float: left;
+}
+.col-phone-11{
+    width: 11%;
     float: left;
 }
 .col-phone-10{
@@ -294,6 +331,14 @@ body{
     }
     .col-phone375-18{
         width: 18%;
+        float: left;
+    }
+    .col-phone375-17{
+        width: 17%;
+        float: left;
+    }
+    .col-phone375-16{
+        width: 16%;
         float: left;
     }
     .col-phone375-15{
@@ -460,6 +505,14 @@ body{
     }
     .col-phone390-18{
         width: 18%;
+        float: left;
+    }
+    .col-phone390-17{
+        width: 17%;
+        float: left;
+    }
+    .col-phone390-16{
+        width: 16%;
         float: left;
     }
     .col-phone390-15{
@@ -629,6 +682,14 @@ body{
         width: 18%;
         float: left;
     }
+    .col-phone420-17{
+        width: 17%;
+        float: left;
+    }
+    .col-phone420-16{
+        width: 16%;
+        float: left;
+    }
     .col-phone420-15{
         width: 15%;
         float: left;
@@ -793,6 +854,10 @@ body{
     }
     .col-phone430-18{
         width: 18%;
+        float: left;
+    }
+    .col-phone430-17{
+        width: 17%;
         float: left;
     }
     .col-phone430-15{
@@ -960,6 +1025,14 @@ body{
     }
     .col-phone2-18{
         width: 18%;
+        float: left;
+    }
+    .col-phone2-17{
+        width: 17%;
+        float: left;
+    }
+    .col-phone2-16{
+        width: 16%;
         float: left;
     }
     .col-phone2-15{
