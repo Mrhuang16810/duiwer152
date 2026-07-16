@@ -5481,7 +5481,7 @@ nav button{
         margin-left: -100px;
     }
     .footer420hidden .footerContentContainer .contactUs .contact{
-        margin-bottom: 20px;
+        margin-bottom: 16px;
     }
     .footer420hidden .footerContentContainer .contactUs .contact a{
         text-decoration: none;
@@ -5617,7 +5617,6 @@ nav button{
         display: block;
         overflow-x: hidden;
         margin-top: -80px;
-        padding-bottom: 24px;
         background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
     }
     .footer420show .imgContainer{
@@ -5754,7 +5753,7 @@ nav button{
         letter-spacing: 1px;
     }
 }
-@media(max-width:402px){
+@media(max-width:420px){
     .footer420hidden{
         display: none;
     }
@@ -5762,7 +5761,6 @@ nav button{
         display: block;
         overflow-x: hidden;
         margin-top: -80px;
-        padding-bottom: 24px;
         background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
     }
     .footer420show .imgContainer{
@@ -5869,7 +5867,7 @@ nav button{
         padding-top: 8px;
     }
     .footer420show .footerContentContainer .contactUsContainer{
-        margin-top:20px;
+        margin-top:10px;
         display: flex;
     }
     .footer420show .footerContentContainer .contactUsContainer .qrCode420{
@@ -5885,7 +5883,7 @@ nav button{
     }
     .footer420show .footerContentContainer .contactUs .contact a{
         text-decoration: none;
-        font-size: 6px;
+        font-size: 7px;
         color: #fff;
         margin: 0;
         padding-left: 7px;
@@ -5994,7 +5992,7 @@ nav button{
         font-weight: 200;
     }
     .footer420show .footerContentContainer .contactUsContainer{
-        margin-top:10px;
+        margin-top: 4px;
     }
     .footer420show .footerContentContainer .contactUsContainer .qrCode420{
         height: 40px;
@@ -6039,7 +6037,7 @@ nav button{
         background: linear-gradient(172.5deg,#fff 30%,rgb(1,121,202) 0%);
     }
     .footer375show .imgContainer{
-        padding-top: 110px;
+        padding-top: 130px;
     }
     .footer375show .imgContainer img{
         height: 60px;
@@ -6146,7 +6144,7 @@ nav button{
         margin-left: 54px;
     }
     .footer375show .footerContentContainer .contactUs .contact{
-        margin-bottom: 12px;
+        margin-bottom: 6px;
         margin-left: 18px;
         display: flex;
     }
@@ -6184,7 +6182,7 @@ nav button{
         background: linear-gradient(172.5deg,#fff 32%,rgb(1,121,202) 0%);
     }
     .footer375show .imgContainer{
-        padding-top: 104px;
+        padding-top: 100px;
     }
     .footer375show .imgContainer img{
         height: 50px;
@@ -6271,14 +6269,14 @@ nav button{
     }
     .footer375show .footerContentContainer .contactUsContainer{
         display: flex;
-        margin-top: 10px;
+        margin-top: 6px;
     }
     .footer375show .footerContentContainer .contactUsContainer .qrCode375{
         height: 32px;
         margin-left: 50px;
     }
     .footer375show .footerContentContainer .contactUs .contact{
-        margin-bottom: 6px;
+        margin-bottom: 4px;
         margin-left: 14px;
         display: flex;
     }
