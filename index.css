@@ -3476,9 +3476,6 @@ nav button{
     border-radius: 50%;
 }
 @media(max-width:1024px){
-    .topContainer{
-        margin-top: 600px;
-    }
     .sale .saleTitle{
         margin-bottom: 30px;
     }
@@ -3518,9 +3515,6 @@ nav button{
     }
 }
 @media(max-width:768px){
-    .topContainer{
-        margin-top: 460px;
-    }
     .sale .saleTitle{
         margin-bottom: 20px;
     }
@@ -3563,9 +3557,6 @@ nav button{
     }
 }
 @media(max-width:576px){
-    .topContainer{
-        margin-top: 360px;
-    }
     .sale .saleTitle{
         margin-bottom: 10px;
     }
@@ -3598,17 +3589,17 @@ nav button{
         margin-top: -30px;
     }
     .sale .saleImgName li img{
-        width: 66%;
+        width: 90%;
     }
     .sale .saleImgName li .saleImgOneUpDown{
-        width: 46%;
+        width: 60%;
         height: 240px;
     }
     .sale .saleImgName li a .imgWidth70{
         width: 50%;
     }
     .sale .saleImgName li .saleNumName p{
-        font-size: 12px;
+        font-size: 10px;
         line-height: 16px;
         margin-top: 10px;
     }
@@ -3624,12 +3615,9 @@ nav button{
     }
 }
 @media(max-width:430px){
-    .topContainer{
-        margin-top: 270px;
-    }
     .sale .saleTitle{
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .sale .saleTitle .engText{
         letter-spacing: -0.5px;
@@ -3650,7 +3638,7 @@ nav button{
     .sale .saleImgName li{
         width: 26%;
         padding: 3px 6px;
-        margin-top: 40px;
+        margin-top: 20px;
         height: 200px;
     }
     .sale .classifyList li a,.sale .classifyListList li a{
@@ -3658,10 +3646,10 @@ nav button{
         padding: 2px 6px;
     }
     .sale .saleImgName li img{
-        width: 42%;
+        width: 90%;
     }
     .sale .saleImgName li .saleImgOneUpDown{
-        width: 30%;
+        width: 55%;
         height: 240px;
     }
     .sale .saleImgName li a .imgWidth70{
@@ -3669,7 +3657,7 @@ nav button{
     }
     .sale .saleImgName li .saleNumName p{
         font-size: 6px;
-        line-height: 12px;
+        line-height: 6px;
         margin-top: 8px;
     }
     .sale a{
@@ -3680,17 +3668,9 @@ nav button{
         border: 1.5px solid rgb(1,121,202);
     }
 }
-@media(max-width:420px){
-    .topContainer{
-        margin-top: 270px;
-    }
-}
 @media(max-width:390px){
-    .topContainer{
-        margin-top: 270px;
-    }
     .sale .saleTitle{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .sale .saleTitle .engText{
         letter-spacing: -0.5px;
@@ -3702,13 +3682,17 @@ nav button{
     }
     .sale .saleImgName li{
         height: 200px;
+        margin-top: 20px;
     }
     .sale .saleImgName li img{
-        width: 50%;
+        width: 90%;
     }
     .sale .saleImgName li .saleImgOneUpDown{
-        width: 26%;
+        width: 55%;
         height: 220px;
+    }
+    .sale .saleImgName li .saleNumName p{
+        line-height: 8px;
     }
     .sale .saleImgName li a .imgWidth70{
         width: 32%;
@@ -3722,11 +3706,8 @@ nav button{
     }
 }
 @media(max-width:375px){
-    .topContainer{
-        margin-top: 230px;
-    }
     .sale .saleTitle{
-        margin-bottom: 4px;
+        margin-bottom: 20px;
     }
     .sale .saleTitle .engText{
         letter-spacing: -0.5px;
@@ -3736,15 +3717,21 @@ nav button{
         font-size: 10px;
         letter-spacing: 1px;
     }
+    .sale .saleImgName li{
+        margin-top: 20px;
+    }
     .sale .saleImgName li img{
-        width: 70%;
+        width: 90%;
     }
     .sale .saleImgName li .saleImgOneUpDown{
-        width: 54%;
+        width: 60%;
         height: 120px;
     }
     .sale .saleImgName li a .imgWidth70{
         width: 32%;
+    }
+    .sale .saleImgName li .saleNumName p{
+        line-height: 8px;
     }
     .sale a{
         padding: 3px 12px;
@@ -3755,11 +3742,8 @@ nav button{
     }
 }
 @media(max-width:320px){
-    .topContainer{
-        margin-top: 200px;
-    }
     .sale .saleTitle{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     .sale .classifyList li a,.sale .classifyListList li a{
         font-size: 6px;
@@ -3770,13 +3754,16 @@ nav button{
     }
     .sale .saleImgName li{
         width: 40%;
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .sale .saleImgName li img{
-        width: 60%;
+        width: 90%;
+    }
+    .sale .saleImgName li .saleNumName p{
+        line-height: 8px;
     }
     .sale .saleImgName li .saleImgOneUpDown{
-        width: 50%;
+        width: 60%;
         height: 160px;
     }
     .sale .saleImgName li a .imgWidth70{
@@ -4015,7 +4002,7 @@ nav button{
     }
     .product .productImgName li .productNumName p{
         font-size: 14px;
-        line-height: 10px;
+        line-height: 20px;
         margin-top: 18px;
     }
     .product a{
@@ -4339,7 +4326,7 @@ nav button{
 }
 @media(max-width:375px){
     .topContainer{
-        margin-top: 230px;
+        margin-top: 260px;
     }
     .product .productTitle{
         margin-bottom: 4px;
@@ -4365,7 +4352,7 @@ nav button{
         padding-right: 110px;
     }
     .product .classifyListList{
-        margin-top: -10px;
+        margin-top: 10px;
         padding-right: 200px;
     }
     .product .productImgName li img{
@@ -4398,7 +4385,7 @@ nav button{
 }
 @media(max-width:320px){
     .topContainer{
-        margin-top: 200px;
+        margin-top: 260px;
     }
     .product .classifyList{
         margin-top: 0px;
@@ -4599,7 +4586,7 @@ nav button{
 }
 @media(max-width:1024px){
     .commentContainer{
-        margin-top: 50px;
+        margin-top: 20px;
         height: 700px;
     }
     .commentContainer .fourList li{
@@ -4679,7 +4666,7 @@ nav button{
 }
 @media(max-width:768px){
     .commentContainer{
-        margin-top: 50px;
+        margin-top: 30px;
         height: 550px;
     }
     .commentContainer .fourList li{
@@ -4756,7 +4743,7 @@ nav button{
 }
 @media(max-width:576px){
     .commentContainer{
-        margin-top: 50px;
+        margin-top: 20px;
         height: 420px;
     }
     .commentContainer .fourList li{
@@ -4833,7 +4820,7 @@ nav button{
 }
 @media(max-width:430px){
     .commentContainer{
-        margin-top: 50px;
+        margin-top: 10px;
         height: 310px;
     }
     .commentContainer .fourList li{
@@ -4910,7 +4897,7 @@ nav button{
 }
 @media(max-width:390px){
     .commentContainer{
-        margin-top: 50px;
+        margin-top: 20px;
         height: 290px;
         margin-bottom: 10px;
     }
@@ -4988,7 +4975,7 @@ nav button{
 }
 @media(max-width:375px){
     .commentContainer{
-        margin-top: 50px;
+        margin-top: 10px;
         height: 290px;
     }
     .commentContainer .fourList li{
@@ -5065,7 +5052,7 @@ nav button{
 }
 @media(max-width:320px){
     .commentContainer{
-        margin-top: 20px;
+        margin-top: 0px;
         height: 250px;
     }
     .commentContainer .fourList li{
