@@ -24,7 +24,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productAll.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -129,7 +129,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productPoloIndex.html</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-12</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -1632,7 +1632,12 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productPoloShort.html</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-12</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/16095.html</loc>
+    <lastmod>2026-08-12</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
