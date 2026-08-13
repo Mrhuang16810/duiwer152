@@ -24,7 +24,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productAll.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-13</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -124,7 +124,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productOtherIndex.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-13</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -275,6 +275,11 @@
 <url>
   <loc>https://www.duiwer.com.tw/C0007.html</loc>
     <lastmod>2026-07-31</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/C0009.html</loc>
+    <lastmod>2026-08-13</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -1868,7 +1873,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productCap.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-13</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
