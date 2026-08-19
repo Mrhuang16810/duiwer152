@@ -9,7 +9,7 @@ nav{
 }
 nav .leftTitle{
     display: flex;
-    background-image: url("images/截圖\ 2025-08-04\ 上午9.24.55.png");
+    background-image: url("images/截圖 2025-08-04 上午9.24.55.webp");
     background-size: contain;
     background-repeat: no-repeat;
     width: 270px;
@@ -243,7 +243,7 @@ nav button{
 }
 .banner{
     margin-top: 83.33px;
-    background-image: url("images/橫幅第二版.png");
+    background-image: url("images/橫幅第二版.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
