@@ -180,6 +180,21 @@
 .clothSortImgContainer p{
     font-size: 22px;
 }
+.mainProductContainer .productContainer .width60{
+    width: 60%;
+}
+.mainProductContainer .productContainer .width50{
+    width: 50%;
+}
+.mainProductContainer .productContainer .width40{
+    width: 40%;
+}
+.mainProductContainer .productContainer .width30{
+    width: 30%;
+}
+.mainProductContainer .productContainer .width20{
+    width: 20%;
+}
 .mainProductContainer .productContainer .product{
     margin-left: 20px;
     margin-bottom: 20px;
