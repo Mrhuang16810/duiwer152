@@ -24,7 +24,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productAll.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -93,6 +93,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://www.duiwer.com.tw/productCar.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.duiwer.com.tw/%E5%B8%86%E5%B8%83%E8%A2%8B%E3%80%81%E4%BF%9D%E5%86%B0%E8%A2%8B.html</loc>
     <lastmod>2026-10-15</lastmod>
   <priority>0.80</priority>
@@ -114,7 +119,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productIndex.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -124,7 +129,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productOtherIndex.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -139,7 +144,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productVestIndex.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -164,7 +169,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productTshirtShort.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -470,6 +475,46 @@
 <url>
   <loc>https://www.duiwer.com.tw/40311.html</loc>
     <lastmod>2026-10-15</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/H0017.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/H0013.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/H0015.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/T0017.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/C0018.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/W0005.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/C0013.html</loc>
+    <lastmod>2026-10-19</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.duiwer.com.tw/G0026.html</loc>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -2008,7 +2053,7 @@
 
 <url>
   <loc>https://www.duiwer.com.tw/productHot.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -2113,7 +2158,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productCap.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -2299,7 +2344,7 @@
 </url>
 <url>
   <loc>https://www.duiwer.com.tw/productVestCoat.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
